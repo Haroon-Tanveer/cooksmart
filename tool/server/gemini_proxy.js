@@ -201,19 +201,25 @@ async function askJson(system, user) {
 }
 
 /** Retries a call a few times when the API is shedding load. */
-async function withRetry(fn, attempts = 4) {
+async function withRetry(fn, attempts) {
+  // A serverless host kills a function that runs too long: Vercel allows 10s on
+  // Hobby and 60s on Pro. Retrying blindly on Hobby means every attempt is cut
+  // off mid-flight, so the budget has to be sized for the platform.
+  const budget = attempts || (process.env.VERCEL ? 2 : 4);
   let lastError;
-  for (let i = 0; i < attempts; i++) {
+  for (let i = 0; i < budget; i++) {
     try {
       return await fn();
     } catch (err) {
       lastError = err;
-      if (!err.retryable || i === attempts - 1) throw err;
+      if (!err.retryable || i === budget - 1) throw err;
       // Obey the wait the API asked for, with jitter so a burst of clients does
       // not retry in lockstep, and a floor so a silly hint cannot spin hot.
-      const backoff = 2000 * Math.pow(2, i);
-      const wait = Math.max(2000, err.retryAfterMs || backoff) + Math.floor(Math.random() * 1500);
-      console.log(`  retry ${i + 1}/${attempts - 1} in ${wait}ms (${err.message.slice(0, 60)})`);
+  const model = MODELS[0];
+  const backoff = 1500 * Math.pow(2, i);
+  const wait = Math.max(1500, err.retryAfterMs || backoff) + Math.floor(Math.random() * 800);
+
+      console.log(`  retry ${i + 1}/${budget - 1} in ${wait}ms (${err.message.slice(0, 60)})`);
       await sleep(wait);
     }
   }
