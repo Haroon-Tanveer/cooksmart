@@ -339,6 +339,15 @@ class GroqService {
     Map<String, dynamic> body, {
     Duration timeout = _chatTimeout,
   }) async {
+    // Live generation is on by default now, so a build made without a key would
+    // otherwise fail on every recipe with a bare connection error. Saying what is
+    // missing is far more useful than a timeout.
+    if (!_direct && baseUrl.trim().isEmpty) {
+      throw GroqException(
+        'This build has no AI key. Rebuild with '
+        '--dart-define=GROQ_API_KEY=... to generate recipes with Groq.',
+      );
+    }
     // The conditional belongs outside the string: inside it, the ? and : would
     // end up in the URL as literal characters.
     final uri = Uri.parse(

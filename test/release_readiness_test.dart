@@ -1,37 +1,57 @@
 import 'package:cooksmart/services/groq_config.dart';
+import 'package:cooksmart/services/groq_service.dart';
 import 'package:cooksmart/state/app_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Guards the two things a shipped build has to get right about live AI.
+/// Guards how a shipped build behaves when live generation is switched on.
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('a fresh install is offline and has no endpoint baked in', () async {
+  test('a fresh install generates live, with no setup', () async {
     SharedPreferences.setMockInitialValues(<String, Object>{});
     final state = AppState();
     await state.init();
 
-    // Someone installing from the Play Store has no proxy running, so the app
-    // has to open as a complete offline library with nothing to connect to.
-    expect(state.config.baseUrl, '');
-    expect(state.isLive, isFalse);
-    expect(GroqConfig.defaultLiveEnabled, isFalse);
+    // Live is the default now, so a new user is not met with a switch that
+    // has to be found before the app does the obvious thing.
+    expect(state.isLive, isTrue);
   });
 
-  test('upgrading from an older build does not silently switch live on', () {
-    // Config written before liveEnabled existed must not restore it as true,
-    // or an existing user gets a connection error they never opted into.
-    final restored = GroqConfig.fromJson(<String, dynamic>{
-      'baseUrl': 'http://10.0.2.2:8787',
-    });
-    expect(restored.liveEnabled, isFalse);
+  test('a build with no key says what is missing rather than timing out', () async {
+    SharedPreferences.setMockInitialValues(<String, Object>{});
+    final state = AppState();
+    await state.init();
 
-    // One that genuinely had it on keeps it on.
-    final optedIn = GroqConfig.fromJson(<String, dynamic>{
-      'baseUrl': 'https://proxy.example',
-      'liveEnabled': true,
+    state.addIngredient('chicken');
+    final recipe = await state.generate();
+    // With nothing configured it must fall back to the local library rather
+    // than leave the cook with no recipe at all.
+    expect(recipe, isNotNull);
+    expect(recipe!.name, isNotEmpty);
+    expect(state.liveError, contains('GROQ_API_KEY'));
+  });
+
+  test('an old saved config does not turn live generation back off', () {
+    // Config written before the always-on change has no liveEnabled key.
+    final restored = GroqConfig.fromJson(<String, dynamic>{
+      'baseUrl': '',
     });
-    expect(optedIn.liveEnabled, isTrue);
+    expect(restored.liveEnabled, isTrue);
+  });
+
+  test('the user can still switch live generation off', () async {
+    SharedPreferences.setMockInitialValues(<String, Object>{});
+    final state = AppState();
+    await state.init();
+    expect(state.isLive, isTrue);
+
+    state.setLiveEnabled(false);
+    expect(state.isLive, isFalse);
+  });
+
+  test('a compiled key turns on the direct path', () {
+    // True in a build made with --dart-define=GROQ_API_KEY, false otherwise.
+    expect(AiProvider.hasKey, AiProvider.groqKey != '');
   });
 }

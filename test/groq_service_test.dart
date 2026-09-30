@@ -200,13 +200,17 @@ void main() {
       expect(GroqConfig.normalise('   '), '');
     });
 
-    test('live requires both an enabled flag and an endpoint', () {
+    test('live follows the switch, not the endpoint', () {
       const off = GroqConfig(baseUrl: 'http://x', liveEnabled: false);
       const on = GroqConfig(baseUrl: 'http://x', liveEnabled: true);
+      // With no key and no endpoint a call cannot succeed, but the switch still
+      // reads on: the service reports the reason rather than quietly pretending
+      // generation is switched off.
       const empty = GroqConfig(baseUrl: '', liveEnabled: true);
       expect(off.isLive, isFalse);
       expect(on.isLive, isTrue);
-      expect(empty.isLive, isFalse);
+      expect(empty.isLive, isTrue);
+      expect(empty.isConfigured, isFalse);
     });
 
     test('round-trips through json for storage', () {

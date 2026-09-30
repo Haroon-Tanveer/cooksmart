@@ -19,9 +19,10 @@ class GroqConfig {
   /// what the offline build and the test fakes use.
   static const String defaultBaseUrl = String.fromEnvironment('AI_BASE_URL');
 
-  /// A build with a key compiled in is live from the first launch.
-  static const bool defaultLiveEnabled =
-      defaultBaseUrl != '' || AiProvider.groqKey != '';
+  /// Live generation is on from the first launch, always. Having to reach into
+  /// settings before the app does the obvious thing was the wrong default, and
+  /// with no key or endpoint the app falls back to the local library on its own.
+  static const bool defaultLiveEnabled = true;
 
   /// True when the build carries a key and calls Groq without a proxy.
   static bool get callsProviderDirectly => AiProvider.hasKey;
@@ -37,7 +38,11 @@ class GroqConfig {
   final String? lastError;
 
   bool get isConfigured => AiProvider.hasKey || baseUrl.trim().isNotEmpty;
-  bool get isLive => liveEnabled && isConfigured;
+
+  /// What the switch in settings reflects: the user's choice, which now starts
+  /// on. Whether a call can actually succeed is decided by the service, which
+  /// reports the reason rather than failing silently.
+  bool get isLive => liveEnabled;
 
   GroqConfig copyWith({
     String? baseUrl,
