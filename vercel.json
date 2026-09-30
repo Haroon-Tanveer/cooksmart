@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "//": "Note: the 60s maxDuration needs a Pro plan. On Hobby Vercel caps serverless functions at 10s, which is shorter than a Gemini call under load.",
   "functions": {
     "api/gemini.js": {
       "memory": 1024,
