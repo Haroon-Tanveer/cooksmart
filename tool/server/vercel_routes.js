@@ -10,7 +10,7 @@ const {
   buildRecipe,
   suggestDishes,
   generateImage,
-} = require("../tool/server/gemini_proxy.js");
+} = require("./gemini_proxy.js");
 
 function httpError(message, status) {
   const err = new Error(message);

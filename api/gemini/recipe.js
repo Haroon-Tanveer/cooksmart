@@ -1,1 +1,1 @@
-module.exports = require("../_shared.js").handle("recipe");
+module.exports = require("../../tool/server/vercel_routes.js").handle("recipe");

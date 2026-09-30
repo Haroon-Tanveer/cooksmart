@@ -1,1 +1,1 @@
-module.exports = require("../_shared.js").handle("image");
+module.exports = require("../../tool/server/vercel_routes.js").handle("image");
