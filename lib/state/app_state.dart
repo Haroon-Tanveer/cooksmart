@@ -13,6 +13,7 @@ import '../services/image_cache.dart';
 
 const String _savedKey = 'cooksmart.saved.v1';
 const String _groqKey = 'cooksmart.groq.v1';
+const String _localeKey = 'cooksmart.locale.v1';
 
 enum CookScreen { home, ingredients, result, saved }
 
@@ -39,6 +40,20 @@ class AppState extends ChangeNotifier {
 
   String _activeCategory = 'all';
   String get activeCategory => _activeCategory;
+
+  /// Null means "follow the device language", which is what most people want.
+  Locale? _locale;
+
+  /// The language the app is shown in, or null to follow the device.
+  Locale? get locale => _locale;
+
+  /// Switches the app language, or returns to following the device with [null].
+  Future<void> setLocale(Locale? value) async {
+    if (_locale == value) return;
+    _locale = value;
+    notifyListeners();
+    await _prefs?.setString(_localeKey, value?.languageCode ?? '');
+  }
 
   String _search = '';
   String get search => _search;
@@ -100,16 +115,21 @@ class AppState extends ChangeNotifier {
       }
     }
 
-    final rawConfig = _prefs?.getString(_groqKey);
-    if (rawConfig != null && rawConfig.isNotEmpty) {
-      try {
-        _config = GroqConfig.fromJson(
-          jsonDecode(rawConfig) as Map<String, dynamic>,
-        );
-      } catch (e) {
-        debugPrint('CookSmart: could not read AI settings ($e)');
-      }
+  final rawConfig = _prefs?.getString(_groqKey);
+  if (rawConfig != null && rawConfig.isNotEmpty) {
+    try {
+      _config = GroqConfig.fromJson(
+        jsonDecode(rawConfig) as Map<String, dynamic>,
+      );
+    } catch (e) {
+      debugPrint('CookSmart: could not read AI settings ($e)');
     }
+  }
+
+  // An empty string means the user never chose, so follow the device.
+  final savedLocale = _prefs?.getString(_localeKey) ?? '';
+  _locale = savedLocale.isEmpty ? null : Locale(savedLocale);
+
     notifyListeners();
   }
 

@@ -5,6 +5,7 @@ import 'screens/home_screen.dart';
 import 'screens/ingredients_screen.dart';
 import 'screens/result_screen.dart';
 import 'screens/saved_screen.dart';
+import 'l10n/app_localizations.dart';
 import 'state/app_state.dart';
 import 'theme.dart';
 
@@ -27,14 +28,34 @@ class CookSmartApp extends StatefulWidget {
 class _CookSmartAppState extends State<CookSmartApp> {
   late final AppState _state = widget.state ?? AppState();
 
+  /// The locale currently built into [MaterialApp], so only a real language
+  /// change triggers a rebuild rather than every ingredient being ticked.
+  Locale? _appliedLocale;
+
   @override
   void initState() {
     super.initState();
-    _state.init();
+    _state.init().then((_) {
+      if (!mounted) return;
+      // The saved language is only known after the first read of storage, so
+      // MaterialApp needs one rebuild to pick it up.
+      setState(() => _appliedLocale = _state.locale);
+    });
+    _state.addListener(_onStateChanged);
+  }
+
+  /// MaterialApp reads the locale, so switching language has to rebuild it.
+  /// Nothing else it shows depends on the state, so only the locale is watched.
+  void _onStateChanged() {
+    if (!mounted) return;
+    if (_state.locale == _appliedLocale) return;
+    _appliedLocale = _state.locale;
+    setState(() {});
   }
 
   @override
   void dispose() {
+    _state.removeListener(_onStateChanged);
     _state.dispose();
     super.dispose();
   }
@@ -44,9 +65,14 @@ class _CookSmartAppState extends State<CookSmartApp> {
     return CookScope(
       state: _state,
       child: MaterialApp(
-        title: 'CookSmart',
+        onGenerateTitle: (context) => L.of(context).appTitle,
         debugShowCheckedModeBanner: false,
         theme: CookTheme.build(),
+        // Arabic is right to left, so the locale has to be declared for
+        // Material to flip the whole app's direction.
+        supportedLocales: L.supportedLocales,
+        localizationsDelegates: L.localizationsDelegates,
+        locale: _state.locale,
         home: const _AppShell(),
         builder: (context, child) {
           final media = MediaQuery.of(context);
@@ -156,13 +182,15 @@ class _TabBar extends StatelessWidget {
 
   static const List<(CookScreen, IconData, String)> _tabs =
       <(CookScreen, IconData, String)>[
-    (CookScreen.home, Icons.home_outlined, 'Home'),
-    (CookScreen.ingredients, Icons.checklist_rounded, 'Create'),
-    (CookScreen.saved, Icons.star_outline_rounded, 'Saved'),
+    // The third element is a key into the localisations, resolved in build.
+    (CookScreen.home, Icons.home_outlined, 'tabHome'),
+    (CookScreen.ingredients, Icons.checklist_rounded, 'tabCreate'),
+    (CookScreen.saved, Icons.star_outline_rounded, 'tabSaved'),
   ];
 
   @override
   Widget build(BuildContext context) {
+    final l10n = L.of(context);
     final bottomInset = MediaQuery.of(context).padding.bottom;
 
     return Container(
@@ -187,9 +215,14 @@ class _TabBar extends StatelessWidget {
                     color: isActive ? CookColors.orange : CookColors.muted2,
                   ),
                   const SizedBox(height: 3),
-                  Text(
-                    tab.$3,
-                    style: cookText(
+                    Text(
+                      switch (tab.$3) {
+                        'tabCreate' => l10n.tabCreate,
+                        'tabSaved' => l10n.tabSaved,
+                        _ => l10n.tabHome,
+                      },
+                      style: cookText(
+
                       size: 10.5,
                       weight: FontWeight.w600,
                       color: isActive ? CookColors.orange : CookColors.muted2,

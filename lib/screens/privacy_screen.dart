@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
 
 /// The privacy policy, shown in-app.
 ///
-/// It is the same text as PRIVACY.md in the project root, which is the version to
-/// host and link from the Play Console listing. Keep the two in step.
+/// The text comes from the localisations so an Arabic reader is not reading
+/// English legal text, which matters for a policy the store links to. It mirrors
+/// privacy.html in the repository; keep the two in step.
 class PrivacyScreen extends StatelessWidget {
   const PrivacyScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final l10n = L.of(context);
     return CookBackground(
       child: Column(
         children: <Widget>[
@@ -20,51 +23,17 @@ class PrivacyScreen extends StatelessWidget {
             child: ListView(
               padding: const EdgeInsets.fromLTRB(20, 4, 20, 28),
               children: <Widget>[
-                _Section(
-                  'Your data',
-                  'CookSmart has no account, no sign-in and no server of its own. '
-                  'We do not use analytics, advertising or crash reporting, and we '
-                  'do not collect or sell personal information.',
-                ),
-                _Section(
-                  'What stays on your phone',
-                  'Your ingredient lists, favourites, saved recipes and the endpoint '
-                  'you have chosen are stored only on this device, in its private '
-                  'app storage. Removing the app deletes all of it.',
-                ),
-                _Section(
-                  'Optional live recipe generation',
-                  'If you turn on live generation, the ingredients and dish you ask '
-                  'for are sent to an AI service through a small proxy that you run '
-                  'yourself on your own computer. Your API key stays in that proxy '
-                  'and is never part of this app. Turn live generation off and '
-                  'nothing leaves your phone at all.',
-                ),
-                _Section(
-                  'Food photographs',
-                  'The recipe photographs bundled with the app come from TheMealDB '
-                  'and Wikipedia, under their respective licences. Per-image credits '
-                  'are listed with the app source. Recipes written by the AI service '
-                  'get a photograph looked up from the same sources.',
-                ),
-                _Section(
-                  'Children',
-                  'CookSmart is intended for a general audience. It collects no data '
-                  'from anyone, including children.',
-                ),
-                _Section(
-                  'Changes',
-                  'If this policy changes, the updated text will appear in this screen '
-                      'and in the release notes for the version you have installed.',
-                ),
-                _Section(
-                  'Contact',
-                  'Questions about this policy can go to the address on the Play '
-                      'Store listing for this app.',
-                ),
-                SizedBox(height: 8),
+                _Section(l10n.yourData, l10n.yourDataBody),
+                _Section(l10n.staysOnPhone, l10n.staysOnPhoneBody),
+                _Section(l10n.optionalLive, l10n.optionalLiveBody),
+                _Section(l10n.foodPhotos, l10n.foodPhotosBody),
+                _Section(l10n.children, l10n.childrenBody),
+                _Section(l10n.yourRights, l10n.yourRightsBody),
+                _Section(l10n.policyChanges, l10n.policyChangesBody),
+                _Section(l10n.contact, l10n.contactBody),
+                const SizedBox(height: 8),
                 Text(
-                  'Last updated 29 September 2026',
+                  l10n.policyLastUpdated,
                   style: cookText(size: 12, color: CookColors.muted2),
                 ),
               ],
@@ -105,9 +74,11 @@ class _Bar extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 12),
-          Text(
-            'Privacy',
-            style: cookText(size: 22, weight: FontWeight.w800, color: CookColors.white),
+          Expanded(
+            child: Text(
+              L.of(context).privacyPolicy,
+              style: cookText(size: 22, weight: FontWeight.w800, color: CookColors.white),
+            ),
           ),
         ],
       ),
@@ -135,7 +106,7 @@ class _Section extends StatelessWidget {
           const SizedBox(height: 7),
           Text(
             body,
-            style: cookText(size: 13.5, color: CookColors.muted, height: 1.55),
+            style: cookText(size: 13.5, color: CookColors.muted, height: 1.6),
           ),
         ],
       ),

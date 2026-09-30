@@ -1,0 +1,136 @@
+{
+    "@@locale":  "en",
+    "greetingPrefix":  "Hey chef, ",
+    "greetingSuffix":  "what\u0027s cooking?",
+    "appTitle":  "CookSmart",
+    "greetingMorning":  "Good morning",
+    "greetingAfternoon":  "Good afternoon",
+    "greetingEvening":  "Good evening",
+    "homeSubtitle":  "Turn what you already have into something worth eating.",
+    "searchHint":  "Search recipes",
+    "recipeOfTheDay":  "Recipe of the day",
+    "useMyKitchen":  "Use my kitchen",
+    "featured":  "Featured",
+    "allRecipes":  "All recipes",
+    "catAll":  "All",
+    "catBreakfast":  "Breakfast",
+    "catLunch":  "Lunch",
+    "catDinner":  "Dinner",
+    "catDessert":  "Dessert",
+    "catQuick":  "Under 20m",
+    "catArabian":  "Arabian",
+    "catTurkish":  "Turkish",
+    "catPakistani":  "Pakistani",
+    "catFastfood":  "Fast food",
+    "tabHome":  "Home",
+    "tabCreate":  "Create",
+    "tabSaved":  "Saved",
+    "createTitle":  "What is in your kitchen?",
+    "createSubtitle":  "Type what you have, or tap the suggestions.",
+    "ingredientHint":  "Add an ingredient",
+    "liveBannerOn":  "Live AI writes this recipe for you",
+    "liveBannerOff":  "Live AI is off, using the local library",
+    "generateRecipe":  "Generate Recipe",
+    "generating":  "Writing your recipe",
+    "surpriseMe":  "Surprise me",
+    "clear":  "Clear",
+    "noResultsTitle":  "Nothing here yet",
+    "noSavedTitle":  "No saved recipes",
+    "noSavedBody":  "Recipes you save will show up here.",
+    "saveRecipe":  "Save Recipe",
+    "savedRecipe":  "Saved",
+    "remove":  "Remove",
+    "fromLibrary":  "From the library",
+    "fromYourIdea":  "from your idea",
+    "grokPick":  "Grok\u0027s pick",
+    "inKitchen":  "in your kitchen",
+    "needToBuy":  "YOU MAY NEED TO BUY",
+    "totalKcal":  "Total",
+    "perServing":  "per serving",
+    "totalLabel":  "Total",
+    "timeMin":  "Time",
+    "difficulty":  "Difficulty",
+    "servings":  "Servings",
+    "methodHeading":  "Method",
+    "stepsCount":  "Method · {count} steps",
+    "@stepsCount":  {
+                        "placeholders":  {
+                                             "count":  {
+                                                           "type":  "int"
+                                                       }
+                                         }
+                    },
+    "liveAiTitle":  "Live AI",
+    "liveAiOn":  "on",
+    "liveAiOff":  "off",
+    "liveAiBusy":  "working",
+    "noEndpoint":  "no endpoint",
+    "useLiveGeneration":  "Use live generation",
+    "useLiveGenerationBody":  "Groq writes new recipes and dish ideas. The bundled library of 191 recipes works with this off, and the app opens that way by default.",
+    "keyStaysLocal":  "Your key stays on your own machine, inside the proxy server, and is never part of this app.",
+    "endpointLabel":  "Endpoint",
+    "testConnection":  "Test connection",
+    "testing":  "Testing...",
+    "endpointSaved":  "Endpoint saved",
+    "connectedOk":  "Connected to the AI service",
+    "noEndpointSet":  "No endpoint set",
+    "startProxyTitle":  "Start the proxy with:",
+    "privacyPolicy":  "Privacy policy",
+    "yourData":  "Your data",
+    "yourDataBody":  "CookSmart has no account, no sign-in and no server of its own. We do not use analytics, advertising or crash reporting, and we do not collect or sell personal information.",
+    "staysOnPhone":  "What stays on your phone",
+    "staysOnPhoneBody":  "Your ingredient lists, favourites, saved recipes and the endpoint you have chosen are stored only on this device, in its private app storage. Removing the app deletes all of it.",
+    "optionalLive":  "Optional live recipe generation",
+    "optionalLiveBody":  "If you turn on live generation, the ingredients and dish you ask for are sent to an AI service through a small proxy server that you run yourself on your own computer. Your API key stays in that proxy and is never part of this app. Turn live generation off and nothing leaves your phone at all.",
+    "foodPhotos":  "Food photographs",
+    "foodPhotosBody":  "The recipe photographs bundled with the app come from TheMealDB and Wikipedia, under their respective licences, with the author and licence recorded alongside the app source. Recipes written by the AI service get a photograph looked up from the same sources.",
+    "children":  "Children",
+    "childrenBody":  "CookSmart is intended for a general audience. Because the app collects no data from anyone, it collects none from children either.",
+    "yourRights":  "Your rights and choices",
+    "yourRightsBody":  "Since no personal information is collected, there is nothing to disclose, correct or delete on request. You can erase everything the app stores at any time by clearing the app\u0027s storage in your device settings, or by uninstalling it.",
+    "policyChanges":  "Changes to this policy",
+    "policyChangesBody":  "If this policy changes, the updated text will appear on the Privacy screen inside the app and in the release notes for the version you have installed.",
+    "contact":  "Contact",
+    "contactBody":  "Questions about this policy can be sent to the contact address given on the app\u0027s Google Play Store listing.",
+    "policyLastUpdated":  "Last updated 29 September 2026",
+    "searchResults":  "{count} results",
+    "@searchResults":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "photoBy":  "Recipe by Groq · photo from TheMealDB",
+    "lookingUpPhoto":  "Looking up a photo…",
+    "changePhoto":  "Change photo",
+    "lookingForAnother":  "Looking for another photo…",
+    "photoOf":  "Photo",
+    "close":  "Close",
+    "pageOf":  "{index} of {total}",
+    "@pageOf":  {
+                    "placeholders":  {
+                                         "index":  {
+                                                       "type":  "int"
+                                                   },
+                                         "total":  {
+                                                       "type":  "int"
+                                                   }
+                                     }
+                },
+    "languageLabel":  "Language",
+    "languageEnglish":  "English",
+    "languageArabic":  "العربية",
+    "tipTitle":  "Tip",
+    "tipBody":  "Add what you have. If something is missing we will tell you exactly what to buy.",
+    "addIngredient":  "Add {ingredient}",
+    "@addIngredient":  {
+                           "placeholders":  {
+                                                "ingredient":  {
+                                                                   "type":  "String"
+                                                               }
+                                            }
+                       },
+    "settings":  "Settings",
+    "networkError":  "Could not reach the AI service. Check your connection."
+}

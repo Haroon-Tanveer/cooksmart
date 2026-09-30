@@ -1,3 +1,4 @@
+import '../l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 
 import '../data/recipes.dart';
@@ -75,6 +76,7 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
   @override
   Widget build(BuildContext context) {
     final state = CookScope.of(context);
+    final l10n = L.of(context);
     final list = state.ingredients;
 
     return CookBackground(
@@ -157,7 +159,7 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                Text('Tip', style: cookText(size: 14, weight: FontWeight.w700, color: CookColors.white)),
+                Text(l10n.tipTitle, style: cookText(size: 14, weight: FontWeight.w700, color: CookColors.white)),
                 const SizedBox(height: 6),
                 Text(
                   'Press Enter or a comma after each ingredient. Include staples like oil, '
@@ -203,7 +205,7 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
             ),
           if (state.isLive) const SizedBox(height: 10),
           if (state.isBusy)
-            PrimaryButton(label: state.busyLabel ?? 'Working…', enabled: false)
+            PrimaryButton(label: state.busyLabel ?? l10n.generating, enabled: false)
           else
             PrimaryButton(
               label: 'Generate Recipe',

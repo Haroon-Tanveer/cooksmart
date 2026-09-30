@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../l10n/app_localizations.dart';
 
 import '../state/app_state.dart';
 import '../theme.dart';
@@ -35,7 +36,7 @@ class SavedScreen extends StatelessWidget {
           if (list.isEmpty)
             EmptyState(
               glyph: '📬',
-              title: 'No saved recipes',
+              title: L.of(context).noSavedTitle,
               message: 'Add the ingredients you have and we\'ll turn them into something you will want to cook again.',
               actionLabel: 'Create a recipe',
               onAction: () => state.go(CookScreen.ingredients),
@@ -58,7 +59,7 @@ class SavedScreen extends StatelessWidget {
                   onTap: () => state.openSavedRecipe(r),
                   onRemove: () {
                     state.removeSaved(r.id);
-                    showCookToast(context, 'Removed from saved');
+                    showCookToast(context, L.of(context).remove);
                   },
                 );
               },

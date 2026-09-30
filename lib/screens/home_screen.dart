@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../data/recipes.dart';
+import '../l10n/app_localizations.dart';
 import '../models/recipe.dart';
 import '../state/app_state.dart';
 import '../theme.dart';
@@ -33,6 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final state = CookScope.of(context);
+    final l10n = L.of(context);
     final featured = kRecipes.first;
     final rail = kRecipes.skip(1).take(6).toList();
     final filtered = state.filteredRecipes;
@@ -90,11 +92,11 @@ class _HomeScreenState extends State<HomeScreen> {
             onSelect: state.setCategory,
           ),
           Eyebrow(
-            text: 'Featured',
+            text: l10n.featured,
             trailing: GestureDetector(
               onTap: () => state.go(CookScreen.ingredients),
               child: Text(
-                'Use my kitchen',
+                l10n.useMyKitchen,
                 style: cookText(
                   size: 13,
                   weight: FontWeight.w700,
@@ -117,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           SectionHeader(
-            text: state.isFiltering ? 'Results' : 'All recipes',
+            text: state.isFiltering ? l10n.searchResults(state.filteredRecipes.length) : l10n.allRecipes,
             count: filtered.length,
           ),
           if (filtered.isEmpty)
@@ -125,7 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: true,
               title: 'Nothing matches',
               message: 'Try a different search term, or reset the filters to see everything.',
-              actionLabel: 'Reset filters',
+              actionLabel: l10n.clear,
               onAction: () {
                 _searchController.clear();
                 state.resetFilters();
@@ -158,17 +160,18 @@ class _Greeting extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = L.of(context);
     return Padding(
       padding: const EdgeInsets.only(top: 10, bottom: 2),
       child: Text.rich(
         TextSpan(
           children: <InlineSpan>[
             TextSpan(
-              text: 'Hey chef, ',
+              text: l10n.greetingPrefix,
               style: cookText(size: 26, weight: FontWeight.w800, color: CookColors.white),
             ),
             TextSpan(
-              text: "what's cooking?",
+              text: l10n.greetingSuffix,
               style: cookText(size: 26, weight: FontWeight.w800, color: CookColors.orange),
             ),
           ],
@@ -239,7 +242,7 @@ class _HeroCard extends StatelessWidget {
                         borderRadius: BorderRadius.circular(100),
                       ),
                       child: Text(
-                        'RECIPE OF THE DAY',
+                        L.of(context).recipeOfTheDay.toUpperCase(),
                         style: cookText(
                           size: 11,
                           weight: FontWeight.w800,

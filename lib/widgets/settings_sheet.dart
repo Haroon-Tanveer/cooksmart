@@ -1,5 +1,8 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../screens/privacy_screen.dart';
 import '../services/groq_config.dart';
 import '../state/app_state.dart';
@@ -48,6 +51,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
   @override
   Widget build(BuildContext context) {
     final state = CookScope.of(context);
+    final l10n = L.of(context);
     final config = state.config;
     final bottom = MediaQuery.of(context).viewInsets.bottom;
 
@@ -79,7 +83,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
               Row(
                 children: <Widget>[
                   Text(
-                    'Live AI',
+                    l10n.liveAiTitle,
                     style: cookText(
                       size: 20,
                       weight: FontWeight.w800,
@@ -104,7 +108,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   children: <Widget>[
                     Expanded(
                       child: Text(
-                        'Use live generation',
+                        l10n.useLiveGeneration,
                         style: cookText(
                           size: 15,
                           weight: FontWeight.w600,
@@ -136,8 +140,42 @@ class _SettingsSheetState extends State<SettingsSheet> {
                 style: cookText(size: 13, color: CookColors.muted, height: 1.5),
               ),
               const SizedBox(height: 16),
+              // Language sits above the AI settings because it changes the whole
+              // app, including the labels on this sheet.
               Text(
-                'Endpoint',
+                l10n.languageLabel,
+                style: cookText(
+                  size: 12,
+                  weight: FontWeight.w700,
+                  color: CookColors.muted2,
+                  letterSpacing: 0.6,
+                ),
+              ),
+              const SizedBox(height: 8),
+              CookSurface(
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: _LanguageChoice(
+                        label: l10n.languageEnglish,
+                        selected: (state.locale?.languageCode ?? PlatformDispatcher.instance.locale.languageCode) != 'ar',
+                        onTap: () => state.setLocale(const Locale('en')),
+                      ),
+                    ),
+                    Expanded(
+                      child: _LanguageChoice(
+                        label: l10n.languageArabic,
+                        selected: state.locale?.languageCode == 'ar',
+                        onTap: () => state.setLocale(const Locale('ar')),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16),
+              Text(
+                l10n.endpointLabel,
                 style: cookText(
                   size: 12,
                   weight: FontWeight.w700,
@@ -177,7 +215,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                         onTap: () {
                           state.updateEndpoint(_endpoint?.text ?? '');
                           _endpoint?.text = state.config.baseUrl;
-                          showCookToast(context, 'Endpoint saved');
+                          showCookToast(context, l10n.endpointSaved);
                         },
                         child: const Padding(
                           padding: EdgeInsets.only(left: 10),
@@ -260,7 +298,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
               ],
               const SizedBox(height: 20),
               GhostButton(
-                label: state.isBusy ? 'Testing...' : 'Test connection',
+                label: state.isBusy ? l10n.testing : l10n.testConnection,
                 onPressed: state.isBusy
                     ? null
                     : () async {
@@ -268,7 +306,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                         if (!context.mounted) return;
                         showCookToast(
                           context,
-                          error ?? 'Connected to the AI service',
+                          error ?? l10n.connectedOk,
                         );
                       },
               ),
@@ -307,7 +345,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                       const SizedBox(width: 11),
                       Expanded(
                         child: Text(
-                          'Privacy policy',
+                          l10n.privacyPolicy,
                           style: cookText(
                             size: 14,
                             weight: FontWeight.w700,
@@ -325,6 +363,42 @@ class _SettingsSheetState extends State<SettingsSheet> {
                 ),
               ),
             ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _LanguageChoice extends StatelessWidget {
+  const _LanguageChoice({
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        margin: const EdgeInsets.symmetric(horizontal: 4),
+        decoration: BoxDecoration(
+          color: selected ? CookColors.orange : Colors.transparent,
+          borderRadius: BorderRadius.circular(CookRadius.sm),
+        ),
+        child: Text(
+          label,
+          textAlign: TextAlign.center,
+          style: cookText(
+            size: 13.5,
+            weight: FontWeight.w700,
+            color: selected ? const Color(0xFF1C1108) : CookColors.muted,
           ),
         ),
       ),

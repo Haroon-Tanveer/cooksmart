@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../models/recipe.dart';
 import '../state/app_state.dart';
 import '../theme.dart';
@@ -99,7 +100,7 @@ class ResultScreen extends StatelessWidget {
                   .toList(),
             ),
           ],
-          SectionHeader(text: 'Method · ${recipe.steps.length} steps'),
+          SectionHeader(text: L.of(context).stepsCount(recipe.steps.length)),
           ...List<Widget>.generate(recipe.steps.length, (i) {
             final done = state.isStepDone(i);
             return Padding(
@@ -295,6 +296,7 @@ class _ResultHero extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = L.of(context);
     final based = recipe.basedOn.length;
     final hasPhoto =
         (recipe.imagePath != null && recipe.imagePath!.isNotEmpty) ||
@@ -430,7 +432,7 @@ class _ResultHero extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(100),
                                 ),
                                 child: Text(
-                                  recipe.matchLabel ?? 'From the library',
+                                  recipe.matchLabel ?? l10n.fromLibrary,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
                                   style: cookText(
@@ -445,7 +447,7 @@ class _ResultHero extends StatelessWidget {
                             Expanded(
                               child: Text(
                                 based == 0
-                                    ? 'from your idea'
+                                    ? l10n.fromYourIdea
                                     : 'from $based ingredient${based == 1 ? '' : 's'}',
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
@@ -516,14 +518,14 @@ class _ResultHero extends StatelessWidget {
                         runSpacing: 8,
                         children: <Widget>[
                           _Stat('◷ ${recipe.time} min', 'Time'),
-                          _Stat(recipe.difficulty, 'Difficulty'),
-                          _Stat('${recipe.servings}', 'Servings'),
+                          _Stat(recipe.difficulty, l10n.difficulty),
+                          _Stat('${recipe.servings}', l10n.servings),
                           if (recipe.totalCalories != null)
                             _Stat(
                               '${recipe.totalCalories} kcal',
                               recipe.caloriesPerServing != null
                                   ? 'Total · ${recipe.caloriesPerServing}/serving'
-                                  : 'Total',
+                                  : l10n.totalLabel,
                             ),
                         ],
                       ),
@@ -542,8 +544,8 @@ class _ResultHero extends StatelessWidget {
                             Expanded(
                               child: Text(
                                 hasPhoto
-                                    ? 'Recipe by Groq · photo from TheMealDB'
-                                    : 'Looking up a photo…',
+                                    ? l10n.photoBy
+                                    : l10n.lookingUpPhoto,
                                 style: cookText(
                                   size: 11,
                                   color: CookColors.muted,
@@ -560,7 +562,7 @@ class _ResultHero extends StatelessWidget {
                                   );
                                 },
                                 child: Text(
-                                  'Change photo',
+                                  l10n.changePhoto,
                                   style: cookText(
                                     size: 11.5,
                                     weight: FontWeight.w700,

@@ -1,0 +1,136 @@
+{
+    "@@locale":  "ar",
+    "greetingPrefix":  "يا طاهٍ، ",
+    "greetingSuffix":  "ماذا نطبخ؟",
+    "appTitle":  "CookSmart",
+    "greetingMorning":  "صباح الخير",
+    "greetingAfternoon":  "طاب يومك",
+    "greetingEvening":  "مساء الخير",
+    "homeSubtitle":  "حوّل ما لديك في المطبخ إلى طبق يستحق التذوق.",
+    "searchHint":  "ابحث عن وصفات",
+    "recipeOfTheDay":  "وصفة اليوم",
+    "useMyKitchen":  "استخدم مطبخي",
+    "featured":  "المميزة",
+    "allRecipes":  "كل الوصفات",
+    "catAll":  "الكل",
+    "catBreakfast":  "فطور",
+    "catLunch":  "غداء",
+    "catDinner":  "عشاء",
+    "catDessert":  "حلويات",
+    "catQuick":  "أقل من ٢٠ د",
+    "catArabian":  "مأكولات عربية",
+    "catTurkish":  "مأكولات تركية",
+    "catPakistani":  "مأكولات باكستانية",
+    "catFastfood":  "وجبات سريعة",
+    "tabHome":  "الرئيسية",
+    "tabCreate":  "إنشاء",
+    "tabSaved":  "المحفوظات",
+    "createTitle":  "ماذا لديك في المطبخ؟",
+    "createSubtitle":  "اكتب ما لديك، أو اضغط على الاقتراحات.",
+    "ingredientHint":  "أضف مكوّنًا",
+    "liveBannerOn":  "الذكاء الاصطناعي يكتب هذه الوصفة لك",
+    "liveBannerOff":  "الذكاء الاصطناعي متوقف، نستخدم المكتبة المحلية",
+    "generateRecipe":  "أنشئ الوصفة",
+    "generating":  "نكتب وصفتك",
+    "surpriseMe":  "فاجئني",
+    "clear":  "مسح",
+    "noResultsTitle":  "لا يوجد شيء بعد",
+    "noSavedTitle":  "لا توجد وصفات محفوظة",
+    "noSavedBody":  "الوصفات التي تحفظها ستظهر هنا.",
+    "saveRecipe":  "احفظ الوصفة",
+    "savedRecipe":  "محفوظة",
+    "remove":  "إزالة",
+    "fromLibrary":  "من المكتبة",
+    "fromYourIdea":  "من فكرتك",
+    "grokPick":  "اختيار Grok",
+    "inKitchen":  "في مطبخك",
+    "needToBuy":  "قد تحتاج إلى شراء",
+    "totalKcal":  "الإجمالي",
+    "perServing":  "لكل حصة",
+    "totalLabel":  "الإجمالي",
+    "timeMin":  "الوقت",
+    "difficulty":  "الصعوبة",
+    "servings":  "الأجزاء",
+    "methodHeading":  "الطريقة",
+    "stepsCount":  "{count} خطوات",
+    "@stepsCount":  {
+                        "placeholders":  {
+                                             "count":  {
+                                                           "type":  "int"
+                                                       }
+                                         }
+                    },
+    "liveAiTitle":  "الذكاء الاصطناعي المباشر",
+    "liveAiOn":  "مفعّل",
+    "liveAiOff":  "متوقف",
+    "liveAiBusy":  "يعمل",
+    "noEndpoint":  "لا يوجد خادم",
+    "useLiveGeneration":  "استخدم التوليد المباشر",
+    "useLiveGenerationBody":  "يكتب Groq وصفات جديدة وأفكارًا للأطباق. تعمل المكتبة المضمّنة التي تضم ١٩١ وصفة مع إيقاف هذه الخاصية، ويبدأ التطبيق بهذه الحالة.",
+    "keyStaysLocal":  "يبقى مفتاحك على جهازك أنت، داخل الخادم الوسيط، ولا يكون جزءًا من هذا التطبيق أبدًا.",
+    "endpointLabel":  "الخادم",
+    "testConnection":  "اختبار الاتصال",
+    "testing":  "جارٍ الاختبار...",
+    "endpointSaved":  "تم حفظ الخادم",
+    "connectedOk":  "تم الاتصال بخدمة الذكاء الاصطناعي",
+    "noEndpointSet":  "لم يتم ضبط خادم",
+    "startProxyTitle":  "شغّل الخادم الوسيط بالأمر:",
+    "privacyPolicy":  "سياسة الخصوصية",
+    "yourData":  "بياناتك",
+    "yourDataBody":  "لا يوجد في CookSmart حساب ولا تسجيل دخول ولا خادم خاص به. نحن لا نستخدم التحليلات ولا الإعلانات ولا تقارير الأعطال، ولا نجمع أي معلومات شخصية ولا نبيعها.",
+    "staysOnPhone":  "ما يبقى على هاتفك",
+    "staysOnPhoneBody":  "قوائم المكونات والمفضلة والوصفات المحفوظة والخادم الذي اخترته تُحفظ على هذا الجهاز فقط، ضمن مساحة التطبيق الخاصة. حذف التطبيق يمسح كل ذلك.",
+    "optionalLive":  "توليد الوصفات المباشر (اختياري)",
+    "optionalLiveBody":  "عند تفعيل التوليد المباشر، تُرسَل المكونات واسم الطبق الذي تطلبه إلى خدمة ذكاء اصطناعي عبر خادم وسيط صغير تشغّله أنت على حاسوبك. يبقى مفتاحك داخل ذلك الخادم ولا يكون جزءًا من التطبيق. أوقف التوليد المباشر ولا يغادر شيء هاتفك.",
+    "foodPhotos":  "صور الطعام",
+    "foodPhotosBody":  "صور الوصفات المضمّنة في التطبيق تأتي من TheMealDB وويكيبيديا وفق تراخيص كل مصدر، مع تسجيل اسم المصوّر والرخصة مرفقًا بكود التطبيق. أما الوصفات التي يكتبها الذكاء الاصطناعي فيُبحث لها عن صورة في المصدرين نفسيهما.",
+    "children":  "الأطفال",
+    "childrenBody":  "CookSmart موجّه لجميع الأعمار. وبما أن التطبيق لا يجمع بيانات من أحد، فإنه لا يجمعها من الأطفال أيضًا.",
+    "yourRights":  "حقوقك وخياراتك",
+    "yourRightsBody":  "لعدم جمع أي معلومات شخصية، لا يوجد ما nfصححه أو أحذفه عند الطلب. يمكنك مسح كل ما يخزّنه التطبيق في أي وقت من إعدادات الجهاز، أو بإلغاء تثبيته.",
+    "policyChanges":  "تغييرات هذه السياسة",
+    "policyChangesBody":  "إذا تغيّرت هذه السياسة، سيظهر النص المحدّث في شاشة الخصوصية داخل التطبيق وفي ملاحظات الإصدار للإصدار الذي ثبّته.",
+    "contact":  "التواصل",
+    "contactBody":  "يمكن إرسال أسئلة حول هذه السياسة إلى عنوان التواصل المذكور في صفحة التطبيق على Google Play.",
+    "policyLastUpdated":  "آخر تحديث ٢٩ سبتمبر ٢٠٢٦",
+    "searchResults":  "{count} نتائج",
+    "@searchResults":  {
+                           "placeholders":  {
+                                                "count":  {
+                                                              "type":  "int"
+                                                          }
+                                            }
+                       },
+    "photoBy":  "الوصفة من Groq · الصورة من TheMealDB",
+    "lookingUpPhoto":  "جارٍ البحث عن صورة...",
+    "changePhoto":  "غيّر الصورة",
+    "lookingForAnother":  "نبحث عن صورة أخرى...",
+    "photoOf":  "صورة",
+    "close":  "إغلاق",
+    "pageOf":  "{index} من {total}",
+    "@pageOf":  {
+                    "placeholders":  {
+                                         "index":  {
+                                                       "type":  "int"
+                                                   },
+                                         "total":  {
+                                                       "type":  "int"
+                                                   }
+                                     }
+                },
+    "languageLabel":  "اللغة",
+    "languageEnglish":  "English",
+    "languageArabic":  "العربية",
+    "tipTitle":  "نصيحة",
+    "tipBody":  "أضف ما لديك. وإذا نقص شيء فسنخبرك بما تشتريه بالضبط.",
+    "addIngredient":  "أضف {ingredient}",
+    "@addIngredient":  {
+                           "placeholders":  {
+                                                "ingredient":  {
+                                                                   "type":  "String"
+                                                               }
+                                            }
+                       },
+    "settings":  "الإعدادات",
+    "networkError":  "تعذّر الوصول إلى خدمة الذكاء الاصطناعي. تحقّق من اتصالك."
+}

@@ -38,6 +38,12 @@ dependencies:
   http: ^1.6.0
   path_provider: ^2.1.6
 
+  # Arabic ships right to left, which needs the SDK's own localisations as well as
+  # the app strings in lib/l10n.
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -54,6 +60,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  # Turns on automatic generation of the localisations in lib/l10n.
+  generate: true
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
