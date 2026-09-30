@@ -1,0 +1,31 @@
+# Build output
+/build/
+*.class
+
+# Signing secrets. Losing either of these means the app can never be updated
+# on Google Play, so keep them out of version control and store the password
+# in a password manager.
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
+*.p12
+
+# Google Play service account keys, if you ever add one
+google-services.json
+
+# Local environment
+.env
+.env.local
+
+# Editor and OS noise
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Tooling caches
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+node_modules/

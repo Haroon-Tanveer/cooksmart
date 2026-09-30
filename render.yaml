@@ -1,0 +1,23 @@
+# Render blueprint for the CookSmart Gemini proxy.
+#
+#   1. Push this repository to GitHub.
+#   2. At https://render.com go to New > Blueprint, pick the repo, Render reads
+#      this file and sets everything up.
+#   3. After it deploys, set GEMINI_API_KEY under Environment, then copy the
+#      https://...onrender.com URL back into the app build.
+#
+# Only tool/server is copied by the Dockerfile, so the app source and the
+# signing key never leave your machine.
+services:
+  - type: web
+    name: cooksmart-gemini-proxy
+    runtime: docker
+    dockerfilePath: ./tool/server/Dockerfile
+    dockerContext: ./tool/server
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false # set this in the dashboard, never in a file
+      - key: GEMINI_MODELS
+        value: gemini-3.8-flash,gemini-3-flash-preview,gemini-flash-latest

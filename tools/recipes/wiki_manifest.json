@@ -1,0 +1,2859 @@
+{
+    "koshari":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Koshary",
+                    "artist":  "Dina Said",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AEgyptian_food_Koshary.jpg"
+                },
+    "maqluba":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Maqluba",
+                    "artist":  "Arafataslan",
+                    "licence":  "Public domain",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AMakluba.JPG"
+                },
+    "harees":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Harees",
+                   "artist":  "Ketone16",
+                   "licence":  "CC BY-SA 4.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AArmenian_Harisa.JPG"
+               },
+    "quzi":  {
+                 "source":  "Wikipedia",
+                 "title":  "https://en.wikipedia.org/wiki/Quzi",
+                 "artist":  "aziz1005",
+                 "licence":  "CC0",
+                 "file":  "https://commons.wikimedia.org/wiki/File%3AIraqi_Qoozi_.jpg"
+             },
+    "shakshuka":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Shakshouka",
+                      "artist":  "Calliopejen1",
+                      "licence":  "CC BY-SA 3.0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3AShakshuka_by_Calliopejen1.jpg"
+                  },
+    "sayadieh":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Sayadieh",
+                     "artist":  "young shanahan",
+                     "licence":  "CC BY 2.0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3AFish%20Sayadieh.jpg"
+                 },
+    "baba-ghanoush":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Baba%20ghanoush",
+                          "artist":  "Breville USA",
+                          "licence":  "CC BY 2.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3ABaba%20Ganoush%2005of05%20(8735238183).jpg"
+                      },
+    "moutabal":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Eggplant%20salads%20and%20appetizers",
+                     "artist":  "see file page",
+                     "licence":  "see file page"
+                 },
+    "labneh":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Strained%20yogurt",
+                   "artist":  "No machine-readable author provided. Omernos~commonswiki assumed (based on copyright claims).",
+                   "licence":  "Public domain",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3ALabneh01.jpg"
+               },
+    "fattoush":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Fattoush",
+                     "artist":  "Arousing Appetites",
+                     "licence":  "CC BY-SA 3.0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3AFattoush%20mixed-salad.jpg"
+                 },
+    "tabbouleh":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Tabbouleh",
+                      "artist":  "Miansari66",
+                      "licence":  "CC0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3ATabouleh%201.JPG"
+                  },
+    "fatteh":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Fatteh",
+                   "artist":  "Eaeeae",
+                   "licence":  "CC BY 3.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3A%D9%81%D8%AA%D9%91%D8%A9%20%D8%A8%D8%A7%D9%84%D9%84%D9%88%D8%B2%20%D9%88%20%D8%A7%D9%84%D8%B3%D9%91%D9%85%D9%86.jpg"
+               },
+    "msemen":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Msemmen",
+                   "artist":  "إيان",
+                   "licence":  "CC BY-SA 4.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B3%D9%85%D9%86.jpg"
+               },
+    "muhammara":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Muhammara",
+                      "artist":  "Krista",
+                      "licence":  "CC BY 2.0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3ATanoreen%20muhammara.jpg"
+                  },
+    "lablabi":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Lablabi",
+                    "artist":  "Habib M\u0027henni",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3ABol%20de%20Leblabi%20de%20Tunisie%2C%2021%20mars%202017.jpg"
+                },
+    "harira":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Harira",
+                   "artist":  "Kattusa24",
+                   "licence":  "Public domain",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AHarira.png"
+               },
+    "bessara":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Bissara",
+                    "artist":  "Ruby Josephine Smith",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3ABissara%20Moroccan%20split%20pea%20and%20fava%20bean%20soup.jpg"
+                },
+    "makroudh":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Makroudh",
+                     "artist":  "Credits to Mourad Ben Abdallah / Wikimedia Commons",
+                     "licence":  "Public domain",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3AMakrouds.JPG"
+                 },
+    "sahlab":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Salep",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "doner-kebap":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Doner%20kebab",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kuzu-sis":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Kuzu%20%C5%9Fi%C5%9F",
+                     "artist":  "E4024",
+                     "licence":  "CC BY-SA 4.0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3AKuzu%20%C5%9Fi%C5%9F%20at%20Ankara.jpg"
+                 },
+    "sucuk-tava":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Sujuk",
+                       "artist":  "Rainer Zenz",
+                       "licence":  "CC BY-SA 3.0",
+                       "file":  "https://commons.wikimedia.org/wiki/File%3ASucuk-1.jpg"
+                   },
+    "ci-kofte":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/%C3%87i%C4%9F%20k%C3%B6fte",
+                     "artist":  "see file page",
+                     "licence":  "see file page"
+                 },
+    "tavuk-pilav":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Pilaf",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kumpir":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Kumpir",
+                   "artist":  "Mervat Salman",
+                   "licence":  "CC BY-SA 4.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AKumpir%20-%20Turkish%20Cuisine.jpg"
+               },
+    "haydari":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Haydari",
+                    "artist":  "E4024",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AMeze%20ve%20kat%C4%B1kl%C4%B1%20ekmek.jpg"
+                },
+    "saksuka":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/%C5%9Eak%C5%9Fuka",
+                    "artist":  "E4024",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AEggplant%20and%20green%20pepper%20%C5%9Fak%C5%9Fuka%20(shakshuka).jpg"
+                },
+    "manti":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Manti%20(food)",
+                  "artist":  "Kızılkum",
+                  "licence":  "CC BY-SA 4.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3AKayseride%20bir%20restoranda%20Kayseri%20mant%C4%B1s%C4%B1%20(cropped).jpg"
+              },
+    "kisir":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/K%C4%B1s%C4%B1r",
+                  "artist":  "Noumenon",
+                  "licence":  "CC BY-SA 3.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3AKisir.jpg"
+              },
+    "mercimek-ezmesi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Lentil%20soup",
+                            "artist":  "Roland Unger",
+                            "licence":  "CC BY-SA 3.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3AEgFoodLentilSoup.jpg"
+                        },
+    "mucver":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/M%C3%BCcver",
+                   "artist":  "William Neuheisel from DC, US",
+                   "licence":  "CC BY 2.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AZucchini%20Fritters%20-%20Lunch%20at%20Yanyali%20Fehmi%20Lokantasi%20(6421047753).jpg"
+               },
+    "yayla-corbasi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Yayla%20%C3%A7orbas%C4%B1",
+                          "artist":  "E4024",
+                          "licence":  "CC BY-SA 4.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AYayla%20%C3%A7orbas%C4%B1.jpg"
+                      },
+    "pirin-pilafi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Pilaf",
+                         "artist":  "Jost Wagner",
+                         "licence":  "CC BY-SA 1.0",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3AAfghan%20Palo.jpg"
+                     },
+    "tulum-ahi":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Halloumi",
+                      "artist":  "Halloumislicefresh.jpg : J.P.Lon derivative work: Zlerman ( talk )",
+                      "licence":  "Public domain",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3AHalloumislice%20zoom.jpg"
+                  },
+    "balik-ekmek":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Bal%C4%B1k%20ekmek",
+                        "artist":  "User: (WT-shared) Shoestring at wts wikivoyage",
+                        "licence":  "CC BY-SA 4.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AFish%20sandwich%2C%20Istanbul%2C%20Turkey.JPG"
+                    },
+    "cikolatali-yulaf":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Porridge",
+                             "artist":  "Renee Comet (Photographer)",
+                             "licence":  "Public domain",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3AOatmeal%20(1).jpg"
+                         },
+    "koz-macun-sos":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Tomato%20sauce",
+                          "artist":  "Dennis Klein klein2",
+                          "licence":  "CC0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AFresh%20Tomato%20Sauce%20(Unsplash).jpg"
+                      },
+    "kadayif":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Kadayif",
+                    "artist":  "Uziel302",
+                    "licence":  "CC BY-SA 3.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3ACAM00479-1.jpg"
+                },
+    "lokum":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Turkish%20delight",
+                  "artist":  "Quick fix",
+                  "licence":  "CC BY-SA 2.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3ATurkishDelightDisplay.jpg"
+              },
+    "kazandibi":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Kazandibi",
+                      "artist":  "Garrett Ziegler",
+                      "licence":  "CC BY-SA 4.0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3AKazandibi%20Dessert.jpg"
+                  },
+    "ayran":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Ayran",
+                  "artist":  "Mavigogun",
+                  "licence":  "CC BY-SA 3.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3AFresh%20ayran.jpg"
+              },
+    "turk-kahvesi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Turkish%20coffee",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "salep":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Salep",
+                  "artist":  "DesignbyNur",
+                  "licence":  "CC BY-SA 3.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3ASalep%20drink.jpg"
+              },
+    "cay":  {
+                "source":  "Wikipedia",
+                "title":  "https://en.wikipedia.org/wiki/Black%20tea",
+                "artist":  "AntanO",
+                "licence":  "CC BY-SA 4.0",
+                "file":  "https://commons.wikimedia.org/wiki/File%3ACup%20of%20black%20tea.JPG"
+            },
+    "maron":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Hot%20chocolate",
+                  "artist":  "|| UggBoy♥UggGirl || PHOTO || WORLD || TRAVEL ||",
+                  "licence":  "CC BY 2.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3AAfter%20The%20St.%20Patrick\u0027s%20Parade%20Late%20Lunch%20%40%20Lemon%2C%20Dawson%20Street%2C%20Dublin%2C%20Rep.%20Of%20Ireland%20A%20Fine%20Tradition!%20(6992614913).jpg"
+              },
+    "hummus":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Hummus",
+                   "artist":  "Beyrouthhh at English Wikipedia",
+                   "licence":  "CC BY 3.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3ALebanese%20style%20hummus.jpg"
+               },
+    "baklava":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Baklava",
+                    "artist":  "Sakaman",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3ABaklava(1).png"
+                },
+    "knafeh":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Knafeh",
+                   "artist":  "elif ayse",
+                   "licence":  "CC BY 2.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AK%C3%BCnefe.jpg"
+               },
+    "stuffed-grape-leaves":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Stuffed%20leaves",
+                                 "artist":  "E4024",
+                                 "licence":  "CC BY-SA 4.0",
+                                 "file":  "https://commons.wikimedia.org/wiki/File%3AYaprak%20sarma%2C%20Kayseri%20style.jpg"
+                             },
+    "adana-kebab":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1",
+                        "artist":  "Anatolianpride",
+                        "licence":  "Public domain",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AAdana%20kebab.jpg"
+                    },
+    "turkish-lahmacun":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Lahmacun",
+                             "artist":  "No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).",
+                             "licence":  "CC BY-SA 3.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3ALahmacun.jpg"
+                         },
+    "cacik":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Tzatziki",
+                  "artist":  "Rainer Zenz",
+                  "licence":  "CC BY-SA 3.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3ACacik-1.jpg"
+              },
+    "garlic-butter-shrimp":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Shrimp%20and%20prawn%20as%20food",
+                                 "artist":  "rovingI",
+                                 "licence":  "CC BY 2.0",
+                                 "file":  "https://commons.wikimedia.org/wiki/File%3ASpicy%20fried%20King%20Prawns.jpg"
+                             },
+    "spinach-tomato-pasta":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Pasta",
+                                 "artist":  "David Adam Kess",
+                                 "licence":  "CC BY-SA 4.0",
+                                 "file":  "https://commons.wikimedia.org/wiki/File%3A(Pasta)%20by%20David%20Adam%20Kess%20(pic.2).jpg"
+                             },
+    "veggie-egg-fried-rice":  {
+                                  "source":  "Wikipedia",
+                                  "title":  "https://en.wikipedia.org/wiki/Veggie%20burger",
+                                  "artist":  "Roee Shpernik",
+                                  "licence":  "CC BY-SA 4.0",
+                                  "file":  "https://commons.wikimedia.org/wiki/File%3A%D7%94%D7%9E%D7%91%D7%95%D7%A8%D7%92%D7%A8%20%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99.jpg"
+                              },
+    "creamy-tomato-soup":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Tomato%20soup",
+                               "artist":  "Ella Olsson from Stockholm, Sweden",
+                               "licence":  "CC BY 2.0",
+                               "file":  "https://commons.wikimedia.org/wiki/File%3ATomato%20soup%2C%20plant-based%20(44040252791).jpg"
+                           },
+    "black-bean-bowl":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/List%20of%20college%20bowl%20games",
+                            "artist":  "Bobak Ha\u0027Eri",
+                            "licence":  "CC BY 3.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3A2008-1226-Pasadena-008-RoseBowl.jpg"
+                        },
+    "molten-chocolate-cake":  {
+                                  "source":  "Wikipedia",
+                                  "title":  "https://en.wikipedia.org/wiki/Molten%20chocolate%20cake",
+                                  "artist":  "FotoosVanRobin from Netherlands",
+                                  "licence":  "CC BY-SA 2.0",
+                                  "file":  "https://commons.wikimedia.org/wiki/File%3AChocolate%20Fondant.jpg"
+                              },
+    "ginger-lemon-tea":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Ginger%20tea",
+                             "artist":  "congerdesign",
+                             "licence":  "CC0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3AGinger%20tea.jpg"
+                         },
+    "peanut-noodles":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Vietnamese%20noodles",
+                           "artist":  "Kham Tran - www.khamtran.com",
+                           "licence":  "CC BY 3.0",
+                           "file":  "https://commons.wikimedia.org/wiki/File%3APho-Beef-Noodles-2008.jpg"
+                       },
+    "mansaf":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Mansaf",
+                   "artist":  "Jktab",
+                   "licence":  "CC BY-SA 4.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AMansaf%2C%20the%20traditional%20dish%20of%20Jordan.jpg"
+               },
+    "masgouf":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Masgouf",
+                    "artist":  "Hill93",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AMasgouf.jpg"
+                },
+    "molokhia":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Mulukhiyah",
+                     "artist":  "Habib M\u0027henni",
+                     "licence":  "CC BY-SA 3.0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3AMolokheya_Egypt%2C_2012.JPG"
+                 },
+    "chicken-couscous":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Algerian%20couscous",
+                             "artist":  "Slothtysloth",
+                             "licence":  "CC BY-SA 4.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3AAlgerian_couscous_from_Kabylia.jpg"
+                         },
+    "chorba-frik":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Chorba%20frik",
+                        "artist":  "Slothtysloth",
+                        "licence":  "CC BY-SA 4.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AChorba_frik_algerienne.jpg"
+                    },
+    "saleeg":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Saleeg",
+                   "artist":  "Sayom",
+                   "licence":  "CC BY-SA 4.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AThe_Hijazi_Saleeg.jpg"
+               },
+    "iskender-kebab":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/%C4%B0skender%20kebap",
+                           "artist":  "Garrett Ziegler",
+                           "licence":  "CC BY-SA 4.0",
+                           "file":  "https://commons.wikimedia.org/wiki/File%3A%C4%B0skender_Kebap.jpg"
+                       },
+    "kibbeh-nayyeh":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kibbeh%20nayyeh",
+                          "artist":  "122589423KM at English Wikipedia",
+                          "licence":  "Public domain",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AKibbeh%20Nayyeh.jpg"
+                      },
+    "saj-bread":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Saj%20bread",
+                      "artist":  "Adem Durdu",
+                      "licence":  "CC BY-SA 3.0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3AYufka%20ekmek.jpg"
+                  },
+    "khobz-moroccan":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Khobz%20el-d%C3%A2r",
+                           "artist":  "Bidiyoutchi",
+                           "licence":  "CC BY-SA 4.0",
+                           "file":  "https://commons.wikimedia.org/wiki/File%3AThe%20Moroccan%20bread.jpg"
+                       },
+    "maamoul":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Ma\u0027amoul",
+                    "artist":  "fugzu",
+                    "licence":  "CC BY 2.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AMamoul%20biscotti%20libanesi.jpg"
+                },
+    "kahwa":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Arabic%20coffee",
+                  "artist":  "Canbel",
+                  "licence":  "CC BY-SA 4.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3AA%20dallah%20a%20traditional%20Arabic%20coffee%20pot%20with%20cups%20and%20coffee%20beans.jpg"
+              },
+    "rose-sharbat":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Sharbat%20(drink)",
+                         "artist":  "fa:User:دانقولا",
+                         "licence":  "Public domain",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3ASharbat.JPG"
+                     },
+    "tantuni":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Tantuni",
+                    "artist":  "Joquee",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3ATantuni%20sokak%20yeme%C4%9Fi.jpg"
+                },
+    "tavuk-sis":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Shish%20taouk",
+                      "artist":  "Garrett Ziegler",
+                      "licence":  "CC BY-SA 4.0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3ATavuk%20%C5%9Ei%C5%9F.jpg"
+                  },
+    "tavuk-kavurma":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kavurma",
+                          "artist":  "E4024",
+                          "licence":  "CC BY-SA 4.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AKavurma%20(lamb).jpg"
+                      },
+    "kabak-dolmasi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kabak%20tatl%C4%B1s%C4%B1",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "midye-dolma":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Dolma",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "ici-kofte":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/%C3%87i%C4%9F%20k%C3%B6fte",
+                      "artist":  "E4024",
+                      "licence":  "CC BY-SA 4.0",
+                      "file":  "https://commons.wikimedia.org/wiki/File%3ATurkish%20%C3%A7i%C4%9F%20k%C3%B6fte.jpg"
+                  },
+    "gozleme":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/G%C3%B6zleme",
+                    "artist":  "Maderibeyza",
+                    "licence":  "CC BY-SA 3.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3AG%C3%B6zleme.JPG"
+                },
+    "kasarili-pide":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/%C4%B0%C3%A7li%20pide",
+                          "artist":  "E4024",
+                          "licence":  "CC BY-SA 4.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3APide%20(meal).jpg"
+                      },
+    "bulgur-pilafi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Bulgur",
+                          "artist":  "Myself",
+                          "licence":  "CC BY-SA 3.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3ABulgur.jpg"
+                      },
+    "chicken-shawarma":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Shawarma",
+                             "artist":  "Vis M",
+                             "licence":  "CC BY-SA 4.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3AShawarma%202.jpg"
+                         },
+    "chicken-mandi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Mandi%20(food)",
+                          "artist":  "Donpapa",
+                          "licence":  "CC BY-SA 4.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AMandi%20pit%20from%20inside.jpg"
+                      },
+    "chicken-tacos":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Torchy\u0027s%20Tacos",
+                          "artist":  "Sheila Scarborough",
+                          "licence":  "CC BY 2.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AFood%20trailers%20at%20South%20Austin%20Trailer%20Park%20and%20Eatery.jpg"
+                      },
+    "krispy-donut":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/LaMar\u0027s%20Donuts",
+                         "artist":  "LaMar\u0027s Donuts",
+                         "licence":  "CC BY-SA 4.0",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3ALamars%20logo%20wcoffee%20(6).jpg"
+                     },
+    "cuban-sandwich":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Submarine%20sandwich",
+                           "artist":  "jeffreyw",
+                           "licence":  "CC BY 2.0",
+                           "file":  "https://commons.wikimedia.org/wiki/File%3ASubmarine%20sandwich%20with%20toppings%20and%20dijon%20mustard.jpg"
+                       },
+    "sheet-pan-chicken":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Roast%20chicken",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "banana-pancakes":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Pancake",
+                            "artist":  "Mae Mu",
+                            "licence":  "CC0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3AFoodiesfeed.com%20pouring-honey-on-pancakes-with-walnuts.jpg"
+                        },
+    "mushroom-risotto":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Risotto",
+                             "artist":  "Luca Nebuloni from Milan, Italy",
+                             "licence":  "CC BY 2.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3ARisotto%20with%20speck%20and%20goat%20cheese%20(6101067436).jpg"
+                         },
+    "roasted-veg-frittata":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Frittata",
+                                 "artist":  "fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 17-40mm f/4 L",
+                                 "licence":  "GFDL 1.2",
+                                 "file":  "https://commons.wikimedia.org/wiki/File%3AFrittata02.jpg"
+                             },
+    "kabsa":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Kabsa",
+                  "artist":  "Miansari66",
+                  "licence":  "CC0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3AMachboos%20(cropped).JPG"
+              },
+    "lamb-tagine":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Tagine",
+                        "artist":  "BBouchra00",
+                        "licence":  "CC BY-SA 4.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3ATajine-marocain-un-plat-varie-et-sain%20(cropped).jpg"
+                    },
+    "brik-a-tuna":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Brik",
+                        "artist":  "Muckster",
+                        "licence":  "CC BY 3.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3ABrikdish.jpg"
+                    },
+    "kelem-dolmasi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Dolma",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "warak-enab":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Dolma",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "kibbeh-fried":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kibbeh",
+                         "artist":  "Bazel",
+                         "licence":  "CC BY-SA 3.0",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3AKibbeh3.jpg"
+                     },
+    "pastilla":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Pastilla",
+                     "artist":  "Krista",
+                     "licence":  "CC BY 2.0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3ABisteeya.jpg"
+                 },
+    "zaatar-manakish":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Manakish",
+                            "artist":  "Elie.ghob",
+                            "licence":  "CC BY-SA 4.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3AZaatar%20Mankousheh.jpg"
+                        },
+    "karak":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/List%20of%20coffee%20drinks",
+                  "artist":  "Compilation by User:SilkTork, using images taken from various authors: Cafe bombon: Daniel Lobo An Nam, Vietnamese French Coffee: Kenny Louie Cup of Espresso: Nevit Dilmen Café au lait: Tim Boyd from Brooklyn ??? Türk Kahvesi: Eaeeae Classic Cappuccino: Jazzbobrown",
+                  "licence":  "CC BY-SA 3.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3ACoffee%20drinks.jpg"
+              },
+    "ashta-bark":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Kadayif",
+                       "artist":  "Uziel302",
+                       "licence":  "CC BY-SA 3.0",
+                       "file":  "https://commons.wikimedia.org/wiki/File%3ACAM00479-1.jpg"
+                   },
+    "tavap-kebabi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kebab",
+                         "artist":  "Lesya Dolyk",
+                         "licence":  "CC BY-SA 2.0",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3ALula%20kebab%202.jpg"
+                     },
+    "kasarli-beyti":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/%C4%B0skender%20kebap",
+                          "artist":  "Garrett Ziegler",
+                          "licence":  "CC BY-SA 4.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3A%C4%B0skender%20Kebap.jpg"
+                      },
+    "kuzu-tavuk":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Stew",
+                       "artist":  "FiveRings ( talk )",
+                       "licence":  "CC BY 3.0",
+                       "file":  "https://commons.wikimedia.org/wiki/File%3ALamb-stew.jpg"
+                   },
+    "kofte-yemek":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kofta",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "tavuk-yemek":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/%C5%9Eevketibostan%20yeme%C4%9Fi",
+                        "artist":  "E4024",
+                        "licence":  "CC BY-SA 4.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AKuzu%20etli%20%C5%9Fevketibostan.jpg"
+                    },
+    "patatesli-kofte":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Kofta",
+                            "artist":  "Fabienkhan",
+                            "licence":  "CC BY-SA 2.5",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3AKoofteh%20tabrizi.jpg"
+                        },
+    "kiyma-soslu-makarna":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Bolognese%20sauce",
+                                "artist":  "Ivan Vighetto",
+                                "licence":  "CC BY-SA 3.0",
+                                "file":  "https://commons.wikimedia.org/wiki/File%3ATagliatelle%20al%20rag%C3%B9%20(image%20modified).jpg"
+                            },
+    "koy-etesi-kavurma":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Stew",
+                              "artist":  "FiveRings ( talk )",
+                              "licence":  "CC BY 3.0",
+                              "file":  "https://commons.wikimedia.org/wiki/File%3ALamb-stew.jpg"
+                          },
+    "tavuk-kesmete":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kesme",
+                          "artist":  "Firespeaker",
+                          "licence":  "CC BY-SA 3.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3ABowl%20of%20kesme%202.jpg"
+                      },
+    "lezzetli-tavuk":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Roast%20chicken",
+                           "artist":  "Evan Swigart from Chicago, USA",
+                           "licence":  "CC BY 2.0",
+                           "file":  "https://commons.wikimedia.org/wiki/File%3AMax\u0027s%20Roasted%20Chicken%20-%20Evan%20Swigart.jpg"
+                       },
+    "tavuk-butunesme":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Doner%20kebab",
+                            "artist":  "unknown author",
+                            "licence":  "CC BY-SA 3.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3AD%C3%B6ner%20kebab%20slicing.jpg"
+                        },
+    "cipura":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Fried%20chicken",
+                   "artist":  "Evan-Amos",
+                   "licence":  "CC0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AFried-Chicken-Set.jpg"
+               },
+    "patliyan-salatasi":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Eggplant%20salads%20and%20appetizers",
+                              "artist":  "avlxyz",
+                              "licence":  "CC BY-SA 2.0",
+                              "file":  "https://commons.wikimedia.org/wiki/File%3ABaba%20ganoush%20closeup.jpg"
+                          },
+    "enginar-dolmasi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Dolma",
+                            "artist":  "Violetamyftari",
+                            "licence":  "CC BY-SA 3.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3ASpeca%20te%20mbushura%20me%20mish.JPG"
+                        },
+    "kavut":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Bulgur",
+                  "artist":  "Myself",
+                  "licence":  "CC BY-SA 3.0",
+                  "file":  "https://commons.wikimedia.org/wiki/File%3ABulgur.jpg"
+              },
+    "sulu-kofte":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Sulu%20k%C3%B6fte",
+                       "artist":  "E4024",
+                       "licence":  "CC BY-SA 4.0",
+                       "file":  "https://commons.wikimedia.org/wiki/File%3ASulu%20koftes.jpg"
+                   },
+    "tavuk-suyu-corbasi":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Chicken%20soup",
+                               "artist":  "Hoyabird8",
+                               "licence":  "CC BY-SA 3.0",
+                               "file":  "https://commons.wikimedia.org/wiki/File%3AChicken%20Noodle%20Soup.jpg"
+                           },
+    "sebze-corbasi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Vegetable%20soup",
+                          "artist":  "Jennifer",
+                          "licence":  "CC BY 2.0",
+                          "file":  "https://commons.wikimedia.org/wiki/File%3AVegetable%20udon%20noodle%20soup.jpg"
+                      },
+    "patates-salatasi":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Potato%20salad",
+                             "artist":  "SajjadF",
+                             "licence":  "CC BY-SA 3.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3APotato%20salad%20(1).jpg"
+                         },
+    "sarisikli-yogurt":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Tzatziki",
+                             "artist":  "Rainer Zenz",
+                             "licence":  "CC BY-SA 3.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3ACacik-1.jpg"
+                         },
+    "patates-kizartma":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/French%20fries",
+                             "artist":  "StockSnap",
+                             "licence":  "CC0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3AFrench%20Fries.JPG"
+                         },
+    "biber-turisi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Pickled%20pepper",
+                         "artist":  "Ted Sakshaug",
+                         "licence":  "CC BY 2.0",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3APickled%20peppers.jpg"
+                     },
+    "kahvalti-tabagi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Turkish%20breakfast",
+                            "artist":  "MustafaERTAN",
+                            "licence":  "CC BY-SA 4.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3ATurkishBreakfastAtCesme.jpg"
+                        },
+    "hurma-olucu":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Yogurt",
+                        "artist":  "No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).",
+                        "licence":  "CC BY-SA 3.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AJoghurt.jpg"
+                    },
+    "makarna-salatasi":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Pasta%20salad",
+                             "artist":  "Brynn",
+                             "licence":  "CC BY-SA 3.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3APasta%20salad%20closeup.JPG"
+                         },
+    "cacik-buzunu":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Tzatziki",
+                         "artist":  "Rainer Zenz",
+                         "licence":  "CC BY-SA 3.0",
+                         "file":  "https://commons.wikimedia.org/wiki/File%3ACacik-1.jpg"
+                     },
+    "lahana-salatasi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Coleslaw",
+                            "artist":  "Anagoria",
+                            "licence":  "CC BY 3.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3A2015-12-20%20Spitzkohlsalat%20mit%20M%C3%B6hren%20anagoria.JPG"
+                        },
+    "firin-sutlac":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Rice%20pudding",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "sutlac":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Rice%20pudding",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "tavuk-gogsu":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Rice%20pudding",
+                        "artist":  "Shivangisj",
+                        "licence":  "CC BY-SA 4.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AKheer%20with%20condensed%20milk..JPG"
+                    },
+    "halka-tatli":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Simit",
+                        "artist":  "unknown author",
+                        "licence":  "CC BY-SA 3.0",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3ASimit-2x.JPG"
+                    },
+    "limonata":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Lemonade",
+                     "artist":  "HarshLight",
+                     "licence":  "CC BY 2.0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3ALemonade%20-%2027682817724.jpg"
+                 },
+    "ci-koz":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Turkish%20coffee",
+                   "artist":  "Eaeeae",
+                   "licence":  "CC BY-SA 3.0",
+                   "file":  "https://commons.wikimedia.org/wiki/File%3AT%C3%BCrk%20Kahvesi%20-%20Bakir%20Cezve.jpg"
+               },
+    "margherita-pizza":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Pizza%20Margherita",
+                             "artist":  "Bex Walton from London, England",
+                             "licence":  "CC BY 2.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3ANeapolitan_pizza_at_Trappica_(48701940197).jpg"
+                         },
+    "jalfouti":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Kabsa",
+                     "artist":  "Miansari66",
+                     "licence":  "CC0",
+                     "file":  "https://commons.wikimedia.org/wiki/File%3AMachboos_(cropped).JPG"
+                 },
+    "mashuai":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Moroccan%20cuisine",
+                    "artist":  "إيان",
+                    "licence":  "CC BY-SA 4.0",
+                    "file":  "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B3%D9%85%D9%86.jpg"
+                },
+    "ezme":  {
+                 "source":  "Wikipedia",
+                 "title":  "https://en.wikipedia.org/wiki/Meze",
+                 "artist":  "Unai Guerra",
+                 "licence":  "CC BY-SA 2.0",
+                 "file":  "https://commons.wikimedia.org/wiki/File%3APetra%20metzes.jpg"
+             },
+    "sucuklu-yumurta":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Sujuk",
+                            "artist":  "Rainer Zenz",
+                            "licence":  "CC BY-SA 3.0",
+                            "file":  "https://commons.wikimedia.org/wiki/File%3ASucuk-1.jpg"
+                        },
+    "firin-sebze":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Vegetable",
+                        "artist":  "Jasper Greek Golangco",
+                        "licence":  "Copyrighted free use",
+                        "file":  "https://commons.wikimedia.org/wiki/File%3AMarketvegetables.jpg"
+                    },
+    "eristeli-corbasi":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Noodle%20soup",
+                             "artist":  "The original uploader was Hykw-a4 at Japanese Wikipedia .",
+                             "licence":  "CC BY-SA 3.0",
+                             "file":  "https://commons.wikimedia.org/wiki/File%3ANabeyaku%20ramen%20(cropped).jpg"
+                         },
+    "cheese-rakakat":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/B%C3%B6rek",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "chicken-biryani":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Biryani",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "beef-pulao":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Sindhi%20pulao",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "chicken-pulao":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Chicken%20and%20rice",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "yakhni-pulao":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Yahni",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "masala-rice":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka%20masala",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "dahi-pulao":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Bannu%20pulao",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "biryani-masala-rice":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Hyderabadi%20biryani",
+                                "artist":  "see file page",
+                                "licence":  "see file page"
+                            },
+    "mutton-pulao":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kabuli%20pulao",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "zarda":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Zarda%20(food)",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "tahiri":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Edita%20Tahiri",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "khichdi":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Khichdi",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "kabuli-pulao":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kabuli%20pulao",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "shahi-murki":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Sev%20(food)",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kheer-rice":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Kheer",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "shahi-korma-rice":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Korma",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "panjeeri-pulao":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Panjiri",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "kabab-pulao":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kebab",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "gulab-pulao":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Bannu%20pulao",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "biryani-pot":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Hyderabadi%20biryani",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "mutton-qorma-rice":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Korma",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "ghee-rice":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Pilaf",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "chapati":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Chapati",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "paratha":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Paratha",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "makki-di-roti":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Makki%20ki%20roti",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "tandoori-roti":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Roti",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "kulcha":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Kulcha",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "sheermal":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Sheermal",
+                     "artist":  "see file page",
+                     "licence":  "see file page"
+                 },
+    "sesame-naan":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Naan",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "boondi-raita":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Boondi",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "khatta-raita":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Raita",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kachumber":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Kachumber",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "raita-bangan":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Tandoori%20chicken",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "mint-chutney":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Chutney",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "green-chutney":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Chutney",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "sesame-chutney":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Tahini",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "achar-chutney":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Chutney",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "kebab-chutney":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Raita",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "salad-papita":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Fruit%20salad",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "fruit-chat":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Chaat",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "kashmiri-samusa":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Samosa",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "fruit-chaat":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Fruit%20salad",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "dahi-phulka":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Chapati",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "tandoori-paratha":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Roti",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "garlic-naan":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Naan",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "seekh-paratha":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Paratha",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "boondi":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Boondi",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "jalebi-bread":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Imarti",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "chicken-nihari":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Nihari",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "mutton-nihari":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Nihari",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "beef-nihari":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Beef%20shank",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "haleem":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Haleem",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "boti-josh":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Stock%20(food)",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "chicken-qorma":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Korma",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "shahi-korma":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Korma",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "aloo-qorma":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Korma",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "shakila-karahi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Karahi",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "dahi-phirni":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Phirni",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "shahi-khalfi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Mutton%20curry",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "korma-shahi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Korma",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "gobhi-masala":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Gobi%20Desert",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "bandh-go-go":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Okra",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "palak-masala":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Palak%20paneer",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "karela-masala":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Momordica%20charantia",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "tinda-masala":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Tinda",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "shahi-matar":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Matar%20paneer",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "chana-masala":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Chana%20masala",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "rajma":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Rajma",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "shahi-methi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Fenugreek",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "korma-matar-paneer":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka%20masala",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "palak-paneer":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Saag",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "shahi-chicken-tikka-masala":  {
+                                       "source":  "Wikipedia",
+                                       "title":  "https://en.wikipedia.org/wiki/Murgh%20musallam",
+                                       "artist":  "see file page",
+                                       "licence":  "see file page"
+                                   },
+    "duck-shahi-masala":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Duck%20as%20food",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "kabab-simi":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Kidneys%20as%20food",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "saag":  {
+                 "source":  "Wikipedia",
+                 "title":  "https://en.wikipedia.org/wiki/Sarson%20ka%20saag",
+                 "artist":  "see file page",
+                 "licence":  "see file page"
+             },
+    "palak-sarson":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Sarson%20ka%20saag",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "doodh-patti":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Khoa",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "garam-chai":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Masala%20chai",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "chai-masala":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Garam%20masala",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "coffee-pakistani":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Arabic%20coffee",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "karak-chai":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Tea",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "lassi-sweet":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Lassi",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "lassi-mango":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Lassi",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "lassi-salted":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Lassi",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "jaljeera":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Jal-jeera",
+                     "artist":  "see file page",
+                     "licence":  "see file page"
+                 },
+    "nimbu-pani":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Shikanji",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "frooti":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Lassi",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "falooda-milk":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Falooda",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "rose-sherbat":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Rose%20water",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "fresh-lime":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Lemonade",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "desi-mango-punch":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Aam%20panna",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "kanji":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Kanji%20(drink)",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "thandai":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Thandai",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "pineapple-juice":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Grape%20juice",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "coconut-water":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Coconut%20water",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "jamun-sherbat":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Syzygium%20cumini",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "lassi-fruit":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Lassi",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "chai-patti":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Masala%20chai",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "nimbu-adrak":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Ginger%20tea",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "chicken-karahi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Chicken%20karahi",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "chicken-tikka-masala":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka%20masala",
+                                 "artist":  "see file page",
+                                 "licence":  "see file page"
+                             },
+    "chicken-tikka":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka%20masala",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "beef-seekh-kebab":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Seekh%20kebab",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "chapli-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Chapli%20kebab",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "seekh-kebab-malai":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Kebab",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "shami-kebab":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Shami%20kebab",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "reshmi-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Reshmi%20kabab",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "shashlik":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Shashlik",
+                     "artist":  "see file page",
+                     "licence":  "see file page"
+                 },
+    "chicken-gola-kebab":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Croquette",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "gol-kanday":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Chicken%20nugget",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "peshawari-kebab":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Chapli%20kebab",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "khesari-dal-makhani":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Dal%20makhani",
+                                "artist":  "see file page",
+                                "licence":  "see file page"
+                            },
+    "dal-makhani":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Dal%20makhani",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "saunf-daal":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Lentil%20soup",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "moong-daal":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Mung%20bean",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "masoor-daal-tarka":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Lentil%20soup",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "besan-chana-daal":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Chickpea",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "gajar-haleem":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Haleem",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "halwa-puri":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Chole%20bhature",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "sindhi-kadhi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kadhi",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "sindhi-plo":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Sindhi%20pulao",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "balochi-karahi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Karahi",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "sajji":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Sajji",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "pushto-khurji":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Pashtun%20cuisine",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "qubani-korma":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Korma",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kashmiri-wazwan":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Tabak%20maaz",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "rozana":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Rogan%20josh",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "kashmiri-daniwal":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Rogan%20josh",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "sindhi-sai-bhaji":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Sai%20bhaji",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "balochi-dampukht":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Sajji",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "sindhi-birin":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Sindhi%20biryani",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kashmiri-nadru":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Nelumbo%20nucifera",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "kashmiri-gushtaba":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Goshtaab",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "hazara-karahi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Karahi",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "punjabi-kheer":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kheer",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "sindhi-lagi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kadhi",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "punjabi-meat":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Mutton%20curry",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "sindhi-achar":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Koki%20(food)",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "balochi-khaddi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Seekh%20kebab",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "punjabi-chole":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kulcha",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "sindhi-sai-kari":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Kadhi",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "kashmiri-methi-maaz":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Methi%20maaz",
+                                "artist":  "see file page",
+                                "licence":  "see file page"
+                            },
+    "balochi-mutton-pulao":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Bannu%20pulao",
+                                 "artist":  "see file page",
+                                 "licence":  "see file page"
+                             },
+    "sindhi-bhakri":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Pakora",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "samosa":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Samosa",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "bread-roll":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Panipuri",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "pakora":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Pakora",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "samosa-chaat":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Chaat",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "gol-gappay":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Panipuri",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "bhaji":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Bhaji",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "jalebi":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Jalebi",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "imarti":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Imarti",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "jalebi-rabri":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Ras%20malai",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "shahi-tukda":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Bread%20pudding",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "gulab-jamun":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Gulab%20jamun",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "khoya-mithai":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Gajar%20ka%20halwa",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "sohani-halwa":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Sohan%20halwa",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "mohan-mahal":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Taj%20Mahal%20(musician)",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "shahi-halwa":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Halva",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "dahi-baray-dahi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Dahi%20vada",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "fruit-falang":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Falooda",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "chawal-ki-kheer":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Kulfi",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "paan":  {
+                 "source":  "Wikipedia",
+                 "title":  "https://en.wikipedia.org/wiki/Betel",
+                 "artist":  "see file page",
+                 "licence":  "see file page"
+             },
+    "chanay-ki-chat":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Chaat",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "bhutta":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Sweet%20corn",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "awaar":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Lassi",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "kiymali-pide":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Flatbread",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "mercimek-corbasi":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Bal%C4%B1k%20%C3%A7orbas%C4%B1",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "kadin-firini":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Baklava",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kentucky-fried-chicken":  {
+                                   "source":  "Wikipedia",
+                                   "title":  "https://en.wikipedia.org/wiki/Crispy%20fried%20chicken",
+                                   "artist":  "see file page",
+                                   "licence":  "see file page"
+                               },
+    "shish-tawook":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Shish%20taouk",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "shish-kebab-arabic":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Shish%20kebab",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "lamb-chops-arabic":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Lamb%20and%20mutton",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "suqaq-kebab":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Sujuk",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "chicken-shashlik-arabic":  {
+                                    "source":  "Wikipedia",
+                                    "title":  "https://en.wikipedia.org/wiki/Shashlik",
+                                    "artist":  "see file page",
+                                    "licence":  "see file page"
+                                },
+    "lamb-sausage-arabic":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Sujuk",
+                                "artist":  "see file page",
+                                "licence":  "see file page"
+                            },
+    "shami-biryani":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Sindhi%20biryani",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "naan":  {
+                 "source":  "Wikipedia",
+                 "title":  "https://en.wikipedia.org/wiki/Naan",
+                 "artist":  "see file page",
+                 "licence":  "see file page"
+             },
+    "raita":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Raita",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "lauki-masala":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Calabash",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "saunf-drink":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Fennel",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "zafrani-kebab":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "achari-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "chatpata-kebab":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "tandoori-kebab":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "beef-khurchan-kebab":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Kofta",
+                                "artist":  "see file page",
+                                "licence":  "see file page"
+                            },
+    "kabab-kofta-pakistani":  {
+                                  "source":  "Wikipedia",
+                                  "title":  "https://en.wikipedia.org/wiki/Kofta",
+                                  "artist":  "see file page",
+                                  "licence":  "see file page"
+                              },
+    "kabab-barg":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Rib%20steak",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "chicken-seekh-pakistani":  {
+                                    "source":  "Wikipedia",
+                                    "title":  "https://en.wikipedia.org/wiki/Seekh%20kebab",
+                                    "artist":  "see file page",
+                                    "licence":  "see file page"
+                                },
+    "paneer-tikka-kebab":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Paneer%20tikka",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "tikka-boti-cheese":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Tikka%20(food)",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "beef-mali-kebab":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Kofta",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "chapli-achar-kebab":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Kebab",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "tandoori-wings-kebab":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Tandoori%20chicken",
+                                 "artist":  "see file page",
+                                 "licence":  "see file page"
+                             },
+    "seekh-kabab-achari":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Seekh%20kebab",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "malai-boti-tikka":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Tikka%20(food)",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "beef-boti-kebab":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Kebab",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "pashto-qabuli":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Pashtun%20cuisine",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "punjabi-sarson-daal":  {
+                                "source":  "Wikipedia",
+                                "title":  "https://en.wikipedia.org/wiki/Chicken%20karahi",
+                                "artist":  "see file page",
+                                "licence":  "see file page"
+                            },
+    "peshawari-kabuli":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Kabuli%20pulao",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "swat-kabuli":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Swat%20District",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "punjabi-matar":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Makki%20ki%20roti",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "gulgula":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Gulgula",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "urfa-kebabi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "sis-kebab":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Shish%20kebab",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "inegol-kebabi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "caag-kebabi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Ca%C4%9F%20kebab%C4%B1",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "balyoz-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kebab",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "zigara-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kebab",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "sumerli-kebab":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kofta",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "tavuk-kebabi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Ca%C4%9F%20kebab%C4%B1",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kuzu-kebabi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kebab",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kiymali-kebab":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kofta",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "kasarli-kofte":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kofta",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "ekmek-arasinda":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Beyti%20kebab",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "durum-kebab":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Doner%20kebab",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "mangal-tadinda-kebab":  {
+                                 "source":  "Wikipedia",
+                                 "title":  "https://en.wikipedia.org/wiki/Barbecue",
+                                 "artist":  "see file page",
+                                 "licence":  "see file page"
+                             },
+    "tavuk-sac-kebabi":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Shish%20kebab",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "kofta-kebab":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kofta",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kebab-bi-roz":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Shawarma",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "karkadyeh":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Hibiscus%20tea",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "qatayef":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Qatayef",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "radhi":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Rabri",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "katayef-bata":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Bata%2C%20Equatorial%20Guinea",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "jalebi-besmati":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Jalebi",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "gulab-jamun-rabri":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Gulab%20jamun",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "pistachio-barfi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Barfi",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "halwa-puri-sweet":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Gajar%20ka%20halwa",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "moong-dal-halwa":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Moong%20dal%20halwa",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "shahi-barfi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/List%20of%20fruit%20dishes",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kulfi-falooda":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Falooda",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "gulab-sharbat":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Sharbat%20(drink)",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "halwa-puri-sweet2":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Gulab%20jamun",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "muhallebi-turk":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Muhallebi",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "kabak-tatlisi-turk":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Kabak%20tatl%C4%B1s%C4%B1",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "baklava-cevizli":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Baklava",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "sekerpare":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/%C5%9Eekerpare",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "fistikli-baklava":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Baklava",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "warqi-paratha":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Paratha",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "chana-daal":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Chickpea",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "nawabi-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kebab",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "murgh-malai-kebab":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Chicken%20tikka",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "tokat-kebabi":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Tokat",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "lemon-mint-cooler":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Lemonade",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "kunafa-nabulsieh":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Knafeh",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "kadaif-nabulsi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Kadayif",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "halawet-razafa":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Knafeh",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "maamoul-sameen":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Ma\u0027amoul",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "kaymakli-kunafa":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Knafeh",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "halawet-jibneh":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Knafeh",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "basbousa-nut":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Basbousa",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "nayyeh-raqueeq":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Knafeh",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "baklava-sachma":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Baklava",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "hummus-dessert":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Semolina%20pudding",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "jalebi-besani":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Jalebi",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "gajar-halwa-q":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Gajar%20ka%20halwa",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "kaju-katli":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Fudge%20cookie",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "cham-cham":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Chomchom",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "rasmalai-pakistani":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Ras%20malai",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "mango-shrikhand":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Shrikhand",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "shahi-mithai":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Double%20ka%20meetha",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kulfi-malai":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kulfi",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "bamul":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Kulfi",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "fudge-ko":  {
+                     "source":  "Wikipedia",
+                     "title":  "https://en.wikipedia.org/wiki/Fudge",
+                     "artist":  "see file page",
+                     "licence":  "see file page"
+                 },
+    "kheer-tapioca":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Tapioca%20pearl",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "double-ka-meetha":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Double%20ka%20meetha",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "shrikhand":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Shrikhand",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "rabdi":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Basundi",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              },
+    "kheer-bati":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Chhena",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "yogurtlu-yufka":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Yufka",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "firin-sutlac-yeni":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Muhallebi",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "damla-sekeri":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Sugar%20candy",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "gulab-chawal":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Halva",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "samosa-patti":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Patta%20Sisodia",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kabak-tatlisi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Kabak%20tatl%C4%B1s%C4%B1",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "kebab-koobideh":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Kabab%20koobideh",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "lahm-bi-ajin":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Sfiha",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "aish-el-saraya":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Bread%20pudding",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "om-ali":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Om%20Ali",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "riz-bi-haleeb":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Rice%20pudding",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "baklava-beyti":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Baklava",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "qamar-diyya":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Pudding",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "baklava-muhalabiya":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Baklava",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "mursik":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Cheesecake",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "kheer-mithai":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kheer",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kheer-sahi":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Kheer",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "kheer-moya":  {
+                       "source":  "Wikipedia",
+                       "title":  "https://en.wikipedia.org/wiki/Kheer",
+                       "artist":  "see file page",
+                       "licence":  "see file page"
+                   },
+    "kheer-fruit":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kheer",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "kheer-sahi-sweet":  {
+                             "source":  "Wikipedia",
+                             "title":  "https://en.wikipedia.org/wiki/Kheer",
+                             "artist":  "see file page",
+                             "licence":  "see file page"
+                         },
+    "gulab-khaman":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Bread%20pudding",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "kaymak":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Kaymak",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "sarsin":  {
+                   "source":  "Wikipedia",
+                   "title":  "https://en.wikipedia.org/wiki/Baklava",
+                   "artist":  "see file page",
+                   "licence":  "see file page"
+               },
+    "saray-sarmasi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Baklava",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "cevizli-yogurt":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Cheesecake",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "shahi-murki-pulao":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Sev%20(food)",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "tahiri-biryani":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Biryani",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "sattu-lassi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Lassi",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "behari-kebab":  {
+                         "source":  "Wikipedia",
+                         "title":  "https://en.wikipedia.org/wiki/Kebab",
+                         "artist":  "see file page",
+                         "licence":  "see file page"
+                     },
+    "punjabi-sarson":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Sarson%20ka%20saag",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "cuma-kebabi":  {
+                        "source":  "Wikipedia",
+                        "title":  "https://en.wikipedia.org/wiki/Kebab",
+                        "artist":  "see file page",
+                        "licence":  "see file page"
+                    },
+    "coban-sis":  {
+                      "source":  "Wikipedia",
+                      "title":  "https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1",
+                      "artist":  "see file page",
+                      "licence":  "see file page"
+                  },
+    "sulu-et":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Stew",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "etli-mercimek":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Mercimek%20k%C3%B6ftesi",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "kabak-cipsli-tavuk":  {
+                               "source":  "Wikipedia",
+                               "title":  "https://en.wikipedia.org/wiki/Roast%20chicken",
+                               "artist":  "see file page",
+                               "licence":  "see file page"
+                           },
+    "biber-dolmasi":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Dolma",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "tarhana-corbasi":  {
+                            "source":  "Wikipedia",
+                            "title":  "https://en.wikipedia.org/wiki/Tarhana",
+                            "artist":  "see file page",
+                            "licence":  "see file page"
+                        },
+    "protein":  {
+                    "source":  "Wikipedia",
+                    "title":  "https://en.wikipedia.org/wiki/Chickpea",
+                    "artist":  "see file page",
+                    "licence":  "see file page"
+                },
+    "patlican-tava":  {
+                          "source":  "Wikipedia",
+                          "title":  "https://en.wikipedia.org/wiki/Eggplant",
+                          "artist":  "see file page",
+                          "licence":  "see file page"
+                      },
+    "sogan-salatasi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Salad",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "karnabahar-turisi":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Cauliflower",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "kaymakli-kahvalti":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Turkish%20breakfast",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "mercimek-salatasi":  {
+                              "source":  "Wikipedia",
+                              "title":  "https://en.wikipedia.org/wiki/Lentil%20soup",
+                              "artist":  "see file page",
+                              "licence":  "see file page"
+                          },
+    "biber-salatasi":  {
+                           "source":  "Wikipedia",
+                           "title":  "https://en.wikipedia.org/wiki/Dolma",
+                           "artist":  "see file page",
+                           "licence":  "see file page"
+                       },
+    "lokma":  {
+                  "source":  "Wikipedia",
+                  "title":  "https://en.wikipedia.org/wiki/Lokma",
+                  "artist":  "see file page",
+                  "licence":  "see file page"
+              }
+}

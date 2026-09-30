@@ -1,0 +1,508 @@
+# Recipe photo credits
+
+Photographs used by the bundled library recipes, with the author and licence
+recorded by the Wikipedia API when the image was downloaded.
+
+Images whose recipe id is missing from this file came from TheMealDB,
+whose free API does not require per-image attribution.
+
+- `achar-chutney` — see file page · see file page · https://en.wikipedia.org/wiki/Chutney
+- `achari-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka
+- `adana-kebab` — Anatolianpride · Public domain · https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1
+- `adrilanmis-kaymak` — see file page · see file page · https://en.wikipedia.org/wiki/Kaymak
+- `aish-el-saraya` — see file page · see file page · https://en.wikipedia.org/wiki/Bread%20pudding
+- `aloo-qorma` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `ashta-bark` — Uziel302 · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Kadayif
+- `ashta-cake` — see file page · see file page · https://en.wikipedia.org/wiki/Sachima
+- `atay` — see file page · see file page · https://en.wikipedia.org/wiki/Ali%20Atay
+- `awaar` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `ayran` — Mavigogun · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Ayran
+- `baba-ghanoush` — Breville USA · CC BY 2.0 · https://en.wikipedia.org/wiki/Baba%20ghanoush
+- `baklava` — Sakaman · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Baklava
+- `baklava-beyti` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `baklava-cevizli` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `baklava-muhalabiya` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `baklava-sachma` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `balik-ekmek` — User: (WT-shared) Shoestring at wts wikivoyage · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Bal%C4%B1k%20ekmek
+- `balochi-cooked` — see file page · see file page · https://en.wikipedia.org/wiki/Date%20palm
+- `balochi-dampukht` — see file page · see file page · https://en.wikipedia.org/wiki/Sajji
+- `balochi-karahi` — see file page · see file page · https://en.wikipedia.org/wiki/Karahi
+- `balochi-khaddi` — see file page · see file page · https://en.wikipedia.org/wiki/Seekh%20kebab
+- `balochi-mutton-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Bannu%20pulao
+- `balyoz-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `bamul` — see file page · see file page · https://en.wikipedia.org/wiki/Kulfi
+- `banana-pancakes` — Mae Mu · CC0 · https://en.wikipedia.org/wiki/Pancake
+- `bandh-go-go` — see file page · see file page · https://en.wikipedia.org/wiki/Okra
+- `basbousa` — see file page · see file page · https://en.wikipedia.org/wiki/Basbousa
+- `basbousa-nut` — see file page · see file page · https://en.wikipedia.org/wiki/Basbousa
+- `beef-boti-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `beef-khurchan-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `beef-mali-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `beef-nihari` — see file page · see file page · https://en.wikipedia.org/wiki/Beef%20shank
+- `beef-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Sindhi%20pulao
+- `beef-seekh-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Seekh%20kebab
+- `befikde` — see file page · see file page · https://en.wikipedia.org/wiki/Ghorayeba
+- `behari-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `besan-chana-daal` — see file page · see file page · https://en.wikipedia.org/wiki/Chickpea
+- `bessara` — Ruby Josephine Smith · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Bissara
+- `bhaji` — see file page · see file page · https://en.wikipedia.org/wiki/Bhaji
+- `bhutta` — see file page · see file page · https://en.wikipedia.org/wiki/Sweet%20corn
+- `biber-dolmasi` — see file page · see file page · https://en.wikipedia.org/wiki/Dolma
+- `biber-salatasi` — see file page · see file page · https://en.wikipedia.org/wiki/Dolma
+- `biber-turisi` — Ted Sakshaug · CC BY 2.0 · https://en.wikipedia.org/wiki/Pickled%20pepper
+- `biryani-masala-rice` — see file page · see file page · https://en.wikipedia.org/wiki/Hyderabadi%20biryani
+- `biryani-pot` — see file page · see file page · https://en.wikipedia.org/wiki/Hyderabadi%20biryani
+- `black-bean-bowl` — Bobak Ha'Eri · CC BY 3.0 · https://en.wikipedia.org/wiki/List%20of%20college%20bowl%20games
+- `boondi` — see file page · see file page · https://en.wikipedia.org/wiki/Boondi
+- `boondi-raita` — see file page · see file page · https://en.wikipedia.org/wiki/Boondi
+- `boti-josh` — see file page · see file page · https://en.wikipedia.org/wiki/Stock%20(food)
+- `bread-roll` — see file page · see file page · https://en.wikipedia.org/wiki/Panipuri
+- `brik-a-tuna` — Muckster · CC BY 3.0 · https://en.wikipedia.org/wiki/Brik
+- `bulgur-pilafi` — Myself · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Bulgur
+- `caag-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Ca%C4%9F%20kebab%C4%B1
+- `cacik` — Rainer Zenz · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Tzatziki
+- `cacik-buzunu` — Rainer Zenz · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Tzatziki
+- `cay` — AntanO · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Black%20tea
+- `cevizli-yogurt` — see file page · see file page · https://en.wikipedia.org/wiki/Cheesecake
+- `chai-elaichi` — see file page · see file page · https://en.wikipedia.org/wiki/Masala%20chai
+- `chai-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Garam%20masala
+- `chai-patti` — see file page · see file page · https://en.wikipedia.org/wiki/Masala%20chai
+- `cham-cham` — see file page · see file page · https://en.wikipedia.org/wiki/Chomchom
+- `chana-daal` — see file page · see file page · https://en.wikipedia.org/wiki/Chickpea
+- `chana-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Chana%20masala
+- `chanay-ki-chat` — see file page · see file page · https://en.wikipedia.org/wiki/Chaat
+- `chapati` — see file page · see file page · https://en.wikipedia.org/wiki/Chapati
+- `chapli-achar-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `chapli-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chapli%20kebab
+- `chatpata-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka
+- `chawal-ki-kheer` — see file page · see file page · https://en.wikipedia.org/wiki/Kulfi
+- `cheese-rakakat` — see file page · see file page · https://en.wikipedia.org/wiki/B%C3%B6rek
+- `chicken-biryani` — see file page · see file page · https://en.wikipedia.org/wiki/Biryani
+- `chicken-couscous` — Slothtysloth · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Algerian%20couscous
+- `chicken-gola-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Croquette
+- `chicken-karahi` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20karahi
+- `chicken-mandi` — Donpapa · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Mandi%20(food)
+- `chicken-nihari` — see file page · see file page · https://en.wikipedia.org/wiki/Nihari
+- `chicken-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20and%20rice
+- `chicken-qorma` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `chicken-seekh-pakistani` — see file page · see file page · https://en.wikipedia.org/wiki/Seekh%20kebab
+- `chicken-shashlik-arabic` — see file page · see file page · https://en.wikipedia.org/wiki/Shashlik
+- `chicken-shawarma` — Vis M · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Shawarma
+- `chicken-tacos` — Sheila Scarborough · CC BY 2.0 · https://en.wikipedia.org/wiki/Torchy's%20Tacos
+- `chicken-tikka` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka%20masala
+- `chicken-tikka-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka%20masala
+- `chorba-frik` — Slothtysloth · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Chorba%20frik
+- `ci-kofte` — see file page · see file page · https://en.wikipedia.org/wiki/%C3%87i%C4%9F%20k%C3%B6fte
+- `ci-koz` — Eaeeae · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Turkish%20coffee
+- `cikolatali-helva` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `cikolatali-yulaf` — Renee Comet (Photographer) · Public domain · https://en.wikipedia.org/wiki/Porridge
+- `cipura` — Evan-Amos · CC0 · https://en.wikipedia.org/wiki/Fried%20chicken
+- `coban-sis` — see file page · see file page · https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1
+- `coconut-water` — see file page · see file page · https://en.wikipedia.org/wiki/Coconut%20water
+- `coffee-pakistani` — see file page · see file page · https://en.wikipedia.org/wiki/Arabic%20coffee
+- `creamy-tomato-soup` — Ella Olsson from Stockholm, Sweden · CC BY 2.0 · https://en.wikipedia.org/wiki/Tomato%20soup
+- `cuban-sandwich` — jeffreyw · CC BY 2.0 · https://en.wikipedia.org/wiki/Submarine%20sandwich
+- `cuma-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `dahi-baray-dahi` — see file page · see file page · https://en.wikipedia.org/wiki/Dahi%20vada
+- `dahi-khoya` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `dahi-phirni` — see file page · see file page · https://en.wikipedia.org/wiki/Phirni
+- `dahi-phulka` — see file page · see file page · https://en.wikipedia.org/wiki/Chapati
+- `dahi-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Bannu%20pulao
+- `dal-makhani` — see file page · see file page · https://en.wikipedia.org/wiki/Dal%20makhani
+- `damla-sekeri` — see file page · see file page · https://en.wikipedia.org/wiki/Sugar%20candy
+- `desi-mango-punch` — see file page · see file page · https://en.wikipedia.org/wiki/Aam%20panna
+- `dondurmalai-sutlac` — see file page · see file page · https://en.wikipedia.org/wiki/Muhallebi
+- `doner-kebap` — see file page · see file page · https://en.wikipedia.org/wiki/Doner%20kebab
+- `doodh-patti` — see file page · see file page · https://en.wikipedia.org/wiki/Khoa
+- `double-ka-meetha` — see file page · see file page · https://en.wikipedia.org/wiki/Double%20ka%20meetha
+- `duck-shahi-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Duck%20as%20food
+- `durum-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Doner%20kebab
+- `ekmek-arasinda` — see file page · see file page · https://en.wikipedia.org/wiki/Beyti%20kebab
+- `enginar-dolmasi` — Violetamyftari · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Dolma
+- `eristeli-corbasi` — The original uploader was Hykw-a4 at Japanese Wikipedia . · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Noodle%20soup
+- `etli-mercimek` — see file page · see file page · https://en.wikipedia.org/wiki/Mercimek%20k%C3%B6ftesi
+- `ezme` — Unai Guerra · CC BY-SA 2.0 · https://en.wikipedia.org/wiki/Meze
+- `falooda-kulfi` — see file page · see file page · https://en.wikipedia.org/wiki/Falooda
+- `falooda-milk` — see file page · see file page · https://en.wikipedia.org/wiki/Falooda
+- `fatteh` — Eaeeae · CC BY 3.0 · https://en.wikipedia.org/wiki/Fatteh
+- `fattoush` — Arousing Appetites · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Fattoush
+- `fesleme` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `firin-sebze` — Jasper Greek Golangco · Copyrighted free use · https://en.wikipedia.org/wiki/Vegetable
+- `firin-sutlac` — see file page · see file page · https://en.wikipedia.org/wiki/Rice%20pudding
+- `firin-sutlac-yeni` — see file page · see file page · https://en.wikipedia.org/wiki/Muhallebi
+- `fistikli-baklava` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `fresh-lime` — see file page · see file page · https://en.wikipedia.org/wiki/Lemonade
+- `frooti` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `fruit-chaat` — see file page · see file page · https://en.wikipedia.org/wiki/Fruit%20salad
+- `fruit-chat` — see file page · see file page · https://en.wikipedia.org/wiki/Chaat
+- `fruit-falang` — see file page · see file page · https://en.wikipedia.org/wiki/Falooda
+- `fudge-ko` — see file page · see file page · https://en.wikipedia.org/wiki/Fudge
+- `gajar-barfi` — see file page · see file page · https://en.wikipedia.org/wiki/Barfi
+- `gajar-haleem` — see file page · see file page · https://en.wikipedia.org/wiki/Haleem
+- `gajar-halwa-q` — see file page · see file page · https://en.wikipedia.org/wiki/Gajar%20ka%20halwa
+- `garam-chai` — see file page · see file page · https://en.wikipedia.org/wiki/Masala%20chai
+- `garlic-butter-shrimp` — rovingI · CC BY 2.0 · https://en.wikipedia.org/wiki/Shrimp%20and%20prawn%20as%20food
+- `garlic-naan` — see file page · see file page · https://en.wikipedia.org/wiki/Naan
+- `ghee-rice` — see file page · see file page · https://en.wikipedia.org/wiki/Pilaf
+- `ghoriba` — see file page · see file page · https://en.wikipedia.org/wiki/Ghorayeba
+- `ghoriba-sabaneesh` — see file page · see file page · https://en.wikipedia.org/wiki/Shortbread
+- `ginger-lemon-tea` — congerdesign · CC0 · https://en.wikipedia.org/wiki/Ginger%20tea
+- `gobhi-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Gobi%20Desert
+- `gol-gappay` — see file page · see file page · https://en.wikipedia.org/wiki/Panipuri
+- `gol-kanday` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20nugget
+- `gozleme` — Maderibeyza · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/G%C3%B6zleme
+- `green-chutney` — see file page · see file page · https://en.wikipedia.org/wiki/Chutney
+- `gulab-chawal` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `gulab-jamun` — see file page · see file page · https://en.wikipedia.org/wiki/Gulab%20jamun
+- `gulab-jamun-rabri` — see file page · see file page · https://en.wikipedia.org/wiki/Gulab%20jamun
+- `gulab-khaman` — see file page · see file page · https://en.wikipedia.org/wiki/Bread%20pudding
+- `gulab-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Bannu%20pulao
+- `gulab-sharbat` — see file page · see file page · https://en.wikipedia.org/wiki/Sharbat%20(drink)
+- `gulgula` — see file page · see file page · https://en.wikipedia.org/wiki/Gulgula
+- `halawet-el-jibn` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `halawet-jibneh` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `halawet-razafa` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `haldi-milk` — see file page · see file page · https://en.wikipedia.org/wiki/Turmeric
+- `haleem` — see file page · see file page · https://en.wikipedia.org/wiki/Haleem
+- `halka-tatli` — unknown author · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Simit
+- `halwa-puri` — see file page · see file page · https://en.wikipedia.org/wiki/Chole%20bhature
+- `halwa-puri-sweet` — see file page · see file page · https://en.wikipedia.org/wiki/Gajar%20ka%20halwa
+- `halwa-puri-sweet2` — see file page · see file page · https://en.wikipedia.org/wiki/Gulab%20jamun
+- `hammas-beyti` — see file page · see file page · https://en.wikipedia.org/wiki/Kibbeh
+- `harees` — Ketone16 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Harees
+- `harira` — Kattusa24 · Public domain · https://en.wikipedia.org/wiki/Harira
+- `haydari` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Haydari
+- `hazara-karahi` — see file page · see file page · https://en.wikipedia.org/wiki/Karahi
+- `hummus` — Beyrouthhh at English Wikipedia · CC BY 3.0 · https://en.wikipedia.org/wiki/Hummus
+- `hummus-dessert` — see file page · see file page · https://en.wikipedia.org/wiki/Semolina%20pudding
+- `hurma-olucu` — No machine-readable author provided. Rainer Zenz assumed (based on copyright claims). · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Yogurt
+- `hurma-tatli` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `ici-kofte` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/%C3%87i%C4%9F%20k%C3%B6fte
+- `imarti` — see file page · see file page · https://en.wikipedia.org/wiki/Imarti
+- `inegol-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1
+- `irmak-halebi` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `iskender-kebab` — Garrett Ziegler · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/%C4%B0skender%20kebap
+- `jalebi` — see file page · see file page · https://en.wikipedia.org/wiki/Jalebi
+- `jalebi-besani` — see file page · see file page · https://en.wikipedia.org/wiki/Jalebi
+- `jalebi-besmati` — see file page · see file page · https://en.wikipedia.org/wiki/Jalebi
+- `jalebi-bread` — see file page · see file page · https://en.wikipedia.org/wiki/Imarti
+- `jalebi-rabri` — see file page · see file page · https://en.wikipedia.org/wiki/Ras%20malai
+- `jalfouti` — Miansari66 · CC0 · https://en.wikipedia.org/wiki/Kabsa
+- `jaljeera` — see file page · see file page · https://en.wikipedia.org/wiki/Jal-jeera
+- `jamun-sherbat` — see file page · see file page · https://en.wikipedia.org/wiki/Syzygium%20cumini
+- `jareesh` — see file page · see file page · https://en.wikipedia.org/wiki/Porridge
+- `kabab-barg` — see file page · see file page · https://en.wikipedia.org/wiki/Rib%20steak
+- `kabab-kofta-pakistani` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `kabab-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `kabab-simi` — see file page · see file page · https://en.wikipedia.org/wiki/Kidneys%20as%20food
+- `kabak-cipsli-tavuk` — see file page · see file page · https://en.wikipedia.org/wiki/Roast%20chicken
+- `kabak-dolmasi` — see file page · see file page · https://en.wikipedia.org/wiki/Kabak%20tatl%C4%B1s%C4%B1
+- `kabak-tatlisi` — see file page · see file page · https://en.wikipedia.org/wiki/Kabak%20tatl%C4%B1s%C4%B1
+- `kabak-tatlisi-turk` — see file page · see file page · https://en.wikipedia.org/wiki/Kabak%20tatl%C4%B1s%C4%B1
+- `kabsa` — Miansari66 · CC0 · https://en.wikipedia.org/wiki/Kabsa
+- `kabuli-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Kabuli%20pulao
+- `kachumber` — see file page · see file page · https://en.wikipedia.org/wiki/Kachumber
+- `kadaif-nabulsi` — see file page · see file page · https://en.wikipedia.org/wiki/Kadayif
+- `kadayif` — Uziel302 · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Kadayif
+- `kadin-firini` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `kaftan-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `kahvalti-tabagi` — MustafaERTAN · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Turkish%20breakfast
+- `kahwa` — Canbel · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Arabic%20coffee
+- `kaju-katli` — see file page · see file page · https://en.wikipedia.org/wiki/Fudge%20cookie
+- `kanji` — see file page · see file page · https://en.wikipedia.org/wiki/Kanji%20(drink)
+- `karak` — Compilation by User:SilkTork, using images taken from various authors: Cafe bombon: Daniel Lobo An Nam, Vietnamese French Coffee: Kenny Louie Cup of Espresso: Nevit Dilmen Café au lait: Tim Boyd from Brooklyn ??? Türk Kahvesi: Eaeeae Classic Cappuccino: Jazzbobrown · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/List%20of%20coffee%20drinks
+- `karak-chai` — see file page · see file page · https://en.wikipedia.org/wiki/Tea
+- `karela-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Momordica%20charantia
+- `karkadyeh` — see file page · see file page · https://en.wikipedia.org/wiki/Hibiscus%20tea
+- `karnabahar-turisi` — see file page · see file page · https://en.wikipedia.org/wiki/Cauliflower
+- `kasarili-pide` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/%C4%B0%C3%A7li%20pide
+- `kasarli-beyti` — Garrett Ziegler · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/%C4%B0skender%20kebap
+- `kasarli-kofte` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `kashmiri-bhaji` — see file page · see file page · https://en.wikipedia.org/wiki/Rogan%20josh
+- `kashmiri-daniwal` — see file page · see file page · https://en.wikipedia.org/wiki/Rogan%20josh
+- `kashmiri-gushtaba` — see file page · see file page · https://en.wikipedia.org/wiki/Goshtaab
+- `kashmiri-methi-maaz` — see file page · see file page · https://en.wikipedia.org/wiki/Methi%20maaz
+- `kashmiri-nadru` — see file page · see file page · https://en.wikipedia.org/wiki/Nelumbo%20nucifera
+- `kashmiri-samusa` — see file page · see file page · https://en.wikipedia.org/wiki/Samosa
+- `kashmiri-wazwan` — see file page · see file page · https://en.wikipedia.org/wiki/Tabak%20maaz
+- `katayef-bata` — see file page · see file page · https://en.wikipedia.org/wiki/Bata%2C%20Equatorial%20Guinea
+- `kavut` — Myself · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Bulgur
+- `kaymak` — see file page · see file page · https://en.wikipedia.org/wiki/Kaymak
+- `kaymakli-helva` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `kaymakli-kahvalti` — see file page · see file page · https://en.wikipedia.org/wiki/Turkish%20breakfast
+- `kaymakli-kunafa` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `kazandibi` — Garrett Ziegler · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Kazandibi
+- `kebab-bi-roz` — see file page · see file page · https://en.wikipedia.org/wiki/Shawarma
+- `kebab-chutney` — see file page · see file page · https://en.wikipedia.org/wiki/Raita
+- `kebab-dabal` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `kebab-khashkhash` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `kebab-koobideh` — see file page · see file page · https://en.wikipedia.org/wiki/Kabab%20koobideh
+- `kelem-dolmasi` — see file page · see file page · https://en.wikipedia.org/wiki/Dolma
+- `kentucky-fried-chicken` — see file page · see file page · https://en.wikipedia.org/wiki/Crispy%20fried%20chicken
+- `khatta-raita` — see file page · see file page · https://en.wikipedia.org/wiki/Raita
+- `kheer-bati` — see file page · see file page · https://en.wikipedia.org/wiki/Chhena
+- `kheer-falooda` — see file page · see file page · https://en.wikipedia.org/wiki/Falooda
+- `kheer-fruit` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `kheer-mithai` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `kheer-mithai-mango` — see file page · see file page · https://en.wikipedia.org/wiki/Kulfi
+- `kheer-moya` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `kheer-rice` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `kheer-sahi` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `kheer-sahi-sweet` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `kheer-seeti` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `kheer-tapioca` — see file page · see file page · https://en.wikipedia.org/wiki/Tapioca%20pearl
+- `khesari-dal-makhani` — see file page · see file page · https://en.wikipedia.org/wiki/Dal%20makhani
+- `khichdi` — see file page · see file page · https://en.wikipedia.org/wiki/Khichdi
+- `khobz-moroccan` — Bidiyoutchi · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Khobz%20el-d%C3%A2r
+- `khoya-mithai` — see file page · see file page · https://en.wikipedia.org/wiki/Gajar%20ka%20halwa
+- `kibbeh-fried` — Bazel · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Kibbeh
+- `kibbeh-nayyeh` — 122589423KM at English Wikipedia · Public domain · https://en.wikipedia.org/wiki/Kibbeh%20nayyeh
+- `kishkar` — see file page · see file page · https://en.wikipedia.org/wiki/Biscuit
+- `kisir` — Noumenon · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/K%C4%B1s%C4%B1r
+- `kiyma-soslu-makarna` — Ivan Vighetto · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Bolognese%20sauce
+- `kiymali-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `kiymali-pide` — see file page · see file page · https://en.wikipedia.org/wiki/Flatbread
+- `knafeh` — elif ayse · CC BY 2.0 · https://en.wikipedia.org/wiki/Knafeh
+- `kofta-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `kofte-yemek` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `korma-matar-paneer` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka%20masala
+- `korma-shahi` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `koshari` — Dina Said · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Koshary
+- `koy-etesi-kavurma` — FiveRings ( talk ) · CC BY 3.0 · https://en.wikipedia.org/wiki/Stew
+- `koz-macun-sos` — Dennis Klein klein2 · CC0 · https://en.wikipedia.org/wiki/Tomato%20sauce
+- `kremali-kashi` — see file page · see file page · https://en.wikipedia.org/wiki/Tiramisu
+- `krispy-donut` — LaMar's Donuts · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/LaMar's%20Donuts
+- `kuboos-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kibbeh
+- `kulcha` — see file page · see file page · https://en.wikipedia.org/wiki/Kulcha
+- `kulfi-falooda` — see file page · see file page · https://en.wikipedia.org/wiki/Falooda
+- `kulfi-malai` — see file page · see file page · https://en.wikipedia.org/wiki/Kulfi
+- `kumpir` — Mervat Salman · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Kumpir
+- `kunafa-nabulsieh` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `kuzu-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `kuzu-sis` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Kuzu%20%C5%9Fi%C5%9F
+- `kuzu-tavuk` — FiveRings ( talk ) · CC BY 3.0 · https://en.wikipedia.org/wiki/Stew
+- `lablabi` — Habib M'henni · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Lablabi
+- `labneh` — No machine-readable author provided. Omernos~commonswiki assumed (based on copyright claims). · Public domain · https://en.wikipedia.org/wiki/Strained%20yogurt
+- `lahana-salatasi` — Anagoria · CC BY 3.0 · https://en.wikipedia.org/wiki/Coleslaw
+- `lahm-bi-ajin` — see file page · see file page · https://en.wikipedia.org/wiki/Sfiha
+- `lamb-chops-arabic` — see file page · see file page · https://en.wikipedia.org/wiki/Lamb%20and%20mutton
+- `lamb-sausage-arabic` — see file page · see file page · https://en.wikipedia.org/wiki/Sujuk
+- `lamb-tagine` — BBouchra00 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Tagine
+- `lassi-fruit` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `lassi-mango` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `lassi-salted` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `lassi-sweet` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `lauki-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Calabash
+- `lemon-mint-cooler` — see file page · see file page · https://en.wikipedia.org/wiki/Lemonade
+- `lezzetli-tavuk` — Evan Swigart from Chicago, USA · CC BY 2.0 · https://en.wikipedia.org/wiki/Roast%20chicken
+- `limonata` — HarshLight · CC BY 2.0 · https://en.wikipedia.org/wiki/Lemonade
+- `lokma` — see file page · see file page · https://en.wikipedia.org/wiki/Lokma
+- `lokum` — Quick fix · CC BY-SA 2.0 · https://en.wikipedia.org/wiki/Turkish%20delight
+- `maamoul` — fugzu · CC BY 2.0 · https://en.wikipedia.org/wiki/Ma'amoul
+- `maamoul-sameen` — see file page · see file page · https://en.wikipedia.org/wiki/Ma'amoul
+- `makarna-salatasi` — Brynn · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Pasta%20salad
+- `makki-di-roti` — see file page · see file page · https://en.wikipedia.org/wiki/Makki%20ki%20roti
+- `makroudh` — Credits to Mourad Ben Abdallah / Wikimedia Commons · Public domain · https://en.wikipedia.org/wiki/Makroudh
+- `malai-boti-tikka` — see file page · see file page · https://en.wikipedia.org/wiki/Tikka%20(food)
+- `mangal-tadinda-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Barbecue
+- `mango-shrikhand` — see file page · see file page · https://en.wikipedia.org/wiki/Shrikhand
+- `mansaf` — Jktab · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Mansaf
+- `manti` — Kızılkum · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Manti%20(food)
+- `maqluba` — Arafataslan · Public domain · https://en.wikipedia.org/wiki/Maqluba
+- `margherita-pizza` — Bex Walton from London, England · CC BY 2.0 · https://en.wikipedia.org/wiki/Pizza%20Margherita
+- `maron` — || UggBoy♥UggGirl || PHOTO || WORLD || TRAVEL || · CC BY 2.0 · https://en.wikipedia.org/wiki/Hot%20chocolate
+- `masala-rice` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka%20masala
+- `masgouf` — Hill93 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Masgouf
+- `mashuai` — إيان · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Moroccan%20cuisine
+- `masoor-daal-tarka` — see file page · see file page · https://en.wikipedia.org/wiki/Lentil%20soup
+- `menemen` — see file page · see file page · https://en.wikipedia.org/wiki/Menemen%20(food)
+- `mercimek-corbasi` — see file page · see file page · https://en.wikipedia.org/wiki/Bal%C4%B1k%20%C3%A7orbas%C4%B1
+- `mercimek-ezmesi` — Roland Unger · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Lentil%20soup
+- `mercimek-salatasi` — see file page · see file page · https://en.wikipedia.org/wiki/Lentil%20soup
+- `midye-dolma` — see file page · see file page · https://en.wikipedia.org/wiki/Dolma
+- `mint-chutney` — see file page · see file page · https://en.wikipedia.org/wiki/Chutney
+- `mohan-mahal` — see file page · see file page · https://en.wikipedia.org/wiki/Taj%20Mahal%20(musician)
+- `molokhia` — Habib M'henni · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Mulukhiyah
+- `molten-chocolate-cake` — FotoosVanRobin from Netherlands · CC BY-SA 2.0 · https://en.wikipedia.org/wiki/Molten%20chocolate%20cake
+- `moong-daal` — see file page · see file page · https://en.wikipedia.org/wiki/Mung%20bean
+- `moong-dal-halwa` — see file page · see file page · https://en.wikipedia.org/wiki/Moong%20dal%20halwa
+- `moutabal` — see file page · see file page · https://en.wikipedia.org/wiki/Eggplant%20salads%20and%20appetizers
+- `msemen` — إيان · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Msemmen
+- `mucver` — William Neuheisel from DC, US · CC BY 2.0 · https://en.wikipedia.org/wiki/M%C3%BCcver
+- `muhallebi-turk` — see file page · see file page · https://en.wikipedia.org/wiki/Muhallebi
+- `muhammara` — Krista · CC BY 2.0 · https://en.wikipedia.org/wiki/Muhammara
+- `muhlis-sutlac` — see file page · see file page · https://en.wikipedia.org/wiki/Muhallebi
+- `muhur-helvasi` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `murgh-malai-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka
+- `mursik` — see file page · see file page · https://en.wikipedia.org/wiki/Cheesecake
+- `mushroom-risotto` — Luca Nebuloni from Milan, Italy · CC BY 2.0 · https://en.wikipedia.org/wiki/Risotto
+- `mutton-nihari` — see file page · see file page · https://en.wikipedia.org/wiki/Nihari
+- `mutton-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Kabuli%20pulao
+- `mutton-qorma-rice` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `naan` — see file page · see file page · https://en.wikipedia.org/wiki/Naan
+- `nawabi-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `nayyeh-raqueeq` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `nimbu-adrak` — see file page · see file page · https://en.wikipedia.org/wiki/Ginger%20tea
+- `nimbu-pani` — see file page · see file page · https://en.wikipedia.org/wiki/Shikanji
+- `om-ali` — see file page · see file page · https://en.wikipedia.org/wiki/Om%20Ali
+- `paan` — see file page · see file page · https://en.wikipedia.org/wiki/Betel
+- `pakora` — see file page · see file page · https://en.wikipedia.org/wiki/Pakora
+- `palak-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Palak%20paneer
+- `palak-paneer` — see file page · see file page · https://en.wikipedia.org/wiki/Saag
+- `palak-sarson` — see file page · see file page · https://en.wikipedia.org/wiki/Sarson%20ka%20saag
+- `paneer-tikka-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Paneer%20tikka
+- `panjeeri-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Panjiri
+- `paratha` — see file page · see file page · https://en.wikipedia.org/wiki/Paratha
+- `pashto-qabuli` — see file page · see file page · https://en.wikipedia.org/wiki/Pashtun%20cuisine
+- `pastilla` — Krista · CC BY 2.0 · https://en.wikipedia.org/wiki/Pastilla
+- `patates-kizartma` — StockSnap · CC0 · https://en.wikipedia.org/wiki/French%20fries
+- `patates-salatasi` — SajjadF · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Potato%20salad
+- `patatesli-kofte` — Fabienkhan · CC BY-SA 2.5 · https://en.wikipedia.org/wiki/Kofta
+- `patlican-tava` — see file page · see file page · https://en.wikipedia.org/wiki/Eggplant
+- `patliyan-salatasi` — avlxyz · CC BY-SA 2.0 · https://en.wikipedia.org/wiki/Eggplant%20salads%20and%20appetizers
+- `peanut-noodles` — Kham Tran - www.khamtran.com · CC BY 3.0 · https://en.wikipedia.org/wiki/Vietnamese%20noodles
+- `peshawari-kabuli` — see file page · see file page · https://en.wikipedia.org/wiki/Kabuli%20pulao
+- `peshawari-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chapli%20kebab
+- `pineapple-juice` — see file page · see file page · https://en.wikipedia.org/wiki/Grape%20juice
+- `pirin-pilafi` — Jost Wagner · CC BY-SA 1.0 · https://en.wikipedia.org/wiki/Pilaf
+- `pistachio-barfi` — see file page · see file page · https://en.wikipedia.org/wiki/Barfi
+- `pistachio-kadhi` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `protein` — see file page · see file page · https://en.wikipedia.org/wiki/Chickpea
+- `punjabi-chole` — see file page · see file page · https://en.wikipedia.org/wiki/Kulcha
+- `punjabi-kheer` — see file page · see file page · https://en.wikipedia.org/wiki/Kheer
+- `punjabi-matar` — see file page · see file page · https://en.wikipedia.org/wiki/Makki%20ki%20roti
+- `punjabi-meat` — see file page · see file page · https://en.wikipedia.org/wiki/Mutton%20curry
+- `punjabi-sarson` — see file page · see file page · https://en.wikipedia.org/wiki/Sarson%20ka%20saag
+- `punjabi-sarson-daal` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20karahi
+- `pushto-khurji` — see file page · see file page · https://en.wikipedia.org/wiki/Pashtun%20cuisine
+- `qamar-diyya` — see file page · see file page · https://en.wikipedia.org/wiki/Pudding
+- `qatayef` — see file page · see file page · https://en.wikipedia.org/wiki/Qatayef
+- `qubani-korma` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `quzi` — aziz1005 · CC0 · https://en.wikipedia.org/wiki/Quzi
+- `rabdi` — see file page · see file page · https://en.wikipedia.org/wiki/Basundi
+- `radhi` — see file page · see file page · https://en.wikipedia.org/wiki/Rabri
+- `raita` — see file page · see file page · https://en.wikipedia.org/wiki/Raita
+- `raita-bangan` — see file page · see file page · https://en.wikipedia.org/wiki/Tandoori%20chicken
+- `rajma` — see file page · see file page · https://en.wikipedia.org/wiki/Rajma
+- `rasmalai-pakistani` — see file page · see file page · https://en.wikipedia.org/wiki/Ras%20malai
+- `reshmi-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Reshmi%20kabab
+- `riz-bi-haleeb` — see file page · see file page · https://en.wikipedia.org/wiki/Rice%20pudding
+- `roasted-veg-frittata` — fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 17-40mm f/4 L · GFDL 1.2 · https://en.wikipedia.org/wiki/Frittata
+- `rose-sharbat` — fa:User:دانقولا · Public domain · https://en.wikipedia.org/wiki/Sharbat%20(drink)
+- `rose-sherbat` — see file page · see file page · https://en.wikipedia.org/wiki/Rose%20water
+- `rozana` — see file page · see file page · https://en.wikipedia.org/wiki/Rogan%20josh
+- `saag` — see file page · see file page · https://en.wikipedia.org/wiki/Sarson%20ka%20saag
+- `sahlab` — see file page · see file page · https://en.wikipedia.org/wiki/Salep
+- `saj-bread` — Adem Durdu · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Saj%20bread
+- `sajji` — see file page · see file page · https://en.wikipedia.org/wiki/Sajji
+- `saksuka` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/%C5%9Eak%C5%9Fuka
+- `salad-papita` — see file page · see file page · https://en.wikipedia.org/wiki/Fruit%20salad
+- `saleeg` — Sayom · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Saleeg
+- `salep` — DesignbyNur · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Salep
+- `samosa` — see file page · see file page · https://en.wikipedia.org/wiki/Samosa
+- `samosa-chaat` — see file page · see file page · https://en.wikipedia.org/wiki/Chaat
+- `samosa-patti` — see file page · see file page · https://en.wikipedia.org/wiki/Patta%20Sisodia
+- `saray-helvasi` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `saray-sarmasi` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `sarisikli-yogurt` — Rainer Zenz · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Tzatziki
+- `sarsin` — see file page · see file page · https://en.wikipedia.org/wiki/Baklava
+- `sattu-lassi` — see file page · see file page · https://en.wikipedia.org/wiki/Lassi
+- `saunf-daal` — see file page · see file page · https://en.wikipedia.org/wiki/Lentil%20soup
+- `saunf-drink` — see file page · see file page · https://en.wikipedia.org/wiki/Fennel
+- `sayadieh` — young shanahan · CC BY 2.0 · https://en.wikipedia.org/wiki/Sayadieh
+- `sebze-corbasi` — Jennifer · CC BY 2.0 · https://en.wikipedia.org/wiki/Vegetable%20soup
+- `seekh-kabab-achari` — see file page · see file page · https://en.wikipedia.org/wiki/Seekh%20kebab
+- `seekh-kebab-malai` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab
+- `seekh-paratha` — see file page · see file page · https://en.wikipedia.org/wiki/Paratha
+- `sekerpare` — see file page · see file page · https://en.wikipedia.org/wiki/%C5%9Eekerpare
+- `sesame-chutney` — see file page · see file page · https://en.wikipedia.org/wiki/Tahini
+- `sesame-naan` — see file page · see file page · https://en.wikipedia.org/wiki/Naan
+- `shahi-barfi` — see file page · see file page · https://en.wikipedia.org/wiki/List%20of%20fruit%20dishes
+- `shahi-chicken-tikka-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Murgh%20musallam
+- `shahi-halwa` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `shahi-khalfi` — see file page · see file page · https://en.wikipedia.org/wiki/Mutton%20curry
+- `shahi-korma` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `shahi-korma-rice` — see file page · see file page · https://en.wikipedia.org/wiki/Korma
+- `shahi-matar` — see file page · see file page · https://en.wikipedia.org/wiki/Matar%20paneer
+- `shahi-methi` — see file page · see file page · https://en.wikipedia.org/wiki/Fenugreek
+- `shahi-mithai` — see file page · see file page · https://en.wikipedia.org/wiki/Double%20ka%20meetha
+- `shahi-murki` — see file page · see file page · https://en.wikipedia.org/wiki/Sev%20(food)
+- `shahi-murki-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Sev%20(food)
+- `shahi-tukda` — see file page · see file page · https://en.wikipedia.org/wiki/Bread%20pudding
+- `shakila-karahi` — see file page · see file page · https://en.wikipedia.org/wiki/Karahi
+- `shakshuka` — Calliopejen1 · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Shakshouka
+- `shami-biryani` — see file page · see file page · https://en.wikipedia.org/wiki/Sindhi%20biryani
+- `shami-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Shami%20kebab
+- `shami-kebab-pakistani` — see file page · see file page · https://en.wikipedia.org/wiki/Shami%20kebab
+- `shashlik` — see file page · see file page · https://en.wikipedia.org/wiki/Shashlik
+- `sheermal` — see file page · see file page · https://en.wikipedia.org/wiki/Sheermal
+- `sheet-pan-chicken` — see file page · see file page · https://en.wikipedia.org/wiki/Roast%20chicken
+- `sheikh-el-mahshi` — see file page · see file page · https://en.wikipedia.org/wiki/Knafeh
+- `sherbet-pistachio` — see file page · see file page · https://en.wikipedia.org/wiki/Turkish%20delight
+- `shish-kebab-arabic` — see file page · see file page · https://en.wikipedia.org/wiki/Shish%20kebab
+- `shish-tawook` — see file page · see file page · https://en.wikipedia.org/wiki/Shish%20taouk
+- `shrikhand` — see file page · see file page · https://en.wikipedia.org/wiki/Shrikhand
+- `sicak-badem` — see file page · see file page · https://en.wikipedia.org/wiki/Almond
+- `sindhi-achar` — see file page · see file page · https://en.wikipedia.org/wiki/Koki%20(food)
+- `sindhi-bhakri` — see file page · see file page · https://en.wikipedia.org/wiki/Pakora
+- `sindhi-birin` — see file page · see file page · https://en.wikipedia.org/wiki/Sindhi%20biryani
+- `sindhi-kadhi` — see file page · see file page · https://en.wikipedia.org/wiki/Kadhi
+- `sindhi-lagi` — see file page · see file page · https://en.wikipedia.org/wiki/Kadhi
+- `sindhi-plo` — see file page · see file page · https://en.wikipedia.org/wiki/Sindhi%20pulao
+- `sindhi-sai-bhaji` — see file page · see file page · https://en.wikipedia.org/wiki/Sai%20bhaji
+- `sindhi-sai-kari` — see file page · see file page · https://en.wikipedia.org/wiki/Kadhi
+- `sis-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Shish%20kebab
+- `sogan-salatasi` — see file page · see file page · https://en.wikipedia.org/wiki/Salad
+- `sohani-halwa` — see file page · see file page · https://en.wikipedia.org/wiki/Sohan%20halwa
+- `spinach-tomato-pasta` — David Adam Kess · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Pasta
+- `stuffed-grape-leaves` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Stuffed%20leaves
+- `sucuk-tava` — Rainer Zenz · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Sujuk
+- `sucuklu-yumurta` — Rainer Zenz · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Sujuk
+- `sulu-et` — see file page · see file page · https://en.wikipedia.org/wiki/Stew
+- `sulu-kofte` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Sulu%20k%C3%B6fte
+- `sumerli-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kofta
+- `suqaq-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Sujuk
+- `sutlac` — see file page · see file page · https://en.wikipedia.org/wiki/Rice%20pudding
+- `swat-kabuli` — see file page · see file page · https://en.wikipedia.org/wiki/Swat%20District
+- `tabbouleh` — Miansari66 · CC0 · https://en.wikipedia.org/wiki/Tabbouleh
+- `tahinli-helva` — see file page · see file page · https://en.wikipedia.org/wiki/Halva
+- `tahiri` — see file page · see file page · https://en.wikipedia.org/wiki/Edita%20Tahiri
+- `tahiri-biryani` — see file page · see file page · https://en.wikipedia.org/wiki/Biryani
+- `tamarind-chutney` — see file page · see file page · https://en.wikipedia.org/wiki/Chutney
+- `tandoori-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka
+- `tandoori-paratha` — see file page · see file page · https://en.wikipedia.org/wiki/Roti
+- `tandoori-roti` — see file page · see file page · https://en.wikipedia.org/wiki/Roti
+- `tandoori-wings-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Tandoori%20chicken
+- `tantuni` — Joquee · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Tantuni
+- `tarhana-corbasi` — see file page · see file page · https://en.wikipedia.org/wiki/Tarhana
+- `tavap-kebabi` — Lesya Dolyk · CC BY-SA 2.0 · https://en.wikipedia.org/wiki/Kebab
+- `tavuk-butunesme` — unknown author · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Doner%20kebab
+- `tavuk-gogsu` — Shivangisj · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Rice%20pudding
+- `tavuk-kavurma` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Kavurma
+- `tavuk-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Ca%C4%9F%20kebab%C4%B1
+- `tavuk-kesmete` — Firespeaker · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Kesme
+- `tavuk-pilav` — see file page · see file page · https://en.wikipedia.org/wiki/Pilaf
+- `tavuk-sac-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Shish%20kebab
+- `tavuk-sis` — Garrett Ziegler · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Shish%20taouk
+- `tavuk-suyu-corbasi` — Hoyabird8 · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Chicken%20soup
+- `tavuk-yemek` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/%C5%9Eevketibostan%20yeme%C4%9Fi
+- `thandai` — see file page · see file page · https://en.wikipedia.org/wiki/Thandai
+- `tikka-boti` — see file page · see file page · https://en.wikipedia.org/wiki/Tikka%20(food)
+- `tikka-boti-cheese` — see file page · see file page · https://en.wikipedia.org/wiki/Tikka%20(food)
+- `tinda-masala` — see file page · see file page · https://en.wikipedia.org/wiki/Tinda
+- `tokat-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Tokat
+- `tulum-ahi` — Halloumislicefresh.jpg : J.P.Lon derivative work: Zlerman ( talk ) · Public domain · https://en.wikipedia.org/wiki/Halloumi
+- `turk-kahvesi` — see file page · see file page · https://en.wikipedia.org/wiki/Turkish%20coffee
+- `turkish-lahmacun` — No machine-readable author provided. Rainer Zenz assumed (based on copyright claims). · CC BY-SA 3.0 · https://en.wikipedia.org/wiki/Lahmacun
+- `urfa-kebabi` — see file page · see file page · https://en.wikipedia.org/wiki/Adana%20kebab%C4%B1
+- `veggie-egg-fried-rice` — Roee Shpernik · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Veggie%20burger
+- `warak-enab` — see file page · see file page · https://en.wikipedia.org/wiki/Dolma
+- `warqi-paratha` — see file page · see file page · https://en.wikipedia.org/wiki/Paratha
+- `yakhni-pulao` — see file page · see file page · https://en.wikipedia.org/wiki/Yahni
+- `yayla-corbasi` — E4024 · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Yayla%20%C3%A7orbas%C4%B1
+- `yogurtlu-yufka` — see file page · see file page · https://en.wikipedia.org/wiki/Yufka
+- `zaatar-kebab-roll` — see file page · see file page · https://en.wikipedia.org/wiki/Kibbeh
+- `zaatar-manakish` — Elie.ghob · CC BY-SA 4.0 · https://en.wikipedia.org/wiki/Manakish
+- `zafrani-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Chicken%20tikka
+- `zarda` — see file page · see file page · https://en.wikipedia.org/wiki/Zarda%20(food)
+- `zigara-kebab` — see file page · see file page · https://en.wikipedia.org/wiki/Kebab

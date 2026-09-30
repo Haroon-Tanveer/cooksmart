@@ -1,0 +1,469 @@
+{
+ "spinach-tomato-pasta": {
+  "name": "Spinach Tomato Pasta",
+  "article": "Pasta",
+  "files": [
+   {
+    "file": "extra_candidates/spinach-tomato-pasta__2.jpg",
+    "from": "File:(Pasta) by David Adam Kess (pic.2).jpg"
+   },
+   {
+    "file": "extra_candidates/spinach-tomato-pasta__3.jpg",
+    "from": "File:A better homemade pasta.jpg"
+   },
+   {
+    "file": "extra_candidates/spinach-tomato-pasta__4.jpg",
+    "from": "File:Making a better homemade pasta.jpg"
+   }
+  ]
+ },
+ "banana-pancakes": {
+  "name": "Fluffy Banana Pancakes",
+  "article": "Pancake",
+  "files": [
+   {
+    "file": "extra_candidates/banana-pancakes__2.jpg",
+    "from": "File:Filipino hotcakes.jpg"
+   },
+   {
+    "file": "extra_candidates/banana-pancakes__4.jpg",
+    "from": "File:Johnnycakes (cropped).jpg"
+   }
+  ]
+ },
+ "mushroom-risotto": {
+  "name": "Quick Mushroom Risotto",
+  "article": "Risotto",
+  "files": [
+   {
+    "file": "extra_candidates/mushroom-risotto__2.jpg",
+    "from": "File:00 Black Truffle Risotto.jpg"
+   },
+   {
+    "file": "extra_candidates/mushroom-risotto__3.jpg",
+    "from": "File:Risotto-alla-zucca.jpg"
+   }
+  ]
+ },
+ "roasted-veg-frittata": {
+  "name": "Roasted Veggie Frittata",
+  "article": "Frittata",
+  "files": []
+ },
+ "shakshuka": {
+  "name": "Shakshuka",
+  "article": "Shakshouka",
+  "files": [
+   {
+    "file": "extra_candidates/shakshuka__2.jpg",
+    "from": "File:Shakshuka8.jpg"
+   },
+   {
+    "file": "extra_candidates/shakshuka__3.jpg",
+    "from": "File:Shakshuka by Calliopejen1.jpg"
+   }
+  ]
+ },
+ "sayadieh": {
+  "name": "Sayadieh",
+  "article": "Sayadieh",
+  "files": [
+   {
+    "file": "extra_candidates/sayadieh__2.jpg",
+    "from": "File:Fish Sayadieh.jpg"
+   }
+  ]
+ },
+ "kelem-dolmasi": {
+  "name": "Kelem Dolması",
+  "article": "Dolma",
+  "files": [
+   {
+    "file": "extra_candidates/kelem-dolmasi__2.jpg",
+    "from": "File:Yalancı dolmas.jpg"
+   }
+  ]
+ },
+ "maamoul": {
+  "name": "Maamoul",
+  "article": "Ma'amoul",
+  "files": [
+   {
+    "file": "extra_candidates/maamoul__2.jpg",
+    "from": "File:Ma'amoul Filled with Dates and Nuts.jpg"
+   },
+   {
+    "file": "extra_candidates/maamoul__3.jpg",
+    "from": "File:Mamoul biscotti libanesi.jpg"
+   }
+  ]
+ },
+ "kheer-mithai": {
+  "name": "Rice Kheer",
+  "article": "Kheer",
+  "files": [
+   {
+    "file": "extra_candidates/kheer-mithai__2.jpg",
+    "from": "File:Kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/kheer-mithai__3.jpg",
+    "from": "File:Milk kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/kheer-mithai__4.jpg",
+    "from": "File:Rice pudding also called payasam or kheer.jpg"
+   }
+  ]
+ },
+ "kheer-sahi": {
+  "name": "Zafrani Kheer",
+  "article": "Kheer",
+  "files": [
+   {
+    "file": "extra_candidates/kheer-sahi__2.jpg",
+    "from": "File:Kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/kheer-sahi__3.jpg",
+    "from": "File:Milk kheer.jpg"
+   }
+  ]
+ },
+ "kaymak": {
+  "name": "Kaymak",
+  "article": "Kaymak",
+  "files": [
+   {
+    "file": "extra_candidates/kaymak__2.jpg",
+    "from": "File:Iraqi Gamer (Qaimar) Kaymak.jpg"
+   },
+   {
+    "file": "extra_candidates/kaymak__3.jpg",
+    "from": "File:Kaymak in Turkey.jpg"
+   },
+   {
+    "file": "extra_candidates/kaymak__4.jpg",
+    "from": "File:Traditional wooden bowls for making kaymak.jpg"
+   }
+  ]
+ },
+ "yogurtlu-yufka": {
+  "name": "Yogurtlu Yufka",
+  "article": "Yufka",
+  "files": [
+   {
+    "file": "extra_candidates/yogurtlu-yufka__2.jpg",
+    "from": "File:Yufka.JPG"
+   }
+  ]
+ },
+ "kheer-rice": {
+  "name": "Kheer",
+  "article": "Kheer",
+  "files": [
+   {
+    "file": "extra_candidates/kheer-rice__2.jpg",
+    "from": "File:Kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/kheer-rice__3.jpg",
+    "from": "File:Milk kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/kheer-rice__4.jpg",
+    "from": "File:Rice pudding also called payasam or kheer.jpg"
+   }
+  ]
+ },
+ "tahiri-biryani": {
+  "name": "Tahiri Biryani",
+  "article": "Biryani",
+  "files": [
+   {
+    "file": "extra_candidates/tahiri-biryani__2.jpg",
+    "from": "File:\"Hyderabadi Dum Biryani\".jpg"
+   },
+   {
+    "file": "extra_candidates/tahiri-biryani__3.jpg",
+    "from": "File:Hyderabadi egg biryani.jpg"
+   }
+  ]
+ },
+ "mint-chutney": {
+  "name": "Mint Chutney",
+  "article": "Chutney",
+  "files": [
+   {
+    "file": "extra_candidates/mint-chutney__2.jpg",
+    "from": "File:Chutney being hand-made.jpg"
+   },
+   {
+    "file": "extra_candidates/mint-chutney__3.jpg",
+    "from": "File:Chutneykarnataka.jpg"
+   },
+   {
+    "file": "extra_candidates/mint-chutney__4.jpg",
+    "from": "File:Chutneys.jpg"
+   }
+  ]
+ },
+ "green-chutney": {
+  "name": "Pudina Chutney",
+  "article": "Chutney",
+  "files": [
+   {
+    "file": "extra_candidates/green-chutney__2.jpg",
+    "from": "File:Chutney being hand-made.jpg"
+   },
+   {
+    "file": "extra_candidates/green-chutney__3.jpg",
+    "from": "File:Chutneykarnataka.jpg"
+   },
+   {
+    "file": "extra_candidates/green-chutney__4.jpg",
+    "from": "File:Chutneys.jpg"
+   }
+  ]
+ },
+ "achar-chutney": {
+  "name": "Achar Chutney",
+  "article": "Chutney",
+  "files": []
+ },
+ "aloo-qorma": {
+  "name": "Aloo Qorma",
+  "article": "Korma",
+  "files": [
+   {
+    "file": "extra_candidates/aloo-qorma__2.jpg",
+    "from": "File:Chicken Korma.JPG"
+   },
+   {
+    "file": "extra_candidates/aloo-qorma__3.jpg",
+    "from": "File:Chicken White Qorma (Korma).JPG"
+   },
+   {
+    "file": "extra_candidates/aloo-qorma__4.jpg",
+    "from": "File:Navratan Korma (Mughal Kitchen).JPG"
+   }
+  ]
+ },
+ "shakila-karahi": {
+  "name": "Shakila Karahi",
+  "article": "Karahi",
+  "files": [
+   {
+    "file": "extra_candidates/shakila-karahi__3.jpg",
+    "from": "File:Wok-and-karahi-2.jpg"
+   }
+  ]
+ },
+ "dahi-phirni": {
+  "name": "Dahi Phirni",
+  "article": "Phirni",
+  "files": [
+   {
+    "file": "extra_candidates/dahi-phirni__2.jpg",
+    "from": "File:Firni Or Phirni.jpg"
+   }
+  ]
+ },
+ "lassi-sweet": {
+  "name": "Sweet Lassi",
+  "article": "Lassi",
+  "files": [
+   {
+    "file": "extra_candidates/lassi-sweet__2.jpg",
+    "from": "File:Banaras-ki-Lassi.jpg"
+   },
+   {
+    "file": "extra_candidates/lassi-sweet__3.jpg",
+    "from": "File:Bhang lassi (3304878869).jpg"
+   },
+   {
+    "file": "extra_candidates/lassi-sweet__4.jpg",
+    "from": "File:Fatfreelassi.jpg"
+   }
+  ]
+ },
+ "lassi-mango": {
+  "name": "Mango Lassi",
+  "article": "Lassi",
+  "files": [
+   {
+    "file": "extra_candidates/lassi-mango__2.jpg",
+    "from": "File:Banaras-ki-Lassi.jpg"
+   }
+  ]
+ },
+ "seekh-kebab-malai": {
+  "name": "Malai Seekh Kebab",
+  "article": "Kebab",
+  "files": [
+   {
+    "file": "extra_candidates/seekh-kebab-malai__2.jpg",
+    "from": "File:A chicken kebab shop in dhaka 201-901-09.jpg"
+   },
+   {
+    "file": "extra_candidates/seekh-kebab-malai__3.jpg",
+    "from": "File:Cağkebabı5.jpg"
+   },
+   {
+    "file": "extra_candidates/seekh-kebab-malai__4.jpg",
+    "from": "File:Chopan Kebab (4310721741).jpg"
+   }
+  ]
+ },
+ "behari-kebab": {
+  "name": "Behari Kebab",
+  "article": "Kebab",
+  "files": []
+ },
+ "kabab-kofta-pakistani": {
+  "name": "Kabab Kofta",
+  "article": "Kofta",
+  "files": [
+   {
+    "file": "extra_candidates/kabab-kofta-pakistani__2.jpg",
+    "from": "File:MalaiKofta.jpg"
+   },
+   {
+    "file": "extra_candidates/kabab-kofta-pakistani__3.jpg",
+    "from": "File:NargisiKofta.jpg"
+   }
+  ]
+ },
+ "nawabi-kebab": {
+  "name": "Beef Nawabi Kebab",
+  "article": "Kebab",
+  "files": [
+   {
+    "file": "extra_candidates/nawabi-kebab__2.jpg",
+    "from": "File:A chicken kebab shop in dhaka 201-901-09.jpg"
+   },
+   {
+    "file": "extra_candidates/nawabi-kebab__3.jpg",
+    "from": "File:Cağkebabı5.jpg"
+   },
+   {
+    "file": "extra_candidates/nawabi-kebab__4.jpg",
+    "from": "File:Chopan Kebab (4310721741).jpg"
+   }
+  ]
+ },
+ "kashmiri-gushtaba": {
+  "name": "Gushtaba",
+  "article": "Goshtaab",
+  "files": []
+ },
+ "punjabi-kheer": {
+  "name": "Kheer",
+  "article": "Kheer",
+  "files": [
+   {
+    "file": "extra_candidates/punjabi-kheer__2.jpg",
+    "from": "File:Kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/punjabi-kheer__3.jpg",
+    "from": "File:Milk kheer.jpg"
+   },
+   {
+    "file": "extra_candidates/punjabi-kheer__4.jpg",
+    "from": "File:Rice pudding also called payasam or kheer.jpg"
+   }
+  ]
+ },
+ "shahi-halwa": {
+  "name": "Shahi Halwa",
+  "article": "Halva",
+  "files": [
+   {
+    "file": "extra_candidates/shahi-halwa__4.jpg",
+    "from": "File:Sooji Halwa (Semolina Pudding).JPG"
+   }
+  ]
+ },
+ "fruit-falang": {
+  "name": "Falooda",
+  "article": "Falooda",
+  "files": []
+ },
+ "tantuni": {
+  "name": "Tantuni",
+  "article": "Tantuni",
+  "files": []
+ },
+ "tavap-kebabi": {
+  "name": "Tavap Kebabi",
+  "article": "Kebab",
+  "files": []
+ },
+ "midye-dolma": {
+  "name": "Midye Dolma",
+  "article": "Dolma",
+  "files": [
+   {
+    "file": "extra_candidates/midye-dolma__2.jpg",
+    "from": "File:Greek dolmades.jpg"
+   },
+   {
+    "file": "extra_candidates/midye-dolma__3.jpg",
+    "from": "File:Sogan-dolma.jpg"
+   },
+   {
+    "file": "extra_candidates/midye-dolma__4.jpg",
+    "from": "File:Tolma armenio.jpg"
+   }
+  ]
+ },
+ "enginar-dolmasi": {
+  "name": "Enginar Dolması",
+  "article": "Dolma",
+  "files": [
+   {
+    "file": "extra_candidates/enginar-dolmasi__2.jpg",
+    "from": "File:Yalancı dolmas.jpg"
+   }
+  ]
+ },
+ "chicken-shawarma": {
+  "name": "Chicken Shawarma",
+  "article": "Shawarma",
+  "files": [
+   {
+    "file": "extra_candidates/chicken-shawarma__2.jpg",
+    "from": "File:Chicken & Lamb Shawarma.jpg"
+   },
+   {
+    "file": "extra_candidates/chicken-shawarma__3.jpg",
+    "from": "File:Mixed Shawarma (2843435528).jpg"
+   },
+   {
+    "file": "extra_candidates/chicken-shawarma__4.jpg",
+    "from": "File:Nigerian shawarma (cropped).jpg"
+   }
+  ]
+ },
+ "hummus": {
+  "name": "Classic Hummus",
+  "article": "Hummus",
+  "files": [
+   {
+    "file": "extra_candidates/hummus__3.jpg",
+    "from": "File:Lebanese style hummus.jpg"
+   }
+  ]
+ },
+ "baklava": {
+  "name": "Pistachio Baklava",
+  "article": "Baklava",
+  "files": [
+   {
+    "file": "extra_candidates/baklava__3.jpg",
+    "from": "File:Armenian baklava.jpg"
+   }
+  ]
+ }
+}

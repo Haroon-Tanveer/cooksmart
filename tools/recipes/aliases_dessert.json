@@ -1,0 +1,311 @@
+{
+    "baklava-beyti":  [
+                          "Baklava Rolls"
+                      ],
+    "kunafa-nabulsieh":  [
+                             "Kunafa Nabulsiyah"
+                         ],
+    "kadaif-nabulsi":  [
+                           "Kadaif Rolls"
+                       ],
+    "awarma":  [
+                   "Awarma"
+               ],
+    "halawet-razafa":  [
+                           "Halawet Raza"
+                       ],
+    "maamoul-sameen":  [
+                           "Maamoul Bars"
+                       ],
+    "ghoriba":  [
+                    "Ghoriba"
+                ],
+    "kishkar":  [
+                    "Kishkar"
+                ],
+    "befikde":  [
+                    "Befikde"
+                ],
+    "sherbet-pistachio":  [
+                              "Satarreh"
+                          ],
+    "hammas-beyti":  [
+                         "Hammas el Beyti"
+                     ],
+    "kaymakli-kunafa":  [
+                            "Kaymaklı Kunafa"
+                        ],
+    "ghubor":  [
+                   "Khubor"
+               ],
+    "hrees":  [
+                  "Hrees"
+              ],
+    "ashta-rami":  [
+                       "Ashta with Rami"
+                   ],
+    "halawet-jibneh":  [
+                           "Hallawet Jibneh"
+                       ],
+    "karkadyeh":  [
+                      "Hibiscus Drink"
+                  ],
+    "qatayef":  [
+                    "Qatayef"
+                ],
+    "basbousa-nut":  [
+                         "Basbousa with Walnuts"
+                     ],
+    "ghoriba-sabaneesh":  [
+                              "Shrak"
+                          ],
+    "nayyeh-raqueeq":  [
+                           "Nayyeh Raqeeq"
+                       ],
+    "halwa-najdi":  [
+                        "Najdi Halwa"
+                    ],
+    "radhi":  [
+                  "Rabri"
+              ],
+    "baklava-sachma":  [
+                           "Sachma"
+                       ],
+    "katayef-bata":  [
+                         "Bata"
+                     ],
+    "ghassata":  [
+                     "Ghassata"
+                 ],
+    "hummus-dessert":  [
+                           "Sweet Semolina Pudding"
+                       ],
+    "qamar-diyya":  [
+                        "Qamar el Din"
+                    ],
+    "pistachio-kadhi":  [
+                            "Pistachio Halva"
+                        ],
+    "ashta-cake":  [
+                       "Ashta Cake"
+                   ],
+    "kadolya":  [
+                    "Mahalabia Rolls"
+                ],
+    "sheikh-el-mahshi":  [
+                             "Sweet Rice Pudding"
+                         ],
+    "baklava-muhalabiya":  [
+                               "Mahalabiya and Kadaif"
+                           ],
+    "ghubor-roz":  [
+                       "Rose Ghubor"
+                   ],
+    "shahalini":  [
+                      "Shahalini"
+                  ],
+    "mursik":  [
+                   "Mursik"
+               ],
+    "kaymak":  [
+                   "Kaymak"
+               ],
+    "haci-ibrahim":  [
+                         "Haci Ibrahim"
+                     ],
+    "kremali-kashi":  [
+                          "Kremali Kashi"
+                      ],
+    "sarsin":  [
+                   "Sarma Sarsı"
+               ],
+    "yogurtlu-yufka":  [
+                           "Yogurtlu Yufka"
+                       ],
+    "muhallebi-turk":  [
+                           "Muhallebi"
+                       ],
+    "suzme-helvasi":  [
+                          "Süzme Helva"
+                      ],
+    "gul-serbeti":  [
+                        "Gül Şerbeti"
+                    ],
+    "kabak-tatlisi-turk":  [
+                               "Kabak Tatlısı"
+                           ],
+    "firin-sutlac-yeni":  [
+                              "Fırın Sütlaç"
+                          ],
+    "baklava-cevizli":  [
+                            "Cevizli Baklava"
+                        ],
+    "kaymakli-helva":  [
+                           "Kaymaklı Helva"
+                       ],
+    "damla-sekeri":  [
+                         "Damla Şekeri"
+                     ],
+    "saray-sarmasi":  [
+                          "Saray Sarması"
+                      ],
+    "cikolatali-helva":  [
+                             "Çikolatalı Helva"
+                         ],
+    "dondurmalai-sutlac":  [
+                               "Dondurmalı Sütlaç"
+                           ],
+    "cevizli-yogurt":  [
+                           "Cevizli Yoğurt"
+                       ],
+    "adrilanmis-kaymak":  [
+                              "Adırlanmış Kaymak"
+                          ],
+    "cekirdeksiz-incir":  [
+                              "İncirli Sütlaç"
+                          ],
+    "saray-helvasi":  [
+                          "Muhlis Şerbet"
+                      ],
+    "muhur-helvasi":  [
+                          "Şıralı Helva"
+                      ],
+    "sekerpare":  [
+                      "Şekerpare"
+                  ],
+    "uzum-sekeri":  [
+                        "Üzüm Şekeri"
+                    ],
+    "fistikli-baklava":  [
+                             "Fıstıklı Baklava"
+                         ],
+    "muhlis-sutlac":  [
+                          "Kadife Damla Sütlaç"
+                      ],
+    "jalebi-besmati":  [
+                           "Jalebi with Rabri"
+                       ],
+    "jalebi-besani":  [
+                          "Rasmalai"
+                      ],
+    "gulab-jamun-rabri":  [
+                              "Gulab Jamun"
+                          ],
+    "gajar-halwa-q":  [
+                          "Carrot Halwa"
+                      ],
+    "kheer-mithai":  [
+                         "Rice Kheer"
+                     ],
+    "sohani-halwa-pakistani":  [
+                                   "Sohani Halwa"
+                               ],
+    "mohan-mahal-pakistani":  [
+                                  "Mohan Mahal"
+                              ],
+    "shahi-tukda-pakistani":  [
+                                  "Shahi Tukda"
+                              ],
+    "dahi-phulka-sweet":  [
+                              "Malpua"
+                          ],
+    "kheer-sahi":  [
+                       "Zafrani Kheer"
+                   ],
+    "kheer-moya":  [
+                       "Kulfi Falooda"
+                   ],
+    "kheer-falooda":  [
+                          "Dahi Phirni"
+                      ],
+    "pistachio-barfi":  [
+                            "Barfi"
+                        ],
+    "kaju-katli":  [
+                       "Cashew Fudge"
+                   ],
+    "cham-cham":  [
+                      "Cham Cham"
+                  ],
+    "rasmalai-pakistani":  [
+                               "Kheer Malai"
+                           ],
+    "mango-shrikhand":  [
+                            "Mango Shrikhand"
+                        ],
+    "falooda-kulfi":  [
+                          "Kulfi Biyani"
+                      ],
+    "shahi-mithai":  [
+                         "Shahi Meetha"
+                     ],
+    "kulfi-malai":  [
+                        "Kesar Pista Kulfi"
+                    ],
+    "halwa-puri-sweet":  [
+                             "Gajar Halwa with Cream"
+                         ],
+    "dahi-khoya":  [
+                       "Khoya Puri"
+                   ],
+    "bamul":  [
+                  "Kaju Katli Rolls"
+              ],
+    "fudge-ko":  [
+                     "Pista Fudge"
+                 ],
+    "kheer-tapioca":  [
+                          "Kheer Sabudana"
+                      ],
+    "double-ka-meetha":  [
+                             "Double Ka Meetha"
+                         ],
+    "shrikhand":  [
+                      "Pista Kulfi Roll"
+                  ],
+    "moong-dal-halwa":  [
+                            "Moong Dal Halwa"
+                        ],
+    "gajar-barfi":  [
+                        "Carrot Barfi"
+                    ],
+    "kheer-pista":  [
+                        "Kheer with Pista"
+                    ],
+    "rabdi":  [
+                  "Rabdi Malpua"
+              ],
+    "shahi-barfi":  [
+                        "Dry Fruit Barfi"
+                    ],
+    "kulfi-falooda":  [
+                          "Falooda Kulfi"
+                      ],
+    "kheer-fruit":  [
+                        "Fruit Kheer"
+                    ],
+    "gulab-sharbat":  [
+                          "Rose Sharbat"
+                      ],
+    "halwa-puri-sweet2":  [
+                              "Gulab Jamun with Ice Cream"
+                          ],
+    "kheer-mithai-mango":  [
+                               "Mango Kulfi"
+                           ],
+    "kheer-sahi-sweet":  [
+                             "Kulfi Falooda Classic"
+                         ],
+    "gulab-khaman":  [
+                         "Khanan"
+                     ],
+    "kheer-bati":  [
+                       "Kheer Bati"
+                   ],
+    "kheer-seeti":  [
+                        "Moong Dal Halwa"
+                    ],
+    "kheer-pista-sweet":  [
+                              "Shahi Kheer"
+                          ]
+}
