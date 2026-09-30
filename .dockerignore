@@ -1,0 +1,8 @@
+# The proxy image only needs one file. Without this, the build context would
+# carry the whole project, including ~15 MB of recipe photos and the Dart build
+# cache, and the keystore with it.
+*
+!tool/
+!tool/server/
+!tool/server/gemini_proxy.js
+!tool/server/Dockerfile

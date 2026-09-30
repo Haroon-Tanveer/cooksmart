@@ -13,7 +13,7 @@ services:
     name: cooksmart-gemini-proxy
     runtime: docker
     dockerfilePath: ./tool/server/Dockerfile
-    dockerContext: ./tool/server
+    dockerContext: ./
     plan: free
     healthCheckPath: /health
     envVars:
