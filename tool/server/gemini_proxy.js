@@ -36,7 +36,7 @@ const MODELS = (
   .split(",")
   .map((m) => m.trim())
   .filter(Boolean);
-const CACHE = path.join(__dirname, ".image-cache");
+const CACHE = process.env.CACHE_DIR || path.join(__dirname, ".image-cache");
 const MEALDB = "https://www.themealdb.com/api/json/v1/1";
 const MAX_TOKENS = Number(process.env.GEMINI_MAX_TOKENS || 4000);
 
