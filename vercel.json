@@ -1,12 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "//": "Note: the 60s maxDuration needs a Pro plan. On Hobby Vercel caps serverless functions at 10s, which is shorter than a Gemini call under load.",
+  "//": "Routes are file-based (api/gemini/*.js). An earlier single entry plus a rewrite was removed: the rewrite rewrote req.url so the handler could not tell which route was called and everything 404'd.",
+  "//2": "maxDuration needs a Pro plan. Hobby caps serverless functions at 10s, which is shorter than a Gemini call that retries under load.",
   "functions": {
-    "api/gemini.js": {
+    "api/gemini/*.js": {
       "memory": 1024,
       "maxDuration": 60
     }
   },
-  "includeFiles": ["tool/server/gemini_proxy.js"],
-  "rewrites": [{ "source": "/api/gemini/:path", "destination": "/api/gemini" }]
+  "includeFiles": ["tool/server/gemini_proxy.js"]
 }
