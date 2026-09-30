@@ -1,19 +1,19 @@
 /**
  * CookSmart ↔ Groq proxy.
  *
- * The Groq API key stays in this process (GROQ_API_KEY) and is never shipped in
- * the Flutter app, where anyone could extract it from the APK. The app calls
- * these three small endpoints instead of api.groq.com directly.
+ * The Groq key stays in this process (GROQ_API_KEY) and is never shipped in the
+ * Flutter app, where anyone could extract it from the APK. The app calls these
+ * three small endpoints instead of api.groq.com directly:
  *
  *   POST /groq/recipe    { ingredients: string[], servings?: number, dish?: string }
  *   POST /groq/suggest   { query?: string, count?: number }
  *   POST /groq/image     { prompt: string, dish?: string }
  *
- * Groq serves open-weight chat models on an OpenAI-compatible API, so recipes
- * and dish names come from a chat completion. Groq has no image generation
- * model, so the photo route looks up a real photograph of the dish instead.
+ * Groq is the default provider because it answers in one to five seconds, which
+ * matters on serverless hosts that kill a function after ten. Gemini is also
+ * wired up for callers that prefer it, selected with AI_PROVIDER=gemini.
  *
- * Usage:  $env:GROQ_API_KEY = "gsk-..."   # PowerShell
+ * Usage:  $env:GROQ_API_KEY = "gsk-..."      # PowerShell
  *         node tool/server/groq_proxy.js [--port 8787]
  */
 const http = require("http");
@@ -23,78 +23,160 @@ const path = require("path");
 const zlib = require("zlib");
 
 const PORT = Number(argValue("--port") || process.env.PORT || 8787);
-const GROQ_BASE = process.env.GROQ_BASE_URL || "https://api.groq.com/openai/v1";
-const CHAT_MODEL = process.env.GROQ_MODEL || "openai/gpt-oss-120b";
-
-/** Room for the full recipe schema: steps, calories and ingredient lines. */
-const MAX_TOKENS = Number(process.env.GROQ_MAX_TOKENS || 4000);
-const CACHE = path.join(__dirname, ".image-cache");
-const MEALDB = "https://www.themealdb.com/api/json/v1/1";
-
+const PROVIDER = (process.env.AI_PROVIDER || "groq").toLowerCase();
+const CACHE = process.env.CACHE_DIR || path.join(__dirname, ".image-cache");
 const EMOJI = ["🍝", "🍜", "🥘", "🍛", "🍲", "🥗", "🍳", "🥙", "🌮", "🍚", "🥟", "🍱"];
+
+/** Transient statuses worth retrying: load shedding and short network blips. */
+const RETRYABLE = new Set([408, 429, 500, 502, 503, 504]);
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function argValue(flag) {
   const i = process.argv.indexOf(flag);
   return i !== -1 ? process.argv[i + 1] : undefined;
 }
 
+function postJson(url, headers, payload, timeout = 60000) {
+  return new Promise((resolve, reject) => {
+    const target = new URL(url);
+    const req = https.request(
+      {
+        method: "POST",
+        hostname: target.hostname,
+        path: target.pathname + target.search,
+        headers: { "Content-Type": "application/json", ...headers,
+          "Content-Length": Buffer.byteLength(payload) },
+        timeout,
+      },
+      (res) => {
+        let raw = "";
+        res.on("data", (c) => (raw += c));
+        res.on("end", () => {
+          let parsed = null;
+          try {
+            parsed = JSON.parse(raw);
+          } catch (_) {
+            /* not json */
+          }
+          if (res.statusCode >= 200 && res.statusCode < 300) return resolve(parsed);
+          const message =
+            (parsed && parsed.error && parsed.error.message) ||
+            (parsed && parsed.error && parsed.error) ||
+            `HTTP ${res.statusCode}`;
+          const err = new Error(String(message));
+          err.status = res.statusCode;
+          if (RETRYABLE.has(res.statusCode)) err.retryable = true;
+          const hint = /retry in ([\d.]+)\s*s/i.exec(String(message));
+          if (hint) err.retryAfterMs = Math.ceil(Number(hint[1]) * 1000);
+          reject(err);
+        });
+      },
+    );
+    req.on("timeout", () => req.destroy(new Error("request timed out")));
+    req.on("error", (e) => {
+      e.retryable = true;
+      reject(e);
+    });
+    req.write(payload);
+    req.end();
+  });
+}
+
 /* ------------------------------------------------------------------ */
-/* Groq transport                                                      */
+/* Groq                                                                */
 /* ------------------------------------------------------------------ */
 
-function callGroq(apiPath, body) {
+const GROQ_MODELS = (
+  process.env.GROQ_MODELS || process.env.GROQ_MODEL || "grok-4.6,llama-3.3-70b-versatile"
+)
+  .split(",")
+  .map((m) => m.trim())
+  .filter(Boolean);
+
+async function callGroq(system, user) {
   const key = process.env.GROQ_API_KEY;
   if (!key) {
     const err = new Error("GROQ_API_KEY is not set on the proxy");
     err.status = 503;
     throw err;
   }
+  const base = process.env.GROQ_BASE_URL || "https://api.groq.com/openai/v1";
+  let lastError;
 
-  const url = new URL(GROQ_BASE + apiPath);
-  const payload = JSON.stringify(body);
-
-  return new Promise((resolve, reject) => {
-    const req = https.request(
-      {
-        method: "POST",
-        hostname: url.hostname,
-        path: url.pathname + url.search,
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${key}`,
-          "Content-Length": Buffer.byteLength(payload),
-        },
-        timeout: 120000,
-      },
-      (res) => {
-        let raw = "";
-        res.on("data", (c) => (raw += c));
-        res.on("end", () => {
-          let parsed;
-          try {
-            parsed = JSON.parse(raw);
-          } catch (_) {
-            parsed = { error: { message: raw.slice(0, 400) } };
-          }
-          if (res.statusCode >= 200 && res.statusCode < 300) {
-            resolve(parsed);
-          } else {
-            const message =
-              (parsed && parsed.error && parsed.error.message) ||
-              `Groq HTTP ${res.statusCode}`;
-            const err = new Error(message);
-            err.status = res.statusCode;
-            reject(err);
-          }
-        });
-      }
-    );
-    req.on("timeout", () => req.destroy(new Error("Groq request timed out")));
-    req.on("error", reject);
-    req.write(payload);
-    req.end();
-  });
+  for (const model of GROQ_MODELS) {
+    const body = JSON.stringify({
+      model,
+      stream: false,
+      temperature: 0.7,
+      max_tokens: 4000,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: user },
+      ],
+    });
+    try {
+      return await postJson(`${base}/chat/completions`, { Authorization: `Bearer ${key}` }, body);
+    } catch (err) {
+      lastError = err;
+      // A retired or unknown model will not start working; a saturated one might.
+      if (err.status === 404 || err.status === 400) continue;
+      throw err;
+    }
+  }
+  throw lastError;
 }
+
+/* ------------------------------------------------------------------ */
+/* Gemini                                                              */
+/* ------------------------------------------------------------------ */
+
+const GEMINI_MODELS = (
+  process.env.GEMINI_MODELS || "gemini-3.8-flash,gemini-3-flash-preview,gemini-flash-latest"
+)
+  .split(",")
+  .map((m) => m.trim())
+  .filter(Boolean);
+
+async function callGemini(system, user) {
+  const key = process.env.GEMINI_API_KEY;
+  if (!key) {
+    const err = new Error("GEMINI_API_KEY is not set on the proxy");
+    err.status = 503;
+    throw err;
+  }
+  const base = process.env.GEMINI_BASE_URL || "https://generativelanguage.googleapis.com/v1beta";
+  let lastError;
+
+  for (const model of GEMINI_MODELS) {
+    const body = JSON.stringify({
+      systemInstruction: { parts: [{ text: system }] },
+      contents: [{ role: "user", parts: [{ text: user }] }],
+      generationConfig: {
+        temperature: 0.7,
+        maxOutputTokens: 4000,
+        responseMimeType: "application/json",
+      },
+    });
+    try {
+      return await postJson(
+        `${base}/models/${encodeURIComponent(model)}:generateContent?key=${key}`,
+        {},
+        body,
+        120000,
+      );
+    } catch (err) {
+      lastError = err;
+      if (err.status === 404 || err.status === 400) continue;
+      throw err;
+    }
+  }
+  throw lastError;
+}
+
+/* ------------------------------------------------------------------ */
+/* Provider-agnostic plumbing                                           */
+/* ------------------------------------------------------------------ */
 
 /** Pulls the first JSON object out of a model reply, ignoring code fences. */
 function extractJson(text) {
@@ -125,49 +207,45 @@ function extractJson(text) {
   throw new Error("model reply contained a truncated JSON object");
 }
 
-/**
- * Runs a chat completion and returns parsed JSON. Reasoning models answer in a
- * separate `reasoning` field, so the final `content` field is the one to read.
- *
- * A long recipe schema can outrun the token budget, which shows up as a
- * half-written JSON object. Rather than fail the cook's request, the first
- * truncation is retried once with an explicit instruction to stay terse.
- */
-async function askJson(system, user) {
-  const messages = [
-    { role: "system", content: system },
-    { role: "user", content: user },
-  ];
-
-  const complete = async (budget) => {
-    const completion = await callGroq("/chat/completions", {
-      model: CHAT_MODEL,
-      stream: false,
-      temperature: 0.7,
-      max_tokens: budget,
-      messages,
-    });
-    const message =
-      completion && completion.choices && completion.choices[0]
-        ? completion.choices[0].message
-        : null;
-    if (!message || !message.content) throw new Error("Groq returned an empty completion");
-    return message.content;
-  };
-
-  try {
-    return extractJson(await complete(MAX_TOKENS));
-  } catch (err) {
-    if (!/truncated/.test(err.message)) throw err;
-    messages.push({
-      role: "user",
-      content:
-        "Your previous answer was cut off. Reply with the same JSON object again, " +
-        "but shorter: keep descriptions under 120 characters, steps under 160 characters, " +
-        "and do not add any extra commentary.",
-    });
-    return extractJson(await complete(MAX_TOKENS * 2));
+/** Retries when the provider is shedding load, honouring any wait it names. */
+async function withRetry(fn, attempts) {
+  // A serverless host kills a function that runs too long. Vercel allows 10s on
+  // Hobby, so the budget is kept small there and generous on a real server.
+  const budget = attempts || (process.env.VERCEL ? 2 : 4);
+  let lastError;
+  for (let i = 0; i < budget; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastError = err;
+      if (!err.retryable || i === budget - 1) throw err;
+      const backoff = 1500 * Math.pow(2, i);
+      const wait = Math.max(1500, err.retryAfterMs || backoff) + Math.floor(Math.random() * 800);
+      console.log(`  retry ${i + 1}/${budget - 1} in ${wait}ms (${String(err.message).slice(0, 60)})`);
+      await sleep(wait);
+    }
   }
+  throw lastError;
+}
+
+function textFrom(reply) {
+  if (!reply) return "";
+  if (reply.candidates && reply.candidates[0]) {
+    const parts = reply.candidates[0].content && reply.candidates[0].content.parts;
+    return (parts || []).map((p) => p.text || "").join("");
+  }
+  if (reply.choices && reply.choices[0] && reply.choices[0].message) {
+    return reply.choices[0].message.content || "";
+  }
+  return "";
+}
+
+async function askJson(system, user) {
+  const call = PROVIDER === "gemini" ? callGemini : callGroq;
+  const reply = await withRetry(() => call(system, user));
+  const text = textFrom(reply);
+  if (!text) throw new Error("the model returned an empty completion");
+  return extractJson(text);
 }
 
 /* ------------------------------------------------------------------ */
@@ -191,17 +269,13 @@ const RECIPE_SYSTEM = [
   '  "missing": ["ingredients they must buy, lowercase"],',
   '  "calories": number,',
   '  "caloriesPerServing": number,',
-  '  "ingredients": [{',
-  '     "name": "lowercase ingredient",',
-  '     "quantity": "e.g. 200 g, 2 tbsp",',
-  '     "calories": number',
-  '  }],',
+  '  "ingredients": [{ "name": "lowercase ingredient", "quantity": "e.g. 200 g, 2 tbsp", "calories": number }],',
   '  "steps": ["imperative cooking steps, 5 to 7 of them, each under 220 chars"]',
   "}",
   "Use every ingredient the user listed somewhere in the recipe. Invent sensible extras only",
   "when a dish truly needs them, and put those in missing. Quantities must be realistic.",
-  "Calories are kilocalories for the quantity as written, so calories on every ingredient line",
-  "must add up to the total calories you report. Give the per-serving figure too.",
+  "Calories are kilocalories for the quantity as written, so the calories on every",
+  "ingredient line must add up to the total calories you report. Give the per-serving figure too.",
   "Every step must be actionable: name the heat level, the pan or oven temperature, and how long",
   "to cook, so a beginner can follow it without guessing.",
 ].join("\n");
@@ -220,20 +294,24 @@ async function buildRecipe(ingredients, servings, dish) {
   brief.push(
     dish
       ? `They want to cook "${dish}" - make that the dish, still using everything they have.`
-      : "Build the single best recipe for exactly those ingredients."
+      : "Build the single best recipe for exactly those ingredients.",
   );
 
   const raw = await askJson(RECIPE_SYSTEM, brief.join("\n"));
 
   const ingredientsOut = Array.isArray(raw.ingredients) ? raw.ingredients : [];
   const steps = Array.isArray(raw.steps) ? raw.steps : [];
-  if (!ingredientsOut.length || !steps.length) {
-    throw new Error("model returned an incomplete recipe");
-  }
+  if (!ingredientsOut.length || !steps.length) throw new Error("model returned an incomplete recipe");
 
-  const owned = Array.isArray(raw.owned) ? raw.owned : list;
-  const missing = Array.isArray(raw.missing) ? raw.missing : [];
   const lower = (s) => String(s).trim().toLowerCase();
+  const owned = (Array.isArray(raw.owned) ? raw.owned : list).map(lower);
+  const ownedSet = new Set(owned);
+  const missing = (Array.isArray(raw.missing) ? raw.missing : [])
+    .map(lower)
+    .filter((m) => !ownedSet.has(m));
+
+  const num = (v) => (Number.isFinite(Number(v)) && Number(v) > 0 ? Math.round(Number(v)) : null);
+
   return {
     name: String(raw.name || "Chef's Special").slice(0, 60),
     description: String(raw.description || ""),
@@ -242,26 +320,23 @@ async function buildRecipe(ingredients, servings, dish) {
     servings: Number(raw.servings) || servings || 2,
     emoji: typeof raw.emoji === "string" && raw.emoji ? raw.emoji : pick(list),
     imagePrompt: String(raw.imagePrompt || raw.name || "a home cooked dish"),
-    owned: owned.map(lower),
-    missing: missing.map(lower).filter((m) => !owned.map(lower).includes(m)),
-    calories: Number.isFinite(Number(raw.calories)) ? Math.round(Number(raw.calories)) : null,
-    caloriesPerServing: Number.isFinite(Number(raw.caloriesPerServing))
-      ? Math.round(Number(raw.caloriesPerServing))
-      : null,
+    owned,
+    missing,
+    calories: num(raw.calories),
+    caloriesPerServing: num(raw.caloriesPerServing),
     ingredients: ingredientsOut.map((i) => ({
       name: lower(i.name || ""),
       quantity: String(i.quantity || "to taste"),
       calories: Number.isFinite(Number(i.calories)) ? Math.round(Number(i.calories)) : null,
     })),
     steps: steps.map((s) => String(s)),
-    source: "groq",
+    source: PROVIDER,
   };
 }
 
 const SUGGEST_SYSTEM = [
   "You are the sous chef of CookSmart, suggesting what to cook next.",
-  "Reply with ONE JSON object and nothing else, no code fences:",
-  '{ "names": ["dish name", ...] }',
+  'Reply with ONE JSON object and nothing else, no code fences: { "names": ["dish name", ...] }',
   "Use plain ASCII characters only. Never use an en dash, an em dash or curly quotes.",
   "Rules: give real, appealing, specific dishes from around the world.",
   "No duplicates, no numbering, under 34 characters each.",
@@ -273,14 +348,14 @@ async function suggestDishes(query, count) {
     SUGGEST_SYSTEM,
     query
       ? `Suggest ${n} dishes that use or pair with "${query}".`
-      : `Suggest ${n} dinner dishes for an adventurous home cook.`
+      : `Suggest ${n} dinner dishes for an adventurous home cook.`,
   );
   const names = (Array.isArray(raw.names) ? raw.names : [])
     .map((s) => String(s).trim())
     .filter(Boolean)
     .slice(0, n);
   if (!names.length) throw new Error("model returned no suggestions");
-  return { names, source: "groq" };
+  return { names, source: PROVIDER };
 }
 
 const pick = (list) => EMOJI[Math.abs(hash(list.join(","))) % EMOJI.length];
@@ -293,9 +368,9 @@ function hash(s) {
 /* ------------------------------------------------------------------ */
 /* Food photography                                                    */
 /*                                                                     */
-/* Groq has no image generation model, so a real photograph of the    */
-/* dish is looked up on TheMealDB's free test API. Anything the app   */
-/* cannot match falls back to a seeded photograph, then to a locally   */
+/* Neither provider is asked to generate images, which is billed per    */
+/* image. A real photograph is looked up on TheMealDB's free API, and  */
+/* anything unmatched falls back to a seeded photograph and then a     */
 /* generated gradient, so the route always returns a decodable image.  */
 /* ------------------------------------------------------------------ */
 
@@ -312,12 +387,12 @@ function keywords(text) {
     .filter((w) => w.length > 2 && !STOP_WORDS.has(w.toLowerCase()));
 }
 
-function httpGet(url) {
+function get(url, timeout = 9000) {
   return new Promise((resolve) => {
-    const req = https.get(url, { timeout: 9000 }, (res) => {
+    const req = https.get(url, { timeout }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         res.resume();
-        return resolve(httpGet(new URL(res.headers.location, url).toString()));
+        return resolve(get(new URL(res.headers.location, url).toString(), timeout));
       }
       if (res.statusCode !== 200) {
         res.resume();
@@ -327,7 +402,7 @@ function httpGet(url) {
       res.on("data", (c) => chunks.push(c));
       res.on("end", () => resolve(Buffer.concat(chunks)));
     });
-    req.setTimeout(9000, () => {
+    req.setTimeout(timeout, () => {
       req.destroy();
       resolve(null);
     });
@@ -335,15 +410,16 @@ function httpGet(url) {
   });
 }
 
-/** Looks up a real photograph of a real dish on the public TheMealDB API. */
 async function mealDbLookup(query) {
-  const raw = await httpGet(`${MEALDB}/search.php?s=${encodeURIComponent(query)}`);
+  const raw = await get(
+    `https://www.themealdb.com/api/json/v1/1/search.php?s=${encodeURIComponent(query)}`,
+  );
   if (!raw) return null;
   try {
     const meals = JSON.parse(raw.toString("utf8")).meals;
     if (meals && meals.length && meals[0].strMealThumb) return meals[0].strMealThumb;
   } catch (_) {
-    /* fall through to the next candidate */
+    /* try the next candidate */
   }
   return null;
 }
@@ -356,39 +432,37 @@ async function generateImage(prompt, dish) {
   fs.mkdirSync(CACHE, { recursive: true });
   const queries = [dish, prompt, ...keywords(`${dish || ""} ${prompt || ""}`)].filter(Boolean);
 
-  // 1. A real photo of a real dish, when TheMealDB knows the name.
   for (const q of queries.slice(0, 4)) {
     const thumb = await mealDbLookup(q);
-    if (thumb) return { url: thumb, source: "groq", provider: "themealdb" };
+    if (thumb) return { url: thumb, source: PROVIDER, provider: "themealdb" };
   }
 
-  // 2. Any real photograph, seeded so a dish always gets the same one.
   const seed = String(dish || prompt || "cooksmart");
   const file = cacheFile(seed);
   if (fs.existsSync(file)) {
-    return { url: `/image/${path.basename(file)}`, file, source: "groq", provider: "picsum" };
+    return { url: `/image/${path.basename(file)}`, file, source: PROVIDER, provider: "picsum" };
   }
-  const photo = await httpGet(
-    `https://picsum.photos/seed/${encodeURIComponent(seed)}/1024/576`
+  const photo = await get(
+    `https://picsum.photos/seed/${encodeURIComponent(seed)}/1024/576`,
+    15000,
   );
   if (photo && photo.length > 2000) {
     fs.writeFileSync(file, photo);
-    return { url: `/image/${path.basename(file)}`, file, source: "groq", provider: "picsum" };
+    return { url: `/image/${path.basename(file)}`, file, source: PROVIDER, provider: "picsum" };
   }
 
-  // 3. Generated gradient, so the app always receives a decodable image.
   const png = gradientPng(1024, 576, [226, 104, 26]);
   const pngFile = file.replace(/\.jpg$/, ".png");
   fs.writeFileSync(pngFile, png);
   return {
     url: `/image/${path.basename(pngFile)}`,
     file: pngFile,
-    source: "groq",
+    source: PROVIDER,
     provider: "generated",
   };
 }
 
-/* --- minimal PNG encoder for the last-resort gradient --------------- */
+/* --- minimal PNG encoder for the last-resort gradient ---------------- */
 
 let crcTable = null;
 function crc32(buf) {
@@ -468,7 +542,14 @@ const server = http.createServer((req, res) => {
     return res.end();
   }
 
-  // Cached fallback photographs are served straight off disk.
+  if (req.method === "GET" && req.url.split("?")[0] === "/health") {
+    return send(res, 200, {
+      ok: true,
+      provider: PROVIDER,
+      key: Boolean(process.env[PROVIDER === "gemini" ? "GEMINI_API_KEY" : "GROQ_API_KEY"]),
+    });
+  }
+
   if (req.method === "GET" && req.url.startsWith("/image/")) {
     const file = path.join(CACHE, path.basename(req.url.split("?")[0]));
     if (fs.existsSync(file)) {
@@ -486,9 +567,7 @@ const server = http.createServer((req, res) => {
   });
   req.on("end", async () => {
     const handler = ROUTES[req.url.split("?")[0]];
-    if (!handler) {
-      return send(res, 404, { error: "unknown endpoint" });
-    }
+    if (!handler) return send(res, 404, { error: "unknown endpoint" });
     let body = {};
     try {
       body = raw ? JSON.parse(raw) : {};
@@ -498,33 +577,36 @@ const server = http.createServer((req, res) => {
     const started = Date.now();
     try {
       const data = await handler(body);
-      console.log(`  ✓ ${req.url} (${Date.now() - started}ms) [${data.source || "groq"}]`);
+      console.log(`  ok ${req.url} (${Date.now() - started}ms) [${data.source || PROVIDER}]`);
       send(res, 200, data);
     } catch (err) {
-      console.error(`  ✗ ${req.url}: ${err.message}`);
+      console.error(`  fail ${req.url}: ${err.message}`);
       send(res, err.status && err.status >= 400 ? err.status : 502, { error: err.message });
     }
   });
 });
 
 function send(res, status, body) {
-  const payload = JSON.stringify(body);
   res.writeHead(status, { "Content-Type": "application/json; charset=utf-8" });
-  res.end(payload);
+  res.end(JSON.stringify(body));
 }
 
 if (require.main === module) {
   server.listen(PORT, () => {
-    console.log(`CookSmart Groq proxy listening on http://127.0.0.1:${PORT}`);
-    console.log(`  chat model : ${CHAT_MODEL}`);
-    console.log(`  photos     : TheMealDB, then a seeded photograph, then a gradient`);
-    console.log(
-      process.env.GROQ_API_KEY
-        ? "  api key   : loaded from GROQ_API_KEY"
-        : "  api key   : MISSING — set $env:GROQ_API_KEY before the app calls this"
-    );
-    console.log(`  emulator  : http://10.0.2.2:${PORT}`);
+    const keyName = PROVIDER === "gemini" ? "GEMINI_API_KEY" : "GROQ_API_KEY";
+    console.log(`CookSmart ${PROVIDER} proxy on http://127.0.0.1:${PORT}`);
+    console.log(`  key     : ${process.env[keyName] ? "loaded from " + keyName : "MISSING, set $" + keyName}`);
+    console.log(`  photos  : TheMealDB, then a seeded photograph, then a gradient`);
+    console.log(`  phone   : http://10.0.2.2:${PORT}`);
   });
 }
 
-module.exports = { server, buildRecipe, suggestDishes, generateImage, extractJson };
+module.exports = {
+  server,
+  buildRecipe,
+  suggestDishes,
+  generateImage,
+  extractJson,
+  callGroq,
+  callGemini,
+};

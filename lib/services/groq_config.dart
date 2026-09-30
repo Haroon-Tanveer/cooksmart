@@ -17,9 +17,9 @@ class GroqConfig {
   /// There is deliberately no baked-in default: the shipped app opens with live
   /// generation off, so a fresh install behaves as a complete offline recipe
   /// library instead of showing a connection error to someone who has no proxy
-  /// running. Point GROQ_BASE_URL at a deployed proxy to ship a build with live
+  /// running. Point AI_BASE_URL at a deployed proxy to ship a build with live
   /// generation on from the start.
-  static const String defaultBaseUrl = String.fromEnvironment('GEMINI_BASE_URL');
+  static const String defaultBaseUrl = String.fromEnvironment('AI_BASE_URL');
 
   /// Whether a build has live generation switched on by default. True only when
   /// a proxy URL was compiled in.
@@ -43,25 +43,24 @@ class GroqConfig {
     bool? liveEnabled,
     String? lastError,
     bool clearError = false,
-  }) =>
-      GroqConfig(
-        baseUrl: baseUrl ?? this.baseUrl,
-        liveEnabled: liveEnabled ?? this.liveEnabled,
-        lastError: clearError ? null : (lastError ?? this.lastError),
-      );
+  }) => GroqConfig(
+    baseUrl: baseUrl ?? this.baseUrl,
+    liveEnabled: liveEnabled ?? this.liveEnabled,
+    lastError: clearError ? null : (lastError ?? this.lastError),
+  );
 
   Map<String, dynamic> toJson() => {
-        'baseUrl': baseUrl,
-        'liveEnabled': liveEnabled,
-      };
+    'baseUrl': baseUrl,
+    'liveEnabled': liveEnabled,
+  };
 
   factory GroqConfig.fromJson(Map<String, dynamic> json) => GroqConfig(
-        baseUrl: json['baseUrl'] as String? ?? defaultBaseUrl,
-        // Default to this build's setting, not to true: a config written by an
-        // older build has no liveEnabled key, and restoring it as true would
-        // turn live generation on for someone who never asked for it.
-        liveEnabled: json['liveEnabled'] as bool? ?? defaultLiveEnabled,
-      );
+    baseUrl: json['baseUrl'] as String? ?? defaultBaseUrl,
+    // Default to this build's setting, not to true: a config written by an
+    // older build has no liveEnabled key, and restoring it as true would
+    // turn live generation on for someone who never asked for it.
+    liveEnabled: json['liveEnabled'] as bool? ?? defaultLiveEnabled,
+  );
 
   static String normalise(String raw) {
     var url = raw.trim();

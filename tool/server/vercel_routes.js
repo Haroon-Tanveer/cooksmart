@@ -10,7 +10,7 @@ const {
   buildRecipe,
   suggestDishes,
   generateImage,
-} = require("./gemini_proxy.js");
+} = require("./groq_proxy.js");
 
 function httpError(message, status) {
   const err = new Error(message);

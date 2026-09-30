@@ -8,5 +8,5 @@
       "maxDuration": 60
     }
   },
-  "includeFiles": ["tool/server/gemini_proxy.js"]
+  "includeFiles": ["tool/server/groq_proxy.js"]
 }
