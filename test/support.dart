@@ -39,10 +39,10 @@ const Map<String, dynamic> kLiveRecipe = {
 http.Client fakeGrokClient() {
   const headers = <String, String>{'content-type': 'application/json'};
   return MockClient((req) async {
-    if (req.url.path == '/gemini/recipe') {
+    if (req.url.path == '/groq/recipe') {
       return http.Response(jsonEncode(kLiveRecipe), 200, headers: headers);
     }
-    if (req.url.path == '/gemini/suggest') {
+    if (req.url.path == '/groq/suggest') {
       return http.Response(
         jsonEncode({
           'names': [

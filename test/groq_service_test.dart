@@ -89,7 +89,7 @@ void main() {
         baseUrl: 'http://example.test',
         client: MockClient((req) async {
           sent = jsonDecode(req.body) as Map<String, dynamic>;
-          expect(req.url.path, '/gemini/recipe');
+          expect(req.url.path, '/groq/recipe');
           return json(kRecipePayload);
         }),
       );
@@ -135,7 +135,7 @@ void main() {
       final service = GroqService(
         baseUrl: 'http://example.test',
         client: MockClient((req) async {
-          expect(req.url.path, '/gemini/suggest');
+          expect(req.url.path, '/groq/suggest');
           return json({
             'names': ['Miso Ramen', 'Za\'atar Flatbread', '  ']
           });

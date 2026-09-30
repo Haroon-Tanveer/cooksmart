@@ -42,19 +42,19 @@ class FakeEndpoint {
         paths.add(path);
         bodies.add(jsonDecode(req.body) as Map<String, dynamic>);
 
-        if (path == '/gemini/recipe') {
+        if (path == '/groq/recipe') {
           if (failRecipe) {
-            return http.Response(jsonEncode({'error': 'Gemini is down'}), 502);
+            return http.Response(jsonEncode({'error': 'Groq is down'}), 502);
           }
           return _ok(kRecipe);
         }
-        if (path == '/gemini/suggest') {
+        if (path == '/groq/suggest') {
           if (failSuggest) return http.Response(jsonEncode({'error': 'nope'}), 500);
           return _ok({
             'names': ['Miso Ramen', 'Charred Corn Tacos']
           });
         }
-        if (path == '/gemini/image') {
+        if (path == '/groq/image') {
           return _ok({'url': 'https://images.test/photo.jpg'});
         }
         return http.Response('{}', 404);
@@ -102,7 +102,7 @@ void main() {
 
     // The photo is fetched in the background, then attached to the result.
     await Future<void>.delayed(const Duration(milliseconds: 50));
-    expect(fake.paths, contains('/gemini/image'));
+    expect(fake.paths, contains('/groq/image'));
     expect(state.result!.imageUrl, 'https://images.test/photo.jpg');
     // Re-attaching the photo rebuilds the recipe, so nothing may get lost there.
     expect(state.result!.calories, 610);
@@ -155,7 +155,7 @@ void main() {
 
     expect(recipe, isNotNull);
     expect(state.usingFallback, isTrue);
-    expect(state.liveError, contains('Gemini is down'));
+    expect(state.liveError, contains('Groq is down'));
     // Offline engine still produced a usable recipe. The library grows, so this
     // asserts the behaviour rather than pinning one particular recipe id.
     expect(state.result, isNotNull);
@@ -193,8 +193,8 @@ void main() {
     await Future<void>.delayed(Duration.zero);
 
     expect(recipe, isNotNull);
-    expect(fake.paths.first, '/gemini/suggest');
-    expect(fake.paths[1], '/gemini/recipe');
+    expect(fake.paths.first, '/groq/suggest');
+    expect(fake.paths[1], '/groq/recipe');
     expect(fake.bodies[1]['dish'], isNotNull);
     expect(fake.bodies[1]['dish'], isNotEmpty);
   });

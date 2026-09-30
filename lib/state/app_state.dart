@@ -141,7 +141,13 @@ class AppState extends ChangeNotifier {
   }
 
   GroqService get _service {
-    return _groq ??= GroqService(baseUrl: _config.baseUrl, client: httpClient);
+    return _groq ??= GroqService(
+      baseUrl: _config.baseUrl,
+      // Null unless the build carries a key, which is what makes the client call
+      // Groq directly instead of a proxy.
+      apiKey: AiProvider.hasKey ? AiProvider.groqKey : null,
+      client: httpClient,
+    );
   }
 
   /// Drops the cached client so the next call picks up a new endpoint.
