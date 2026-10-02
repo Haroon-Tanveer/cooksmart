@@ -105,7 +105,7 @@ class _PhotoViewerState extends State<PhotoViewer> {
                     ),
                     loadingBuilder: (context, child, progress) => progress == null
                         ? child
-                        : const Center(
+                        : Center(
                             child: SizedBox(
                               width: 26,
                               height: 26,

@@ -21,7 +21,7 @@ class ResultScreen extends StatelessWidget {
         child: ListView(
           padding: cookPagePadding(context),
           children: <Widget>[
-            const _AppBar(title: 'Recipe'),
+            _AppBar(title: 'Recipe'),
             Text(
               'No recipe yet',
               style: cookText(
@@ -30,7 +30,7 @@ class ResultScreen extends StatelessWidget {
                 color: CookColors.white,
               ),
             ),
-            const SizedBox(height: 8),
+            SizedBox(height: 8),
             Text(
               "Open the Create tab, add a few ingredients, and we'll cook something up for you.",
               style: cookText(size: 14, color: CookColors.muted, height: 1.45),
@@ -75,14 +75,14 @@ class ResultScreen extends StatelessWidget {
             );
           }),
           if (recipe.missing.isNotEmpty) ...<Widget>[
-            const SectionHeader(text: 'You may need to buy'),
+            SectionHeader(text: 'You may need to buy'),
             Wrap(
               spacing: 8,
               runSpacing: 8,
               children: recipe.missing
                   .map(
                     (m) => Container(
-                      padding: const EdgeInsets.symmetric(
+                      padding: EdgeInsets.symmetric(
                         horizontal: 13,
                         vertical: 7,
                       ),
@@ -168,7 +168,7 @@ class _AppBar extends StatelessWidget {
                   shape: BoxShape.circle,
                   border: Border.all(color: CookColors.line),
                 ),
-                child: const Icon(
+                child: Icon(
                   Icons.chevron_left_rounded,
                   size: 22,
                   color: CookColors.white,
@@ -177,7 +177,7 @@ class _AppBar extends StatelessWidget {
             )
           else
             const SizedBox(width: 38),
-          const SizedBox(width: 12),
+          SizedBox(width: 12),
           Expanded(
             child: Text(
               title,
@@ -277,7 +277,7 @@ class _Dots extends StatelessWidget {
           Container(
             width: i == index ? 14 : 5,
             height: 5,
-            margin: const EdgeInsets.only(left: 4),
+            margin: EdgeInsets.only(left: 4),
             decoration: BoxDecoration(
               color: i == index ? CookColors.orange : CookColors.muted2,
               borderRadius: BorderRadius.circular(100),
@@ -423,7 +423,7 @@ class _ResultHero extends StatelessWidget {
                           children: <Widget>[
                             Flexible(
                               child: Container(
-                                padding: const EdgeInsets.symmetric(
+                                padding: EdgeInsets.symmetric(
                                   horizontal: 11,
                                   vertical: 5,
                                 ),
@@ -443,7 +443,7 @@ class _ResultHero extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            const SizedBox(width: 10),
+                            SizedBox(width: 10),
                             Expanded(
                               child: Text(
                                 based == 0
@@ -468,7 +468,7 @@ class _ResultHero extends StatelessWidget {
                               recipe.emoji,
                               style: const TextStyle(fontSize: 40),
                             ),
-                            const SizedBox(width: 12),
+                            SizedBox(width: 12),
                             Expanded(
                               child: Text(
                                 recipe.name,
@@ -487,7 +487,7 @@ class _ResultHero extends StatelessWidget {
                   ),
                 ],
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
+                  padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
@@ -530,7 +530,7 @@ class _ResultHero extends StatelessWidget {
                         ],
                       ),
                       if (recipe.isLive || hasPhoto) ...<Widget>[
-                        const SizedBox(height: 14),
+                        SizedBox(height: 14),
                         Row(
                           children: <Widget>[
                             Icon(
@@ -540,7 +540,7 @@ class _ResultHero extends StatelessWidget {
                               size: 13,
                               color: CookColors.orangeSoft,
                             ),
-                            const SizedBox(width: 6),
+                            SizedBox(width: 6),
                             Expanded(
                               child: Text(
                                 hasPhoto
@@ -650,12 +650,12 @@ class _IngredientRow extends StatelessWidget {
         onTap: onTap,
         borderRadius: BorderRadius.circular(CookRadius.sm),
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+          padding: EdgeInsets.symmetric(horizontal: 14, vertical: 12),
           decoration: BoxDecoration(
             color: CookColors.surface,
             borderRadius: BorderRadius.circular(CookRadius.sm),
             border: Border.all(
-              color: owned ? const Color(0x38FF8A3D) : CookColors.line,
+              color: owned ? Color(0x38FF8A3D) : CookColors.line,
             ),
           ),
           child: Row(
@@ -683,7 +683,7 @@ class _IngredientRow extends StatelessWidget {
                       )
                     : null,
               ),
-              const SizedBox(width: 12),
+              SizedBox(width: 12),
               Expanded(
                 child: Wrap(
                   crossAxisAlignment: WrapCrossAlignment.center,
@@ -759,10 +759,10 @@ class _Step extends StatelessWidget {
             height: 28,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: done ? CookColors.orange : const Color(0x21FF8A3D),
+              color: done ? CookColors.orange : Color(0x21FF8A3D),
               shape: BoxShape.circle,
               border: Border.all(
-                color: done ? CookColors.orange : const Color(0x4DFF8A3D),
+                color: done ? CookColors.orange : Color(0x4DFF8A3D),
               ),
             ),
             child: done
@@ -783,7 +783,7 @@ class _Step extends StatelessWidget {
           const SizedBox(width: 13),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(top: 3),
+              padding: EdgeInsets.only(top: 3),
               child: Text(
                 text,
                 style: cookText(

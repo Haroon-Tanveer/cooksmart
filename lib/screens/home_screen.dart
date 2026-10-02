@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: ListView(
         padding: cookPagePadding(context),
         children: <Widget>[
-          const _Greeting(),
+          _Greeting(),
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     shape: BoxShape.circle,
                     border: Border.all(color: CookColors.line),
                   ),
-                  child: const Icon(
+                  child: Icon(
                     Icons.tune_rounded,
                     size: 16,
                     color: CookColors.muted,
@@ -162,7 +162,7 @@ class _Greeting extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = L.of(context);
     return Padding(
-      padding: const EdgeInsets.only(top: 10, bottom: 2),
+      padding: EdgeInsets.only(top: 10, bottom: 2),
       child: Text.rich(
         TextSpan(
           children: <InlineSpan>[
@@ -236,7 +236,7 @@ class _HeroCard extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                       decoration: BoxDecoration(
                         color: CookColors.orange,
                         borderRadius: BorderRadius.circular(100),
@@ -251,12 +251,12 @@ class _HeroCard extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    SizedBox(height: 10),
                     Text(
                       recipe.name,
                       style: cookText(size: 21, weight: FontWeight.w800, color: CookColors.white),
                     ),
-                    const SizedBox(height: 6),
+                    SizedBox(height: 6),
                     Text(
                       recipe.desc,
                       style: cookText(size: 13, color: CookColors.muted, height: 1.4),
@@ -347,7 +347,7 @@ class _CategoryGrid extends StatelessWidget {
             borderRadius: BorderRadius.circular(CookRadius.sm),
             child: Container(
               decoration: BoxDecoration(
-                color: isActive ? const Color(0x1AFF8A3D) : CookColors.surface,
+                color: isActive ? Color(0x1AFF8A3D) : CookColors.surface,
                 borderRadius: BorderRadius.circular(CookRadius.sm),
                 border: Border.all(
                   color: isActive ? CookColors.orange : CookColors.line,
@@ -366,7 +366,7 @@ class _CategoryGrid extends StatelessWidget {
                     ),
                     child: Text(c.icon, style: const TextStyle(fontSize: 17)),
                   ),
-                  const SizedBox(height: 6),
+                  SizedBox(height: 6),
                   Text(
                     c.name,
                     maxLines: 1,

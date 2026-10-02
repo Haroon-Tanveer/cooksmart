@@ -21,6 +21,13 @@ void main() {
 
     // The sheet's own context is defunct once popped, so this used to throw
     // instead of opening the page.
+    // The sheet has grown with the theme picker, so the row may sit below the
+    // fold on a short screen.
+    await tester.scrollUntilVisible(
+      find.text('Privacy policy'),
+      160,
+      scrollable: find.byType(Scrollable).last,
+    );
     await tester.tap(find.text('Privacy policy'));
     await tester.pumpAndSettle();
 

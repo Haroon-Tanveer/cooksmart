@@ -31,7 +31,7 @@ class PrivacyScreen extends StatelessWidget {
                 _Section(l10n.yourRights, l10n.yourRightsBody),
                 _Section(l10n.policyChanges, l10n.policyChangesBody),
                 _Section(l10n.contact, l10n.contactBody),
-                const SizedBox(height: 8),
+                SizedBox(height: 8),
                 Text(
                   l10n.policyLastUpdated,
                   style: cookText(size: 12, color: CookColors.muted2),
@@ -53,7 +53,7 @@ class _Bar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 10, 16, 12),
+      padding: EdgeInsets.fromLTRB(16, 10, 16, 12),
       child: Row(
         children: <Widget>[
           GestureDetector(
@@ -66,14 +66,14 @@ class _Bar extends StatelessWidget {
                 shape: BoxShape.circle,
                 border: Border.all(color: CookColors.line),
               ),
-              child: const Icon(
+              child: Icon(
                 Icons.chevron_left_rounded,
                 size: 20,
                 color: CookColors.text,
               ),
             ),
           ),
-          const SizedBox(width: 12),
+          SizedBox(width: 12),
           Expanded(
             child: Text(
               L.of(context).privacyPolicy,
@@ -95,7 +95,7 @@ class _Section extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 18),
+      padding: EdgeInsets.only(bottom: 18),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -103,7 +103,7 @@ class _Section extends StatelessWidget {
             title,
             style: cookText(size: 16, weight: FontWeight.w800, color: CookColors.white),
           ),
-          const SizedBox(height: 7),
+          SizedBox(height: 7),
           Text(
             body,
             style: cookText(size: 13.5, color: CookColors.muted, height: 1.6),

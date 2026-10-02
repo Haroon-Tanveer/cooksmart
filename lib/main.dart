@@ -28,9 +28,8 @@ class CookSmartApp extends StatefulWidget {
 class _CookSmartAppState extends State<CookSmartApp> {
   late final AppState _state = widget.state ?? AppState();
 
-  /// The locale currently built into [MaterialApp], so only a real language
-  /// change triggers a rebuild rather than every ingredient being ticked.
-  Locale? _appliedLocale;
+  /// Light, dark, or follow the phone. Rebuilds only when the mode changes.
+  ThemeMode get _themeMode => _state.themeMode;
 
   @override
   void initState() {
@@ -39,17 +38,15 @@ class _CookSmartAppState extends State<CookSmartApp> {
       if (!mounted) return;
       // The saved language is only known after the first read of storage, so
       // MaterialApp needs one rebuild to pick it up.
-      setState(() => _appliedLocale = _state.locale);
+      setState(() {});
     });
     _state.addListener(_onStateChanged);
   }
 
-  /// MaterialApp reads the locale, so switching language has to rebuild it.
-  /// Nothing else it shows depends on the state, so only the locale is watched.
+  /// MaterialApp reads the locale and the theme mode, so switching either has to
+  /// rebuild it. Nothing else it shows depends on the state.
   void _onStateChanged() {
     if (!mounted) return;
-    if (_state.locale == _appliedLocale) return;
-    _appliedLocale = _state.locale;
     setState(() {});
   }
 
@@ -67,7 +64,11 @@ class _CookSmartAppState extends State<CookSmartApp> {
       child: MaterialApp(
         onGenerateTitle: (context) => L.of(context).appTitle,
         debugShowCheckedModeBanner: false,
-        theme: CookTheme.build(),
+        theme: CookTheme.build(Brightness.light),
+        darkTheme: CookTheme.build(Brightness.dark),
+        // Resolved from the state so the choice in settings survives a restart,
+        // and so both themes are built once here rather than on every rebuild.
+        themeMode: _themeMode,
         // Arabic is right to left, so the locale has to be declared for
         // Material to flip the whole app's direction.
         supportedLocales: L.supportedLocales,
@@ -76,6 +77,14 @@ class _CookSmartAppState extends State<CookSmartApp> {
         home: const _AppShell(),
         builder: (context, child) {
           final media = MediaQuery.of(context);
+          // The builder runs after Material has resolved the theme, so this is
+          // where the active palette is known. Applying it in CookTheme.build
+          // would mean the last of the two calls always won.
+          final brightness = Theme.of(context).brightness;
+          CookColors.apply(brightness);
+          SystemChrome.setSystemUIOverlayStyle(
+            CookColors.paletteFor(brightness).overlay,
+          );
           return MediaQuery(
             data: media.copyWith(
               // Respect the system font size, but cap it: the dense rows this
@@ -197,8 +206,8 @@ class _TabBar extends StatelessWidget {
       height: CookTheme.tabHeight + bottomInset,
       padding: EdgeInsets.only(bottom: bottomInset > 0 ? 6 : 0),
       decoration: BoxDecoration(
-        color: const Color(0xFA0E0C0A),
-        border: const Border(top: BorderSide(color: CookColors.line)),
+        color: Color(0xFA0E0C0A),
+        border: Border(top: BorderSide(color: CookColors.line)),
       ),
       child: Row(
         children: _tabs.map((tab) {
@@ -214,7 +223,7 @@ class _TabBar extends StatelessWidget {
                     size: 21,
                     color: isActive ? CookColors.orange : CookColors.muted2,
                   ),
-                  const SizedBox(height: 3),
+                  SizedBox(height: 3),
                     Text(
                       switch (tab.$3) {
                         'tabCreate' => l10n.tabCreate,

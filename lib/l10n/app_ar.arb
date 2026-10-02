@@ -118,7 +118,11 @@
                                                    }
                                      }
                 },
-    "languageLabel":  "اللغة",
+    "themeLabel":  "المظهر",
+  "themeLight":  "فاتح",
+  "themeDark":  "داكن",
+  "themeSystem":  "تلقائي",
+  "languageLabel":  "اللغة",
     "languageEnglish":  "English",
     "languageArabic":  "العربية",
     "tipTitle":  "نصيحة",

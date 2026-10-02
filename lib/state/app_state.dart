@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/material.dart' show ThemeMode;
 import 'package:flutter/widgets.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -14,6 +15,7 @@ import '../services/image_cache.dart';
 const String _savedKey = 'cooksmart.saved.v1';
 const String _groqKey = 'cooksmart.groq.v1';
 const String _localeKey = 'cooksmart.locale.v1';
+const String _themeKey = 'cooksmart.theme.v1';
 
 enum CookScreen { home, ingredients, result, saved }
 
@@ -53,6 +55,17 @@ class AppState extends ChangeNotifier {
     _locale = value;
     notifyListeners();
     await _prefs?.setString(_localeKey, value?.languageCode ?? '');
+  }
+
+  ThemeMode _themeMode = ThemeMode.system;
+  ThemeMode get themeMode => _themeMode;
+
+  /// Light, dark, or follow the phone's setting.
+  Future<void> setThemeMode(ThemeMode value) async {
+    if (_themeMode == value) return;
+    _themeMode = value;
+    notifyListeners();
+    await _prefs?.setString(_themeKey, value.name);
   }
 
   String _search = '';
@@ -129,6 +142,13 @@ class AppState extends ChangeNotifier {
   // An empty string means the user never chose, so follow the device.
   final savedLocale = _prefs?.getString(_localeKey) ?? '';
   _locale = savedLocale.isEmpty ? null : Locale(savedLocale);
+
+  // A missing value means "follow the phone", which is the sensible default.
+  final savedTheme = _prefs?.getString(_themeKey);
+  _themeMode = ThemeMode.values.firstWhere(
+    (m) => m.name == savedTheme,
+    orElse: () => ThemeMode.system,
+  );
 
     notifyListeners();
   }

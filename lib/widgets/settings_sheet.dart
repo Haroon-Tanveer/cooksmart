@@ -58,7 +58,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
     return Padding(
       padding: EdgeInsets.only(bottom: bottom),
       child: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           color: CookColors.bg,
           borderRadius: BorderRadius.vertical(top: Radius.circular(22)),
           border: Border(top: BorderSide(color: CookColors.line)),
@@ -79,7 +79,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   ),
                 ),
               ),
-              const SizedBox(height: 18),
+              SizedBox(height: 18),
               Row(
                 children: <Widget>[
                   Text(
@@ -102,7 +102,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   ),
                 ],
               ),
-              const SizedBox(height: 14),
+              SizedBox(height: 14),
               CookSurface(
                 child: Row(
                   children: <Widget>[
@@ -127,19 +127,19 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   ],
                 ),
               ),
-              const SizedBox(height: 12),
+              SizedBox(height: 12),
               Text(
                 'Gemini writes new recipes and dish ideas. The bundled library of 191 '
                 'recipes works with this off, and the app opens that way by default.',
                 style: cookText(size: 13, color: CookColors.muted, height: 1.5),
               ),
-              const SizedBox(height: 6),
+              SizedBox(height: 6),
               Text(
                 'Your key stays on your own machine, inside the proxy server, and is never '
                 'part of this app.',
                 style: cookText(size: 13, color: CookColors.muted, height: 1.5),
               ),
-              const SizedBox(height: 16),
+              SizedBox(height: 16),
               // Language sits above the AI settings because it changes the whole
               // app, including the labels on this sheet.
               Text(
@@ -173,7 +173,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   ],
                 ),
               ),
-              const SizedBox(height: 16),
+              SizedBox(height: 16),
               Text(
                 l10n.endpointLabel,
                 style: cookText(
@@ -183,10 +183,10 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   letterSpacing: 0.6,
                 ),
               ),
-              const SizedBox(height: 8),
+              SizedBox(height: 8),
               CookSurface(
                 color: CookColors.surface2,
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                padding: EdgeInsets.symmetric(horizontal: 14, vertical: 4),
                 child: Row(
                   children: <Widget>[
                     Expanded(
@@ -217,9 +217,9 @@ class _SettingsSheetState extends State<SettingsSheet> {
                           _endpoint?.text = state.config.baseUrl;
                           showCookToast(context, l10n.endpointSaved);
                         },
-                        child: const Padding(
-                          padding: EdgeInsets.only(left: 10),
-                          child: Icon(
+child: Padding(
+                             padding: const EdgeInsets.only(left: 10),
+                             child: Icon(
                             Icons.check_rounded,
                             size: 20,
                             color: CookColors.orange,
@@ -229,7 +229,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   ],
                 ),
               ),
-              const SizedBox(height: 10),
+              SizedBox(height: 10),
               Text(
                 GroqConfig.describeEndpoint(config.baseUrl),
                 style: cookText(size: 11.5, color: CookColors.muted2),
@@ -268,12 +268,12 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      const Icon(
+                      Icon(
                         Icons.info_outline_rounded,
                         size: 16,
                         color: CookColors.orange,
                       ),
-                      const SizedBox(width: 8),
+                      SizedBox(width: 8),
                       Expanded(
                         child: Text(
                           state.liveError!,
@@ -286,7 +286,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                       ),
                       GestureDetector(
                         onTap: state.clearLiveError,
-                        child: const Icon(
+                        child: Icon(
                           Icons.close_rounded,
                           size: 15,
                           color: CookColors.muted,
@@ -310,7 +310,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                         );
                       },
               ),
-              const SizedBox(height: 10),
+              SizedBox(height: 10),
               Text(
                 'Start the proxy with:\n'
                 r'$env:GEMINI_API_KEY = "AIza..."   # PowerShell' '\n'
@@ -329,7 +329,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   );
                 },
                 child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 13),
+                  padding: EdgeInsets.symmetric(horizontal: 14, vertical: 13),
                   decoration: BoxDecoration(
                     color: CookColors.surface,
                     borderRadius: BorderRadius.circular(CookRadius.md),
@@ -337,12 +337,12 @@ class _SettingsSheetState extends State<SettingsSheet> {
                   ),
                   child: Row(
                     children: <Widget>[
-                      const Icon(
+                      Icon(
                         Icons.shield_outlined,
                         size: 18,
                         color: CookColors.orangeSoft,
                       ),
-                      const SizedBox(width: 11),
+                      SizedBox(width: 11),
                       Expanded(
                         child: Text(
                           l10n.privacyPolicy,
@@ -353,7 +353,7 @@ class _SettingsSheetState extends State<SettingsSheet> {
                           ),
                         ),
                       ),
-                      const Icon(
+                      Icon(
                         Icons.chevron_right_rounded,
                         size: 20,
                         color: CookColors.muted2,
@@ -387,7 +387,7 @@ class _LanguageChoice extends StatelessWidget {
       onTap: onTap,
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 10),
-        margin: const EdgeInsets.symmetric(horizontal: 4),
+        margin: EdgeInsets.symmetric(horizontal: 4),
         decoration: BoxDecoration(
           color: selected ? CookColors.orange : Colors.transparent,
           borderRadius: BorderRadius.circular(CookRadius.sm),
@@ -398,7 +398,7 @@ class _LanguageChoice extends StatelessWidget {
           style: cookText(
             size: 13.5,
             weight: FontWeight.w700,
-            color: selected ? const Color(0xFF1C1108) : CookColors.muted,
+            color: selected ? Color(0xFF1C1108) : CookColors.muted,
           ),
         ),
       ),
@@ -417,7 +417,7 @@ class _StatusPill extends StatelessWidget {
   Widget build(BuildContext context) {
     final color = busy
         ? CookColors.orangeSoft
-        : (live ? const Color(0xFF6FD08C) : CookColors.muted2);
+        : (live ? Color(0xFF6FD08C) : CookColors.muted2);
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
@@ -460,7 +460,7 @@ class _PresetChip extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         decoration: BoxDecoration(
           color: CookColors.surface2,
           borderRadius: BorderRadius.circular(100),

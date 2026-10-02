@@ -12,10 +12,16 @@ class AiProvider {
   /// Groq's public OpenAI-compatible endpoint.
   static const String groqEndpoint = 'https://api.groq.com/openai/v1';
 
+  /// Models to try, in order.
+  ///
+  /// The Canopylabs Orpheus models look ideal for a bilingual recipe app, but
+  /// Groq gates them behind a separate terms acceptance, so they are not usable
+  /// from a key alone. Qwen is first because it returns clean, parseable JSON in
+  /// well under a second; gpt-oss is the fallback.
   static const List<String> groqModels = <String>[
-    'grok-4.6',
-    'llama-3.3-70b-versatile',
-    'gpt-oss-120b',
+    'qwen/qwen3.8-27b',
+    'openai/gpt-oss-120b',
+    'qwen/qwen3-32b',
   ];
 
   /// Compiled in with `--dart-define=GROQ_API_KEY=...`. Empty by default.

@@ -84,14 +84,14 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
         padding: cookPagePadding(context),
         children: <Widget>[
           Padding(
-            padding: const EdgeInsets.only(top: 6, bottom: 4),
+            padding: EdgeInsets.only(top: 6, bottom: 4),
             child: Text(
               "What's in your kitchen?",
               style: cookText(size: 24, weight: FontWeight.w800, color: CookColors.white),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(bottom: 20),
+            padding: EdgeInsets.only(bottom: 20),
             child: Text(
               "Type what you have and we'll build a recipe around it, flagging the few "
               'things you may still need.',
@@ -120,7 +120,7 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
                   (s) => GestureDetector(
                     onTap: () => _commit(s),
                     child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 7),
+                      padding: EdgeInsets.symmetric(horizontal: 13, vertical: 7),
                       decoration: BoxDecoration(
                         color: CookColors.surface,
                         borderRadius: BorderRadius.circular(100),
@@ -145,11 +145,11 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
           ],
           const SizedBox(height: 22),
           Container(
-            padding: const EdgeInsets.all(16),
+            padding: EdgeInsets.all(16),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(CookRadius.md),
               border: Border.all(color: CookColors.line),
-              gradient: const LinearGradient(
+              gradient: LinearGradient(
                 colors: <Color>[Color(0x1FFFA25C), Color(0x00FF8A3D)],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
@@ -160,7 +160,7 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(l10n.tipTitle, style: cookText(size: 14, weight: FontWeight.w700, color: CookColors.white)),
-                const SizedBox(height: 6),
+                SizedBox(height: 6),
                 Text(
                   'Press Enter or a comma after each ingredient. Include staples like oil, '
                   'onion, and salt — they count toward your match score.',
@@ -180,8 +180,8 @@ class _IngredientsScreenState extends State<IngredientsScreen> {
               ),
               child: Row(
                 children: <Widget>[
-                  const Icon(Icons.auto_awesome_rounded, size: 15, color: CookColors.orange),
-                  const SizedBox(width: 8),
+                  Icon(Icons.auto_awesome_rounded, size: 15, color: CookColors.orange),
+                  SizedBox(width: 8),
                   Expanded(
                     child: Text(
                       state.usingFallback
@@ -246,8 +246,8 @@ class _IdeaRow extends StatelessWidget {
       children: <Widget>[
         Row(
           children: <Widget>[
-            const Icon(Icons.auto_awesome_rounded, size: 14, color: CookColors.orange),
-            const SizedBox(width: 7),
+            Icon(Icons.auto_awesome_rounded, size: 14, color: CookColors.orange),
+            SizedBox(width: 7),
             Expanded(
               child: Text(
                 'Dish ideas from Groq',
@@ -256,7 +256,7 @@ class _IdeaRow extends StatelessWidget {
             ),
             GestureDetector(
               onTap: onRefresh,
-              child: const Padding(
+              child: Padding(
                 padding: EdgeInsets.all(4),
                 child: Icon(Icons.refresh_rounded, size: 16, color: CookColors.muted2),
               ),
@@ -279,7 +279,7 @@ class _IdeaRow extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: const Color(0x14FF8A3D),
                         borderRadius: BorderRadius.circular(100),
-                        border: Border.all(color: const Color(0x2EFF8A3D)),
+                        border: Border.all(color: Color(0x2EFF8A3D)),
                       ),
                       child: Text(
                         dish,
@@ -319,7 +319,7 @@ class _ChipField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(14),
+      padding: EdgeInsets.all(14),
       decoration: BoxDecoration(
         color: CookColors.surface2,
         borderRadius: BorderRadius.circular(CookRadius.md),
@@ -336,7 +336,7 @@ class _ChipField extends StatelessWidget {
               decoration: BoxDecoration(
                 color: const Color(0x24FF8A3D),
                 borderRadius: BorderRadius.circular(100),
-                border: Border.all(color: const Color(0x59FF8A3D)),
+                border: Border.all(color: Color(0x59FF8A3D)),
               ),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -356,7 +356,7 @@ class _ChipField extends StatelessWidget {
                         color: Color(0x33FF8A3D),
                         shape: BoxShape.circle,
                       ),
-                      child: const Text('×',
+                      child: Text('×',
                           style: TextStyle(fontSize: 12, color: CookColors.orangeSoft, height: 1)),
                     ),
                   ),
@@ -365,7 +365,7 @@ class _ChipField extends StatelessWidget {
             ),
           ),
           ConstrainedBox(
-            constraints: const BoxConstraints(minWidth: 140),
+            constraints: BoxConstraints(minWidth: 140),
             child: TextField(
               controller: controller,
               focusNode: focusNode,

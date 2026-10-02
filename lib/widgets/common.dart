@@ -13,7 +13,7 @@ class CookBackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DecoratedBox(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         gradient: CookTheme.backgroundGradient,
       ),
       child: Stack(
@@ -100,17 +100,20 @@ class CookSurface extends StatelessWidget {
   const CookSurface({
     super.key,
     required this.child,
-    this.radius = CookRadius.md,
-    this.color = CookColors.surface,
-    this.borderColor = CookColors.line,
-    this.padding = EdgeInsets.zero,
-    this.onTap,
-  });
+this.radius = CookRadius.md,
+      this.color,
+      this.borderColor,
+      this.padding = EdgeInsets.zero,
+      this.onTap,
+    });
 
-  final Widget child;
-  final double radius;
-  final Color color;
-  final Color borderColor;
+    final Widget child;
+    final double radius;
+
+    /// Null means "use the current palette". These cannot be const defaults
+    /// because the palette is swapped when the theme changes.
+    final Color? color;
+    final Color? borderColor;
   final EdgeInsetsGeometry padding;
   final VoidCallback? onTap;
 
@@ -118,9 +121,9 @@ class CookSurface extends StatelessWidget {
   Widget build(BuildContext context) {
     final content = Container(
       decoration: BoxDecoration(
-        color: color,
+        color: color ?? CookColors.surface,
         borderRadius: BorderRadius.circular(radius),
-        border: Border.all(color: borderColor, width: 1),
+        border: Border.all(color: borderColor ?? CookColors.line, width: 1),
       ),
       padding: padding,
       child: child,
@@ -157,8 +160,8 @@ class SearchField extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 13),
       child: Row(
         children: <Widget>[
-          const Icon(Icons.search_rounded, color: CookColors.orange, size: 19),
-          const SizedBox(width: 10),
+          Icon(Icons.search_rounded, color: CookColors.orange, size: 19),
+          SizedBox(width: 10),
           Expanded(
             child: TextField(
               controller: controller,
@@ -208,7 +211,7 @@ class PrimaryButton extends StatelessWidget {
         : cookText(
             size: 15,
             weight: FontWeight.w700,
-            color: active ? const Color(0xFF1C1108) : CookColors.muted2,
+            color: active ? Color(0xFF1C1108) : CookColors.muted2,
           );
 
     return Material(
@@ -220,7 +223,7 @@ class PrimaryButton extends StatelessWidget {
           height: 54,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(CookRadius.md),
-            gradient: isGhost ? null : const LinearGradient(
+            gradient: isGhost ? null : LinearGradient(
               colors: <Color>[CookColors.orange, CookColors.orangeDeep],
               begin: Alignment.centerLeft,
               end: Alignment.centerRight,
@@ -357,11 +360,11 @@ class RecipeTile extends StatelessWidget {
                             height: 26,
                             alignment: Alignment.center,
                             decoration: BoxDecoration(
-                              color: const Color(0xA60A0806),
+                              color: Color(0xA60A0806),
                               shape: BoxShape.circle,
                               border: Border.all(color: CookColors.line),
                             ),
-                            child: const Icon(Icons.close_rounded,
+                            child: Icon(Icons.close_rounded,
                                 size: 13, color: CookColors.white),
                           ),
                         ),
@@ -370,7 +373,7 @@ class RecipeTile extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(12, 10, 12, 12),
+                padding: EdgeInsets.fromLTRB(12, 10, 12, 12),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
@@ -386,7 +389,7 @@ class RecipeTile extends StatelessWidget {
                         height: 1.3,
                       ),
                     ),
-                    const SizedBox(height: 4),
+                    SizedBox(height: 4),
                     Text(
                       '◷ ${recipe.time} min · ${recipe.difficulty}',
                       maxLines: 1,
@@ -438,7 +441,7 @@ class FeaturedCard extends StatelessWidget {
                 child: RecipeArt(recipe: recipe, emojiSize: 34),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(10, 10, 10, 12),
+                padding: EdgeInsets.fromLTRB(10, 10, 10, 12),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisSize: MainAxisSize.min,
@@ -454,7 +457,7 @@ class FeaturedCard extends StatelessWidget {
                         height: 1.25,
                       ),
                     ),
-                    const SizedBox(height: 4),
+                    SizedBox(height: 4),
                     Text(
                       '◷ ${recipe.time} min · ${recipe.difficulty}',
                       maxLines: 1,
@@ -503,11 +506,11 @@ class EmptyState extends StatelessWidget {
       child: Column(
         children: <Widget>[
           if (icon)
-            const Icon(Icons.ramen_dining_rounded, size: 40, color: CookColors.muted2)
+            Icon(Icons.ramen_dining_rounded, size: 40, color: CookColors.muted2)
           else
-            Text(glyph, style: const TextStyle(fontSize: 40)),          const SizedBox(height: 14),
+            Text(glyph, style: TextStyle(fontSize: 40)),          const SizedBox(height: 14),
           Text(title, style: cookText(size: 17, weight: FontWeight.w700, color: CookColors.white)),
-          const SizedBox(height: 6),
+          SizedBox(height: 6),
           Text(
             message,
             textAlign: TextAlign.center,
@@ -578,7 +581,7 @@ class SectionHeader extends StatelessWidget {
             ),
           ),
           if (count != null) ...<Widget>[
-            const SizedBox(width: 8),
+            SizedBox(width: 8),
             Text('$count', style: cookText(size: 12, color: CookColors.muted2)),
           ],
         ],

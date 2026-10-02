@@ -122,7 +122,7 @@ class RecipeHeroArt extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               Text(recipe.emoji, style: const TextStyle(fontSize: 52)),
-              const SizedBox(height: 6),
+              SizedBox(height: 6),
               Text(
                 'made by ${recipe.isLive ? 'groq' : 'CookSmart'}',
                 style: cookText(

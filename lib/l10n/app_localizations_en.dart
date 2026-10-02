@@ -309,6 +309,18 @@ class LEn extends L {
   }
 
   @override
+  String get themeLabel => 'Theme';
+
+  @override
+  String get themeLight => 'Light';
+
+  @override
+  String get themeDark => 'Dark';
+
+  @override
+  String get themeSystem => 'System';
+
+  @override
   String get languageLabel => 'Language';
 
   @override

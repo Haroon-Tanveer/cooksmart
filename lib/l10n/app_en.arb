@@ -118,7 +118,11 @@
                                                    }
                                      }
                 },
-    "languageLabel":  "Language",
+    "themeLabel":  "Theme",
+  "themeLight":  "Light",
+  "themeDark":  "Dark",
+  "themeSystem":  "System",
+  "languageLabel":  "Language",
     "languageEnglish":  "English",
     "languageArabic":  "العربية",
     "tipTitle":  "Tip",

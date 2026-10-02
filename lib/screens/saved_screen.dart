@@ -18,14 +18,14 @@ class SavedScreen extends StatelessWidget {
         padding: cookPagePadding(context),
         children: <Widget>[
           Padding(
-            padding: const EdgeInsets.only(top: 6, bottom: 4),
+            padding: EdgeInsets.only(top: 6, bottom: 4),
             child: Text(
               'Saved recipes',
               style: cookText(size: 24, weight: FontWeight.w800, color: CookColors.white),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(bottom: 20),
+            padding: EdgeInsets.only(bottom: 20),
             child: Text(
               list.isEmpty
                   ? 'Nothing saved yet. Generate a recipe and tap Save to keep it here.'

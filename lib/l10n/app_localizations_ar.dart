@@ -308,6 +308,18 @@ class LAr extends L {
   }
 
   @override
+  String get themeLabel => 'المظهر';
+
+  @override
+  String get themeLight => 'فاتح';
+
+  @override
+  String get themeDark => 'داكن';
+
+  @override
+  String get themeSystem => 'تلقائي';
+
+  @override
   String get languageLabel => 'اللغة';
 
   @override
